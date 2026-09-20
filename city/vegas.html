@@ -3,25 +3,34 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Las Vegas — STREAM / SAVE Sirocco Mesa</title>
+<title>Las Vegas — Sirocco Mesa</title>
 <style>
-  :root { --bg:#0f0f0f; --fg:#f5f5f5; --muted:#b0b0b0; --accent:#c4a574; --card:#1a1a1a; }
-  body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--fg); }
-  main { max-width:520px; margin:0 auto; padding:28px 20px 48px; }
-  a.btn { display:block; background:var(--card); color:var(--fg); text-decoration:none; padding:14px 16px; border-radius:10px; margin:0 0 10px; border:1px solid #2a2a2a; }
-  a.back { color:var(--accent); }
-  .tag { color:var(--accent); font-size:0.85rem; }
-  p { color:var(--muted); line-height:1.45; }
+  :root { --bg:#0f0f0f; --fg:#f5f5f5; --muted:#b0b0b0; --accent:#c4a574; --card:#1a1a1a; --line:#2a2a2a; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, Segoe UI, sans-serif; background:var(--bg); color:var(--fg); }
+  main { max-width:480px; margin:0 auto; padding:36px 22px 56px; }
+  .brand { font-size:0.72rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent); margin:0 0 10px; }
+  h1 { font-size:1.5rem; font-weight:650; margin:0 0 8px; line-height:1.25; }
+  p { color:var(--muted); line-height:1.5; }
+  a.btn { display:block; background:var(--card); color:var(--fg); text-decoration:none; padding:16px 18px; border-radius:12px; margin:16px 0 12px; border:1px solid var(--line); }
+  a.btn.primary { border-color:var(--accent); background:#1c1914; }
+  a.btn strong { display:block; }
+  a.btn span { display:block; color:var(--muted); font-size:0.85rem; margin-top:5px; }
+  a.btn em { font-style:normal; color:var(--accent); font-size:0.75rem; letter-spacing:0.06em; text-transform:uppercase; display:block; margin-bottom:4px; }
+  a.more { color:var(--accent); text-decoration:none; font-size:0.95rem; }
 </style>
 </head>
 <body>
 <main>
-  <p><a class="back" href="../index.html">← All releases</a></p>
-  <div class="tag">20-city · Las Vegas</div>
-  <h1>STREAM / SAVE — Strip night mood → Fuego</h1>
-  <p>City landing for Las Vegas campaign. Edit this page without reprinting the catalog QR.</p>
-  <a class="btn" href="https://ditto.fm/fuego-de-medianoche-duende-azul"><strong>Fuego de Medianoche</strong><span>Primary Vegas → Duende</span></a>
-  <a class="btn" href="../index.html"><strong>Full Sirocco Mesa catalog</strong></a>
+  <div class="brand">Sirocco Mesa — Las Vegas</div>
+  <h1>Tonight’s Sound</h1>
+  <p>Midnight heat — nylon-string Latin jazz for the Strip after dark.</p>
+  <a class="btn primary" href="https://ditto.fm/fuego-de-medianoche-duende-azul">
+    <em>Listen now</em>
+    <strong>Fuego de Medianoche</strong>
+    <span>Duende Azul</span>
+  </a>
+  <p><a class="more" href="../index.html">Explore more →</a></p>
 </main>
 </body>
 </html>
