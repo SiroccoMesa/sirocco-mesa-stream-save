@@ -3,90 +3,165 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>STREAM / SAVE — Sirocco Mesa</title>
+<title>Music Catalog — Sirocco Mesa</title>
 <style>
-  :root { --bg:#0f0f0f; --fg:#f5f5f5; --muted:#b0b0b0; --accent:#c4a574; --card:#1a1a1a; --line:#2a2a2a; }
+  :root {
+    --bg:#0f0f0f; --fg:#f5f5f5; --muted:#a8a8a8; --accent:#c4a574;
+    --card:#161616; --line:#2a2a2a; --row:#1a1a1a;
+  }
   * { box-sizing: border-box; }
   body { margin:0; font-family: system-ui, -apple-system, Segoe UI, sans-serif; background:var(--bg); color:var(--fg); -webkit-font-smoothing:antialiased; }
-  main { max-width:480px; margin:0 auto; padding:36px 22px 56px; }
-  .brand { font-size:0.72rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent); margin:0 0 10px; }
-  h1 { font-size:1.65rem; font-weight:650; margin:0 0 8px; line-height:1.2; }
-  .tagline { color:var(--muted); margin:0 0 8px; font-size:0.95rem; }
-  .lead { color:var(--muted); line-height:1.5; margin:0 0 8px; font-size:0.95rem; }
-  section { margin-top:32px; }
-  h2 { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin:0 0 14px; font-weight:600; }
-  a.btn { display:block; background:var(--card); color:var(--fg); text-decoration:none; padding:16px 18px; border-radius:12px; margin:0 0 12px; border:1px solid var(--line); transition: border-color .15s; }
-  a.btn:active, a.btn:hover { border-color:var(--accent); }
-  a.btn strong { display:block; font-size:1.02rem; }
-  a.btn span { display:block; color:var(--muted); font-size:0.85rem; margin-top:5px; line-height:1.35; }
-  a.btn.primary { border-color:var(--accent); background:#1c1914; }
-  a.btn em { font-style:normal; color:var(--accent); font-size:0.75rem; letter-spacing:0.06em; text-transform:uppercase; display:block; margin-bottom:4px; }
-  .soon { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:0 0 10px; color:var(--muted); }
-  .soon strong { display:block; color:var(--fg); font-weight:600; }
-  .soon span { display:block; font-size:0.85rem; margin-top:4px; }
+  main { max-width:560px; margin:0 auto; padding:32px 18px 64px; }
+  .brand { font-size:0.7rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--accent); margin:0 0 8px; }
+  h1 { font-size:1.7rem; font-weight:650; margin:0 0 6px; line-height:1.15; }
+  .tagline { color:var(--muted); margin:0 0 6px; }
+  .lead { color:var(--muted); margin:0 0 20px; font-size:0.95rem; line-height:1.45; }
+  nav.cols { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 28px; }
+  nav.cols a { color:var(--accent); text-decoration:none; font-size:0.72rem; letter-spacing:0.06em; text-transform:uppercase; border:1px solid var(--line); border-radius:999px; padding:7px 12px; background:var(--card); }
+  nav.cols a:hover { border-color:var(--accent); }
+  .ep { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; margin:0 0 22px; scroll-margin-top:16px; }
+  .ep-head { display:flex; gap:14px; align-items:center; margin:0 0 14px; }
+  .ep-head img { width:88px; height:88px; border-radius:10px; object-fit:cover; flex-shrink:0; background:#111; }
+  .ep-head h2 { font-size:1.05rem; margin:0 0 4px; font-weight:650; }
+  .ep-head p { margin:0; color:var(--muted); font-size:0.85rem; line-height:1.35; }
+  .ep-action { margin:0 0 12px; }
+  a.listen-ep {
+    display:inline-block; text-decoration:none; color:var(--bg); background:var(--accent);
+    font-size:0.78rem; font-weight:650; letter-spacing:0.04em; text-transform:uppercase;
+    padding:10px 14px; border-radius:999px;
+  }
+  .row {
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    background:var(--row); border:1px solid var(--line); border-radius:10px;
+    padding:11px 12px; margin:0 0 8px;
+  }
+  .row .title { font-size:0.92rem; line-height:1.3; }
+  .row .meta { display:block; color:var(--muted); font-size:0.75rem; margin-top:2px; }
+  a.btn {
+    flex-shrink:0; text-decoration:none; color:var(--accent); border:1px solid var(--accent);
+    font-size:0.68rem; font-weight:650; letter-spacing:0.05em; text-transform:uppercase;
+    padding:8px 10px; border-radius:999px; white-space:nowrap;
+  }
+  a.btn:hover { background:rgba(196,165,116,0.12); }
+  .btn-off {
+    flex-shrink:0; color:var(--muted); border:1px solid var(--line);
+    font-size:0.68rem; letter-spacing:0.05em; text-transform:uppercase;
+    padding:8px 10px; border-radius:999px; white-space:nowrap; opacity:0.55;
+  }
+  .soon-note { color:var(--muted); font-size:0.8rem; margin:4px 0 0; }
+  .follow { margin-top:8px; }
+  .follow h2 { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin:0 0 12px; }
+  a.social {
+    display:block; background:var(--card); color:var(--fg); text-decoration:none;
+    padding:14px 16px; border-radius:12px; margin:0 0 10px; border:1px solid var(--line);
+  }
+  a.social strong { display:block; }
+  a.social span { display:block; color:var(--muted); font-size:0.85rem; margin-top:4px; }
 </style>
 </head>
 <body>
 <main>
   <div class="brand">Sirocco Mesa</div>
-  <h1>STREAM / SAVE</h1>
+  <h1>Music Catalog</h1>
   <p class="tagline">Sounds of the World · One Wind</p>
-  <p class="lead">Choose a release — then your preferred music service.</p>
+  <p class="lead">Choose a collection — then Listen / Save on your preferred music service.</p>
 
-  <section>
-    <h2>Newest</h2>
-    <a class="btn primary" href="https://ditto.fm/alegria-de-la-vida-duende-azul">
-      <em>Pre-save</em>
-      <strong>Alegría De La Vida</strong>
-      <span>Duende Azul</span>
-    </a>
+  <nav class="cols" aria-label="Collections">
+    <a href="#equator">Equator</a>
+    <a href="#duende">Duende Azul</a>
+    <a href="#ash">Ash &amp; Thunder</a>
+    <a href="#velvet">Velvet Voodoo</a>
+  </nav>
+
+  <!-- EQUATOR -->
+  <section class="ep" id="equator">
+    <div class="ep-head">
+      <img src="art/equator.jpg" alt="Equator cover"/>
+      <div>
+        <h2>Equator</h2>
+        <p>Spanish &amp; World Guitar — cinematic Spanish and world-guitar instrumentals.</p>
+      </div>
+    </div>
+    <div class="ep-action">
+      <a class="listen-ep" href="https://ditto.fm/equator-sirocco-mesa">Listen to full EP</a>
+    </div>
+    <div class="row"><div><span class="title">Sand Echo</span></div><span class="btn-off">Soon</span></div>
+    <div class="row"><div><span class="title">Vals de los Sueños</span></div><span class="btn-off">Soon</span></div>
+    <div class="row"><div><span class="title">The Wandering Dance</span></div><span class="btn-off">Soon</span></div>
+    <div class="row"><div><span class="title">Cuerdas de Fuego</span></div><span class="btn-off">Soon</span></div>
+    <div class="row"><div><span class="title">Old Village Roads</span></div><span class="btn-off">Soon</span></div>
+    <div class="row"><div><span class="title">Season Echo</span></div><span class="btn-off">Soon</span></div>
+    <p class="soon-note">Per-song links open when each track SmartLink is verified. Full EP is live now.</p>
   </section>
 
-  <section>
-    <h2>Live catalog</h2>
-    <a class="btn" href="https://ditto.fm/equator-sirocco-mesa">
-      <em>Listen now</em>
-      <strong>Equator</strong>
-      <span>Spanish &amp; world guitar · EP</span>
-    </a>
-    <a class="btn" href="https://ditto.fm/fuego-de-medianoche-duende-azul">
-      <em>Listen now</em>
-      <strong>Fuego de Medianoche</strong>
-      <span>Duende Azul</span>
-    </a>
+  <!-- DUENDE AZUL -->
+  <section class="ep" id="duende">
+    <div class="ep-head">
+      <img src="art/duende.jpg" alt="Duende Azul cover"/>
+      <div>
+        <h2>Duende Azul</h2>
+        <p>Latin Jazz &amp; Spanish Guitar — warm Latin jazz, nylon guitar, late-night atmosphere.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div><span class="title">Fuego de Medianoche</span></div>
+      <a class="btn" href="https://ditto.fm/fuego-de-medianoche-duende-azul">Listen / Save</a>
+    </div>
+    <div class="row">
+      <div><span class="title">Alegría De La Vida</span><span class="meta">Pre-save · Sep 21</span></div>
+      <a class="btn" href="https://ditto.fm/alegria-de-la-vida-duende-azul">Listen / Save</a>
+    </div>
+    <div class="row">
+      <div><span class="title">La Última Mirada</span><span class="meta">Sep 24</span></div>
+      <a class="btn" href="https://ditto.fm/la-ultima-mirada-sirocco-mesa">Listen / Save</a>
+    </div>
+    <div class="row">
+      <div><span class="title">Cuerdas de Fuego del Ensamble</span><span class="meta">Sep 25</span></div>
+      <a class="btn" href="https://ditto.fm/cuerdas-de-fuego-del-ensamble">Listen / Save</a>
+    </div>
+    <div class="row">
+      <div><span class="title">Entre Sombras</span><span class="meta">Sep 26</span></div>
+      <span class="btn-off">Soon</span>
+    </div>
+    <div class="row">
+      <div><span class="title">Corazón al Viento</span><span class="meta">Sep 27</span></div>
+      <span class="btn-off">Soon</span>
+    </div>
   </section>
 
-  <section>
-    <h2>Coming soon</h2>
-    <a class="btn" href="https://ditto.fm/la-ultima-mirada-sirocco-mesa">
-      <em>Pre-save</em>
-      <strong>La Última Mirada</strong>
-      <span>Duende Azul · Sep 24</span>
-    </a>
-    <a class="btn" href="https://ditto.fm/cuerdas-de-fuego-del-ensamble">
-      <em>Pre-save</em>
-      <strong>Cuerdas de Fuego del Ensamble</strong>
-      <span>Duende Azul · Sep 25</span>
-    </a>
-    <div class="soon"><strong>Entre Sombras</strong><span>Duende Azul · Sep 26</span></div>
-    <div class="soon"><strong>Corazón al Viento</strong><span>Duende Azul · Sep 27</span></div>
-    <div class="soon"><strong>Grith</strong><span>Ash &amp; Thunder · Sep 28</span></div>
-    <div class="soon"><strong>Shadow Riders</strong><span>Ash &amp; Thunder · Sep 29</span></div>
-    <div class="soon"><strong>Some Night Nikad</strong><span>Ash &amp; Thunder · Sep 30</span></div>
-    <div class="soon"><strong>The One I Face</strong><span>Ash &amp; Thunder · Oct 1</span></div>
-    <div class="soon"><strong>The Pulse Within</strong><span>Ash &amp; Thunder · Oct 2</span></div>
+  <!-- ASH & THUNDER -->
+  <section class="ep" id="ash">
+    <div class="ep-head">
+      <img src="art/ash.jpg" alt="Ash and Thunder"/>
+      <div>
+        <h2>Ash &amp; Thunder</h2>
+        <p>Cinematic Heavy Metal — muscular riffs, cinematic weight, story-driven intensity.</p>
+      </div>
+    </div>
+    <div class="row"><div><span class="title">Grith</span><span class="meta">Sep 28</span></div><span class="btn-off">Soon</span></div>
+    <div class="row"><div><span class="title">Shadow Riders</span><span class="meta">Sep 29</span></div><span class="btn-off">Soon</span></div>
+    <div class="row"><div><span class="title">Some Night Nikad</span><span class="meta">Sep 30</span></div><span class="btn-off">Soon</span></div>
+    <div class="row"><div><span class="title">The One I Face</span><span class="meta">Oct 1</span></div><span class="btn-off">Soon</span></div>
+    <div class="row"><div><span class="title">The Pulse Within</span><span class="meta">Oct 2</span></div><span class="btn-off">Soon</span></div>
+    <p class="soon-note">Listen / Save buttons appear when each release SmartLink is verified.</p>
   </section>
 
-  <section>
+  <!-- VELVET VOODOO -->
+  <section class="ep" id="velvet">
+    <div class="ep-head">
+      <img src="art/velvet.jpg" alt="Velvet Voodoo"/>
+      <div>
+        <h2>Velvet Voodoo</h2>
+        <p>Blues, Jazz &amp; Funk Fusion — deep-pocket grooves, blues color, late-night atmosphere.</p>
+      </div>
+    </div>
+    <p class="soon-note">Collection ready — tracks arrive here as they release.</p>
+  </section>
+
+  <section class="follow">
     <h2>Follow Sirocco Mesa</h2>
-    <a class="btn" href="https://open.spotify.com/artist/5d0U1202iintbVDJp7cGpa">
-      <strong>Spotify</strong>
-      <span>Artist page</span>
-    </a>
-    <a class="btn" href="https://www.youtube.com/@SiroccoMesa">
-      <strong>YouTube</strong>
-      <span>@SiroccoMesa</span>
-    </a>
+    <a class="social" href="https://open.spotify.com/artist/5d0U1202iintbVDJp7cGpa"><strong>Spotify</strong><span>Artist page</span></a>
+    <a class="social" href="https://www.youtube.com/@SiroccoMesa"><strong>YouTube</strong><span>@SiroccoMesa</span></a>
   </section>
 </main>
 </body>
