@@ -351,22 +351,8 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
   </div>
 
   
-  <div style="text-align:center;margin-top:12px">
-    <button id="resetSavingsChoice" type="button" style="
-      border:1px solid rgba(255,255,255,.16);
-      background:rgba(255,255,255,.05);
-      color:var(--muted);
-      border-radius:10px;
-      padding:9px 12px;
-      cursor:pointer;
-      font-size:11px;
-      font-weight:700;">
-      Change Savings Choice
-    </button>
-  </div>
-
   <div class="savings-note">
-    Pick one offer overall. Offers can change or expire — only LIVE VERIFIED destinations are shown.
+    Choice locks on this browser; offers rotate via site updates.
   </div>
 </section>
 
@@ -451,29 +437,6 @@ document.querySelectorAll(".offer-link").forEach(link => {
 });
 
 
-const resetSavingsChoice = document.getElementById("resetSavingsChoice");
-if (resetSavingsChoice) {
-  resetSavingsChoice.addEventListener("click", () => {
-    localStorage.removeItem(choiceKey);
-    refreshOffers();
-
-    // Re-enable all direct savings links immediately.
-    document.querySelectorAll(".offer-link").forEach(link => {
-      link.style.pointerEvents = "auto";
-      link.style.opacity = "1";
-    });
-
-    const status = document.getElementById("status");
-    if (status) {
-      status.textContent = "Savings choices unlocked. Pick a new offer.";
-      setTimeout(() => status.textContent = "", 3000);
-    }
-
-    // Keep the user at the savings section after reset.
-    const savings = document.getElementById("savings");
-    if (savings) savings.scrollIntoView({behavior:"smooth", block:"start"});
-  });
-}
 
 const copyBtn = document.getElementById("copyBtn");
 if (copyBtn) {

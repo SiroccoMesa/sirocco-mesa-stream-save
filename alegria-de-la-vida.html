@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sirocco Mesa — Music without borders | SmartLink Hub</title>
-<meta name="description" content="Sirocco Mesa central landing — Watch & Listen on YouTube, Spotify artist, collection SmartLinks, and everyday savings.">
+<title>Sirocco Mesa — Alegría De La Vida | SmartLink</title>
+<meta name="description" content="Listen to Sirocco Mesa — Alegría De La Vida (Duende Azul) and find free everyday savings on items you already use.">
 <style>
 :root {
   --bg1:#111;
@@ -45,27 +45,9 @@ body {
   color:var(--accent2);background:rgba(0,0,0,.2);
 }
 h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.05em; }
+.album-title { text-align:center;color:var(--accent2);font-weight:800;font-size:20px;margin-top:7px; }
+.ep-line { text-align:center;color:var(--muted);font-size:13px;margin-top:4px;font-weight:700;letter-spacing:.04em; }
 .tagline { text-align:center;color:var(--muted);margin:9px auto 22px;line-height:1.5;max-width:540px; }
-
-.about-section {
-  margin:0 0 20px;
-  padding:16px 18px 17px;
-  border:1px solid rgba(240,201,140,.28);
-  border-radius:15px;
-  background:rgba(0,0,0,.14);
-}
-.about-section h2 {
-  margin:6px 0 10px;
-  text-align:center;
-  font-size:20px;
-}
-.about-section p {
-  margin:8px 0 0;
-  color:var(--muted);
-  font-size:13px;
-  line-height:1.55;
-}
-.about-section strong { color:var(--text); }
 
 .links { display:grid; gap:11px; }
 .btn {
@@ -78,79 +60,10 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
 .btn.primary {
   border-color:rgba(240,201,140,.48);
   background:linear-gradient(135deg,rgba(215,163,95,.22),rgba(255,255,255,.07));
-  font-size:1.05em;
-  min-height:68px;
-  box-shadow:0 0 0 1px rgba(240,201,140,.18), 0 10px 28px rgba(0,0,0,.28);
 }
 .service { font-weight:800; }
 .note { color:var(--muted);font-size:12px;margin-left:auto; }
 .arrow { color:var(--accent2);font-size:18px; }
-
-.section-kicker {
-  color:var(--accent2);
-  text-align:center;
-  font-size:11px;
-  letter-spacing:.15em;
-  font-weight:800;
-}
-.catalog-section {
-  margin-top:26px;
-  padding-top:24px;
-  border-top:1px solid var(--border);
-}
-.catalog-section h2 {
-  text-align:center;
-  margin:6px 0 16px;
-  font-size:22px;
-}
-.catalog-grid {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:12px;
-}
-.catalog-card {
-  border:1px solid var(--border);
-  background:rgba(255,255,255,.055);
-  border-radius:15px;
-  padding:14px;
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-}
-.catalog-card img {
-  width:100%;
-  aspect-ratio:1;
-  object-fit:cover;
-  border-radius:12px;
-  background:rgba(0,0,0,.25);
-}
-.catalog-card h3 { margin:0; font-size:16px; }
-.catalog-meta { color:var(--muted); font-size:12px; line-height:1.4; margin:0; }
-.listen-link {
-  display:block;
-  text-align:center;
-  text-decoration:none;
-  color:var(--text);
-  border:1px solid rgba(240,201,140,.45);
-  background:rgba(215,163,95,.14);
-  border-radius:11px;
-  padding:10px;
-  font-weight:800;
-  margin-top:auto;
-}
-.listen-link:hover { background:rgba(215,163,95,.22); }
-.badge {
-  display:inline-block;
-  font-size:10px;
-  border-radius:999px;
-  padding:7px 9px;
-  border:1px solid var(--border);
-  font-weight:800;
-  text-align:center;
-  margin-top:auto;
-}
-.live { color:#d9f6e1;border-color:rgba(154,231,174,.35);background:rgba(154,231,174,.08); }
-.upcoming { color:var(--accent2);border-color:rgba(240,201,140,.35);background:rgba(215,163,95,.08); }
 
 .savings-cta {
   margin:18px 0 0;
@@ -172,6 +85,13 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
   margin-top:4px;
 }
 
+.section-kicker {
+  color:var(--accent2);
+  text-align:center;
+  font-size:11px;
+  letter-spacing:.15em;
+  font-weight:800;
+}
 .savings-section {
   margin-top:26px;
   padding-top:24px;
@@ -246,9 +166,34 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
   line-height:1.45;
   margin-top:12px;
 }
+.song-list { display:grid;gap:11px; }
+.song {
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.06);
+  border-radius:14px;
+  padding:14px 15px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+.song-name { font-weight:800; }
+.song-meta { color:var(--muted);font-size:12px;margin-top:4px; }
+.badge {
+  flex:0 0 auto;
+  font-size:10px;
+  border-radius:999px;
+  padding:7px 9px;
+  border:1px solid var(--border);
+  font-weight:800;
+}
+.live { color:#d9f6e1;border-color:rgba(154,231,174,.35);background:rgba(154,231,174,.08); }
+.upcoming { color:var(--accent2);border-color:rgba(240,201,140,.35);background:rgba(215,163,95,.08); }
+
 .share { margin-top:16px; }
 .status { min-height:18px;text-align:center;color:var(--accent2);font-size:12px;margin-top:8px; }
 footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-top:17px; }
+
 
 .market-heading{
   margin:20px 0 8px;
@@ -269,14 +214,25 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
   margin:0 2px 10px;
 }
 
+
 .offer.locked .offer-link{
   pointer-events:none;
   opacity:.35;
 }
 
+.back-collection {
+  display:block;
+  text-align:center;
+  margin-top:14px;
+  color:var(--accent2);
+  text-decoration:none;
+  font-size:13px;
+  font-weight:800;
+}
+.back-collection:hover { text-decoration:underline; }
+
 @media(max-width:620px){
   .offer-grid { grid-template-columns:1fr; }
-  .catalog-grid { grid-template-columns:1fr; }
   .note { display:none; }
 }
 </style>
@@ -286,60 +242,49 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
 <section class="card">
   <div class="mark">SM</div>
   <h1>SIROCCO MESA</h1>
-  <p class="tagline">Music without borders.</p>
+  <div class="album-title">ALEGRÍA DE LA VIDA</div>
+  <div class="ep-line">EP · Duende Azul</div>
+  <p class="tagline">Latin Jazz &amp; Spanish Guitar • Choose your music service</p>
 
   <div class="links">
-    <a class="btn primary" href="https://www.youtube.com/@SiroccoMesa" target="_blank" rel="noopener">
-      <span class="service">▶ Watch &amp; Listen on YouTube</span>
-      <span class="note">Official channel</span>
+    <a class="btn primary" href="https://open.spotify.com/track/2Ny4B0m3yZAHoQSYbhPuum" target="_blank" rel="noopener noreferrer">
+      <span class="service">Spotify</span>
+      <span class="note">Alegría De La Vida</span>
       <span class="arrow">›</span>
     </a>
-
-  <section class="about-section" aria-labelledby="about-heading">
-    <div class="section-kicker">ABOUT / WHO IS SIROCCO MESA</div>
-    <h2 id="about-heading">Who Is Sirocco Mesa?</h2>
-    <p><strong>Sirocco Mesa</strong> is an independent music project by Steve Phillips presenting Sounds of the World / music without borders.</p>
-    <p>Genres and collections include <strong>Equator</strong> (Spanish &amp; World Guitar); <strong>Duende Azul</strong> (Latin Jazz &amp; Spanish Guitar, including <strong>Alegría De La Vida</strong> and <strong>Fuego de Medianoche</strong>); <strong>Ash &amp; Thunder</strong> (cinematic heavy metal); and <strong>Velvet Voodoo</strong> (blues/jazz/funk fusion).</p>
-    <p>Use this permanent hub for <strong>Watch &amp; Listen</strong> and <strong>Stream &amp; Save</strong>.</p>
-  </section>
-
-    <a class="btn" href="https://open.spotify.com/artist/5d0U1202iintbVDJp7cGpa" target="_blank" rel="noopener noreferrer">
-      <span class="service">Spotify</span>
-      <span class="note">Artist profile</span>
+    <a class="btn" href="https://www.youtube.com/watch?v=MWxd24gZ9og" target="_blank" rel="noopener noreferrer">
+      <span class="service">YouTube</span>
+      <span class="note">Topic · Alegría De La Vida</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="https://music.youtube.com/watch?v=MWxd24gZ9og" target="_blank" rel="noopener noreferrer">
+      <span class="service">YouTube Music</span>
+      <span class="note">Alegría De La Vida</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="https://www.deezer.com/track/4281388822" target="_blank" rel="noopener noreferrer">
+      <span class="service">Deezer</span>
+      <span class="note">Alegría De La Vida</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="http://www.tidal.com/track/560530020" target="_blank" rel="noopener noreferrer">
+      <span class="service">TIDAL</span>
+      <span class="note">Alegría De La Vida</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="https://soundcloud.com/sirocco-mesa/alegria-de-la-vida-duende-azul" target="_blank" rel="noopener noreferrer">
+      <span class="service">SoundCloud</span>
+      <span class="note">Alegría De La Vida</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="https://www.iheart.com/artist/52060424/songs/431938120/" target="_blank" rel="noopener noreferrer">
+      <span class="service">iHeartRadio</span>
+      <span class="note">Alegría De La Vida</span>
       <span class="arrow">›</span>
     </a>
   </div>
 
-  <section class="catalog-section" aria-label="Catalog">
-    <div class="section-kicker">CATALOG</div>
-    <h2>Collections</h2>
-    <div class="catalog-grid">
-      <article class="catalog-card">
-        <img src="art/equator.jpg" alt="Equator cover">
-        <h3>Equator</h3>
-        <p class="catalog-meta">Spanish &amp; World Guitar</p>
-        <a class="listen-link" data-src-append href="equator.html">Listen ›</a>
-      </article>
-      <article class="catalog-card">
-        <img src="art/duende.jpg" alt="Duende Azul cover">
-        <h3>Duende Azul</h3>
-        <p class="catalog-meta">Flamenco &amp; Blue</p>
-        <a class="listen-link" data-src-append href="duende-azul.html">Listen ›</a>
-      </article>
-      <article class="catalog-card">
-        <img src="art/ash.jpg" alt="Ash &amp; Thunder cover">
-        <h3>Ash &amp; Thunder</h3>
-        <p class="catalog-meta">Coming soon</p>
-        <span class="badge upcoming">Upcoming</span>
-      </article>
-      <article class="catalog-card">
-        <img src="art/velvet.jpg" alt="Velvet Voodoo cover">
-        <h3>Velvet Voodoo</h3>
-        <p class="catalog-meta">Coming soon</p>
-        <span class="badge upcoming">Upcoming</span>
-      </article>
-    </div>
-  </section>
+  <a class="back-collection" data-src-append href="duende-azul.html">‹ Back to Duende Azul collection</a>
 
   <a class="savings-cta" href="#savings">
     Everyday Savings
@@ -422,9 +367,9 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
 </section>
 
 
-  <div class="share"><button class="share-btn" id="copyBtn">Copy This Landing Link</button></div>
+  <div class="share"><button class="share-btn" id="copyBtn">Copy This SmartLink</button></div>
   <div class="status" id="status"></div>
-  <footer>Central Sirocco Mesa landing / SmartLink hub<br>Independent artist hub — Watch, listen, and everyday savings in one place.</footer>
+  <footer>Independent artist SmartLink • Sirocco Mesa<br>Permanent custom SmartLink (SMARTLINK-003) • Ditto is backend only — not linked publicly.</footer>
 </section>
 </main>
 <script>
@@ -446,7 +391,6 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
       if (!url.searchParams.has("src")) {
         url.searchParams.set("src", persisted);
       }
-      // Keep relative if original was relative (no leading http)
       const original = a.getAttribute("href");
       if (!/^https?:/i.test(original)) {
         a.setAttribute("href", url.pathname.split("/").pop() + url.search + url.hash);
@@ -537,8 +481,21 @@ if (copyBtn) {
   copyBtn.addEventListener("click", async () => {
     const status = document.getElementById("status");
     try {
-      await navigator.clipboard.writeText(location.href);
-      status.textContent = "Landing link copied.";
+      // Preserve ?src= when present; strip hash only
+      let copyUrl = location.href.split("#")[0];
+      const params = new URLSearchParams(location.search);
+      if (!params.get("src")) {
+        try {
+          const persisted = sessionStorage.getItem("siroccoMesaSrc");
+          if (persisted) {
+            const u = new URL(copyUrl);
+            u.searchParams.set("src", persisted);
+            copyUrl = u.toString();
+          }
+        } catch (e) {}
+      }
+      await navigator.clipboard.writeText(copyUrl);
+      status.textContent = "SmartLink copied.";
     } catch(e) {
       status.textContent = "Copy blocked — copy the address from the browser.";
     }
