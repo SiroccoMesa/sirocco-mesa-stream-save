@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.12",
+  "version": "1.13",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -262,14 +262,14 @@
     ],
     "intl_complete": false,
     "market_order": [
-      "U.S.",
-      "UK",
-      "International"
+      "us",
+      "international"
     ],
     "uk_lane": {
       "heading": "UK Savings",
-      "note": "Need-first categories. Only UK-usable LIVE VERIFIED offers are listed.",
-      "purpose": "Clear UK country group for UK-only LIVE VERIFIED offers formerly mis-filed under International."
+      "public": false,
+      "removed_2026_09_22": true,
+      "reason": "Steve SUPERSEDE: UK Savings option/group removed from all public Pages; UK-only offers not shown under International."
     },
     "intl_note": "Need-first categories. Only multi-country / global LIVE VERIFIED offers are listed.",
     "uk_live": [
@@ -315,7 +315,6 @@
       "Laundry & Household"
     ],
     "uk_complete": false,
-    "routing_note": "2026-09-22 SAVINGS INTL FIX: UK-only offers moved to UK Savings lane; International retains only multi-country/global (Mother's Earth). data-id values unchanged so existing localStorage first-picks remain valid."
+    "routing_note": "2026-09-22 SAVINGS SUPERSEDE (Steve): REMOVE UK Savings group from all public landing/SmartLink pages. Public order: U.S. Savings → International Savings (multi-country/global only). Do NOT put UK-only offers into International. Empty intl Food/Personal Care/Auto stay empty until Marketing LIVE VERIFIED multi-country replacements."
   }
 }
-
