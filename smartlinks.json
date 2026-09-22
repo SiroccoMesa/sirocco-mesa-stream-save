@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.1",
+  "version": "1.2",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -15,6 +15,7 @@
         "need-first everyday savings (SAVINGS-002)",
         "U.S. Laundry MA5X FALL15",
         "U.S. Auto Chemical Guys on-sale Save 10%",
+        "U.S. Personal Care Swanson on-sale Save 40%",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -32,6 +33,7 @@
         "need-first everyday savings (SAVINGS-002)",
         "U.S. Laundry MA5X FALL15",
         "U.S. Auto Chemical Guys on-sale Save 10%",
+        "U.S. Personal Care Swanson on-sale Save 40%",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -142,11 +144,19 @@
         "min": "$0",
         "url": "https://www.chemicalguys.com/collections/on-sale",
         "notes": "Automatic sale pricing; items rotate"
+      },
+      {
+        "category": "Personal Care / Basic Health",
+        "merchant": "Swanson",
+        "label": "Save 40%",
+        "code": null,
+        "min": "$0",
+        "url": "https://www.swansonvitamins.com/collections/all?facet.onsalenow=Y",
+        "notes": "Automatic sale in cart; US-only; items rotate"
       }
     ],
     "us_empty": [
-      "Food & Groceries",
-      "Personal Care"
+      "Food & Groceries"
     ],
     "intl_live": []
   }
