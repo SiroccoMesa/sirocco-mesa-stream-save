@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.11",
+  "version": "1.12",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -16,7 +16,7 @@
         "Spotify artist (verified)",
         "Equator+Duende custom SmartLinks",
         "Ash+Velvet Upcoming",
-        "SAVINGS-002 U.S.+Intl",
+        "SAVINGS-002 U.S.+UK+Intl",
         "no public Ditto",
         "first-pick savings lock / no public reset"
       ]
@@ -29,15 +29,15 @@
       "status": "live",
       "contains": [
         "verified direct music destinations",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl 4/4",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + UK 3 + intl 1 (Mother's Earth only)",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "Intl Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
-        "Intl Laundry Mother's Earth Save 25% (one-time bundle)",
-        "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
-        "Intl Auto Halfords Save 20% (UK Home Delivery)",
+        "UK Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
+        "UK Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
+        "UK Auto Halfords Save 20% (UK Home Delivery)",
+        "Intl Laundry Mother's Earth Save 25% (one-time bundle; multi-country)",
         "one-offer choice logic",
         "first-pick savings lock / no public reset"
       ]
@@ -52,15 +52,15 @@
         "all six songs",
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl 4/4",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + UK 3 + intl 1 (Mother's Earth only)",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "Intl Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
-        "Intl Laundry Mother's Earth Save 25% (one-time bundle)",
-        "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
-        "Intl Auto Halfords Save 20% (UK Home Delivery)",
+        "UK Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
+        "UK Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
+        "UK Auto Halfords Save 20% (UK Home Delivery)",
+        "Intl Laundry Mother's Earth Save 25% (one-time bundle; multi-country)",
         "one-offer choice logic",
         "first-pick savings lock / no public reset",
         "Alegría custom song SmartLink live (alegria-de-la-vida.html)",
@@ -87,7 +87,7 @@
         "iHeartRadio song 431938120",
         "omitted: KKBOX, Apple Music, Amazon Music",
         "no public Ditto",
-        "SAVINGS-002 U.S.+Intl",
+        "SAVINGS-002 U.S.+UK+Intl",
         "back link to duende-azul.html",
         "?src= copy support",
         "first-pick savings lock / no public reset"
@@ -242,17 +242,6 @@
     "us_empty": [],
     "intl_live": [
       {
-        "category": "Food & Groceries",
-        "merchant": "Holland & Barrett",
-        "label": "3 for 2 Mix & Match",
-        "code": null,
-        "min": "no £30–£40 %-off threshold",
-        "url": "https://www.hollandandbarrett.com/shop/offers/3-for-2-mix-match",
-        "countries": "UK only",
-        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off £40 / 15% off £30.",
-        "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk-food/"
-      },
-      {
         "category": "Laundry & Household",
         "merchant": "Mother's Earth",
         "label": "Save 25%",
@@ -261,8 +250,40 @@
         "url": "https://mothersearth.com/",
         "product": "One-time Laundry Sheets + Scent Beads Value Bundle",
         "countries": "AU, CA, UK, US, and listed EU (AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE + Channel Isles)",
-        "notes": "Ships from NL; duties/taxes may apply at address. Label must be Save 25% (not 40%).",
+        "data_id": "intl-laundry-mothers-earth",
+        "notes": "Ships from NL; duties/taxes may apply at address. Label must be Save 25% (not 40%). Multi-country/global — remains in International Savings.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/mothers-earth-bundle/"
+      }
+    ],
+    "intl_empty": [
+      "Food & Groceries",
+      "Personal Care / Basic Health",
+      "Auto & Transportation"
+    ],
+    "intl_complete": false,
+    "market_order": [
+      "U.S.",
+      "UK",
+      "International"
+    ],
+    "uk_lane": {
+      "heading": "UK Savings",
+      "note": "Need-first categories. Only UK-usable LIVE VERIFIED offers are listed.",
+      "purpose": "Clear UK country group for UK-only LIVE VERIFIED offers formerly mis-filed under International."
+    },
+    "intl_note": "Need-first categories. Only multi-country / global LIVE VERIFIED offers are listed.",
+    "uk_live": [
+      {
+        "category": "Food & Groceries",
+        "merchant": "Holland & Barrett",
+        "label": "3 for 2 Mix & Match",
+        "code": null,
+        "min": "no £30–£40 %-off threshold",
+        "url": "https://www.hollandandbarrett.com/shop/offers/3-for-2-mix-match",
+        "countries": "UK only",
+        "data_id": "intl-food-holland-barrett",
+        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off £40 / 15% off £30. Routed to UK Savings lane (was intl).",
+        "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk-food/"
       },
       {
         "category": "Personal Care / Basic Health",
@@ -272,7 +293,8 @@
         "min": "$0 / no £30–£40 %-off threshold",
         "url": "https://www.hollandandbarrett.com/shop/offers/",
         "countries": "UK only",
-        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off £40 / 15% off £30.",
+        "data_id": "intl-personal-holland-barrett",
+        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off £40 / 15% off £30. Routed to UK Savings lane (was intl).",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk/"
       },
       {
@@ -284,11 +306,15 @@
         "url": "https://www.halfords.com/motoring/car-cleaning/all-car-cleaning/halfords-advanced-glass-cleaner-500ml-811078.html",
         "product": "Halfords Advanced Glass Cleaner 500ml (£11.00 → £8.80 / Save £2.20)",
         "countries": "UK (Home Delivery)",
-        "notes": "Automatic sale; NOT Motoring Club or email gated. Do not publish Chemical Guys.com intl, Meguiar's UK, or Halfords Autoglym 3-for-2 (prior REJECTS).",
+        "data_id": "intl-auto-halfords",
+        "notes": "Automatic sale; NOT Motoring Club or email gated. Do not publish Chemical Guys.com intl, Meguiar's UK, or Halfords Autoglym 3-for-2 (prior REJECTS). Routed to UK Savings lane (was intl).",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/halfords-uk-glass/"
       }
     ],
-    "intl_empty": [],
-    "intl_complete": true
+    "uk_empty": [
+      "Laundry & Household"
+    ],
+    "uk_complete": false,
+    "routing_note": "2026-09-22 SAVINGS INTL FIX: UK-only offers moved to UK Savings lane; International retains only multi-country/global (Mother's Earth). data-id values unchanged so existing localStorage first-picks remain valid."
   }
 }
