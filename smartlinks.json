@@ -1,0 +1,115 @@
+{
+  "system": "Sirocco Mesa SmartLink Registry",
+  "version": "1.0",
+  "status": "READY_FOR_GITHUB_PAGES_UPLOAD",
+  "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
+  "smartlinks": [
+    {
+      "release": "Equator",
+      "type": "collection",
+      "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html",
+      "local_file": "equator.html",
+      "status": "approved_test_build",
+      "contains": [
+        "verified direct music destinations",
+        "U.S. savings offers",
+        "international savings offers",
+        "one-offer choice logic",
+        "change savings choice control"
+      ]
+    },
+    {
+      "release": "Duende Azul",
+      "type": "collection",
+      "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html",
+      "local_file": "duende-azul.html",
+      "status": "approved_test_build",
+      "contains": [
+        "all six songs",
+        "live song SmartLinks for released songs",
+        "upcoming-song placeholders until verified",
+        "U.S. savings offers",
+        "international savings offers",
+        "one-offer choice logic",
+        "change savings choice control"
+      ]
+    }
+  ],
+  "employee_rules": {
+    "Music GM": [
+      "Treat smartlinks.json as the canonical SmartLink registry.",
+      "Route all SmartLink changes through the correct employee lane.",
+      "Do not allow alternate or duplicate public SmartLinks without Steve approval.",
+      "Track SmartLink status in Atlas/RJP/Status Board."
+    ],
+    "Submission Specialist": [
+      "After a song/release is live, capture and verify its exact direct DSP or Ditto SmartLink.",
+      "Do not use search-result links.",
+      "Write verified live destinations back to Atlas/RJP and notify Music GM."
+    ],
+    "Digital Media & Channel Growth": [
+      "Use the canonical collection SmartLink in posts, descriptions, blogs, profiles, QR destinations, and channel promotion where appropriate.",
+      "Do not substitute raw DSP links when the SmartLink is the intended campaign destination.",
+      "Track clicks and downstream performance where analytics are available."
+    ],
+    "Marketing Strategy & Analytics": [
+      "Use canonical SmartLinks in campaigns and free-distribution research.",
+      "Keep the music offer primary and savings layer supplemental.",
+      "Do not alter the core 20-city campaign.",
+      "Research and rank free placement opportunities only after SmartLinks are verified live."
+    ],
+    "Video Production": [
+      "Use the canonical SmartLink in video descriptions or handoff metadata when Digital Media requests it.",
+      "Do not create alternate campaign links."
+    ]
+  },
+  "global_rules": [
+    "Direct links only. No search-result links.",
+    "Savings access remains free and no-obligation.",
+    "Savings offers are rotating and must be re-verified before public promotion.",
+    "If an offer expires or materially changes, replace it rather than leaving a dead offer.",
+    "SmartLink public URLs should remain permanent while destinations behind them may be updated.",
+    "Any external publish/spend/account action remains approval-gated.",
+    "Final approved SmartLink assets and evidence must be saved back to the central Sirocco Mesa release filing system."
+  ],
+  "migration": {
+    "status": "FULL_HISTORICAL_SWEEP_REQUIRED",
+    "effective_rule": "Custom Sirocco Mesa SmartLinks are the primary public links. Ditto SmartLinks remain backend reference/fallback only.",
+    "canonical_custom_links": {
+      "Equator": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html",
+      "Duende Azul": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html"
+    },
+    "known_legacy_links": {
+      "Equator_Ditto": "https://ditto.fm/equator-sirocco-mesa",
+      "Fuego_de_Medianoche_Ditto": "https://ditto.fm/fuego-de-medianoche-duende-azul"
+    },
+    "audit_surfaces": [
+      "YouTube video descriptions",
+      "YouTube channel About / profile links",
+      "YouTube Shorts descriptions where editable",
+      "GitHub Pages stream/save hub",
+      "QR destination pages and QR source records",
+      "20-city campaign pages and assets",
+      "social profile bios and link fields",
+      "editable social posts",
+      "blogs and owned web pages",
+      "radio outreach copy and station resource pages under Sirocco Mesa control",
+      "press releases / EPK / media kits",
+      "email templates and outreach templates",
+      "release folders / metadata references",
+      "Atlas / RJP / Status Board",
+      "Grok employee prompts, SOPs, templates, and reusable posting assets",
+      "future campaign templates"
+    ],
+    "migration_rules": [
+      "Replace old public Ditto SmartLinks with the appropriate custom Sirocco Mesa SmartLink anywhere the placement is editable.",
+      "Do not delete Ditto SmartLinks from backend evidence or release records; relabel them as backend reference/fallback.",
+      "Do not alter unrelated URLs.",
+      "Do not break existing QR codes that already point to the permanent Sirocco Mesa GitHub Pages hub; update the destination page behind them instead.",
+      "Where a historical third-party placement cannot be edited, record it as UNEDITABLE LEGACY and leave evidence.",
+      "Do not create search-result links.",
+      "Verify every changed public link by opening it after publication.",
+      "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
+    ]
+  }
+}
