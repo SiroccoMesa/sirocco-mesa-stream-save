@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.9",
+  "version": "1.11",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -17,7 +17,8 @@
         "Equator+Duende custom SmartLinks",
         "Ash+Velvet Upcoming",
         "SAVINGS-002 U.S.+Intl",
-        "no public Ditto"
+        "no public Ditto",
+        "first-pick savings lock / no public reset"
       ]
     },
     {
@@ -38,7 +39,7 @@
         "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "Intl Auto Halfords Save 20% (UK Home Delivery)",
         "one-offer choice logic",
-        "change savings choice control"
+        "first-pick savings lock / no public reset"
       ]
     },
     {
@@ -61,7 +62,7 @@
         "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "Intl Auto Halfords Save 20% (UK Home Delivery)",
         "one-offer choice logic",
-        "change savings choice control",
+        "first-pick savings lock / no public reset",
         "Alegría custom song SmartLink live (alegria-de-la-vida.html)",
         "Fuego still on Ditto (Wave backlog — custom song page not yet built)"
       ]
@@ -88,7 +89,8 @@
         "no public Ditto",
         "SAVINGS-002 U.S.+Intl",
         "back link to duende-azul.html",
-        "?src= copy support"
+        "?src= copy support",
+        "first-pick savings lock / no public reset"
       ],
       "verified_destinations": {
         "spotify": "https://open.spotify.com/track/2Ny4B0m3yZAHoQSYbhPuum",
@@ -110,7 +112,7 @@
     "Music GM": [
       "Treat smartlinks.json as the canonical SmartLink registry.",
       "Route all SmartLink changes through the correct employee lane.",
-      "Do not allow alternate or duplicate public SmartLinks without Steve approval.",
+      "Do not allow alternate or duplicate public SmartLinks without Music GM approval.",
       "Track SmartLink status in Atlas/RJP/Status Board."
     ],
     "Submission Specialist": [
