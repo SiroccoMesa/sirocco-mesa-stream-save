@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.6",
+  "version": "1.7",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -12,7 +12,7 @@
       "status": "live",
       "contains": [
         "verified direct music destinations",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Food+Laundry+Personal Care",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl 4/4",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
@@ -20,6 +20,7 @@
         "Intl Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "Intl Laundry Mother's Earth Save 25% (one-time bundle)",
         "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
+        "Intl Auto Halfords Save 20% (UK Home Delivery)",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -34,7 +35,7 @@
         "all six songs",
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Food+Laundry+Personal Care",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl 4/4",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
@@ -42,6 +43,7 @@
         "Intl Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "Intl Laundry Mother's Earth Save 25% (one-time bundle)",
         "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
+        "Intl Auto Halfords Save 20% (UK Home Delivery)",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -210,10 +212,21 @@
         "countries": "UK only",
         "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off \u00a340 / 15% off \u00a330.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk/"
+      },
+      {
+        "category": "Auto & Transportation",
+        "merchant": "Halfords",
+        "label": "Save 20%",
+        "code": null,
+        "min": "no Motoring Club / email gate; delivery fee may apply under \u00a320",
+        "url": "https://www.halfords.com/motoring/car-cleaning/all-car-cleaning/halfords-advanced-glass-cleaner-500ml-811078.html",
+        "product": "Halfords Advanced Glass Cleaner 500ml (\u00a311.00 \u2192 \u00a38.80 / Save \u00a32.20)",
+        "countries": "UK (Home Delivery)",
+        "notes": "Automatic sale; NOT Motoring Club or email gated. Do not publish Chemical Guys.com intl, Meguiar's UK, or Halfords Autoglym 3-for-2 (prior REJECTS).",
+        "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/halfords-uk-glass/"
       }
     ],
-    "intl_empty": [
-      "Auto & Transportation"
-    ]
+    "intl_empty": [],
+    "intl_complete": true
   }
 }
