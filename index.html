@@ -1,168 +1,558 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Music Catalog — Sirocco Mesa</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sirocco Mesa — Music without borders | SmartLink Hub</title>
+<meta name="description" content="Sirocco Mesa central landing — Watch & Listen on YouTube, Spotify artist, collection SmartLinks, and everyday savings.">
 <style>
-  :root {
-    --bg:#0f0f0f; --fg:#f5f5f5; --muted:#a8a8a8; --accent:#c4a574;
-    --card:#161616; --line:#2a2a2a; --row:#1a1a1a;
-  }
-  * { box-sizing: border-box; }
-  body { margin:0; font-family: system-ui, -apple-system, Segoe UI, sans-serif; background:var(--bg); color:var(--fg); -webkit-font-smoothing:antialiased; }
-  main { max-width:560px; margin:0 auto; padding:32px 18px 64px; }
-  .brand { font-size:0.7rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--accent); margin:0 0 8px; }
-  h1 { font-size:1.7rem; font-weight:650; margin:0 0 6px; line-height:1.15; }
-  .tagline { color:var(--muted); margin:0 0 6px; }
-  .lead { color:var(--muted); margin:0 0 20px; font-size:0.95rem; line-height:1.45; }
-  nav.cols { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 28px; }
-  nav.cols a { color:var(--accent); text-decoration:none; font-size:0.72rem; letter-spacing:0.06em; text-transform:uppercase; border:1px solid var(--line); border-radius:999px; padding:7px 12px; background:var(--card); }
-  nav.cols a:hover { border-color:var(--accent); }
-  .ep { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; margin:0 0 22px; scroll-margin-top:16px; }
-  .ep-head { display:flex; gap:14px; align-items:center; margin:0 0 14px; }
-  .ep-head img { width:88px; height:88px; border-radius:10px; object-fit:cover; flex-shrink:0; background:#111; }
-  .ep-head h2 { font-size:1.05rem; margin:0 0 4px; font-weight:650; }
-  .ep-head p { margin:0; color:var(--muted); font-size:0.85rem; line-height:1.35; }
-  .ep-action { margin:0 0 12px; }
-  a.listen-ep {
-    display:inline-block; text-decoration:none; color:var(--bg); background:var(--accent);
-    font-size:0.78rem; font-weight:650; letter-spacing:0.04em; text-transform:uppercase;
-    padding:10px 14px; border-radius:999px;
-  }
-  .row {
-    display:flex; align-items:center; justify-content:space-between; gap:12px;
-    background:var(--row); border:1px solid var(--line); border-radius:10px;
-    padding:11px 12px; margin:0 0 8px;
-  }
-  .row .title { font-size:0.92rem; line-height:1.3; }
-  .row .meta { display:block; color:var(--muted); font-size:0.75rem; margin-top:2px; }
-  a.btn {
-    flex-shrink:0; text-decoration:none; color:var(--accent); border:1px solid var(--accent);
-    font-size:0.68rem; font-weight:650; letter-spacing:0.05em; text-transform:uppercase;
-    padding:8px 10px; border-radius:999px; white-space:nowrap;
-  }
-  a.btn:hover { background:rgba(196,165,116,0.12); }
-  .btn-off {
-    flex-shrink:0; color:var(--muted); border:1px solid var(--line);
-    font-size:0.68rem; letter-spacing:0.05em; text-transform:uppercase;
-    padding:8px 10px; border-radius:999px; white-space:nowrap; opacity:0.55;
-  }
-  .soon-note { color:var(--muted); font-size:0.8rem; margin:4px 0 0; }
-  .follow { margin-top:8px; }
-  .follow h2 { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin:0 0 12px; }
-  a.social {
-    display:block; background:var(--card); color:var(--fg); text-decoration:none;
-    padding:14px 16px; border-radius:12px; margin:0 0 10px; border:1px solid var(--line);
-  }
-  a.social strong { display:block; }
-  a.social span { display:block; color:var(--muted); font-size:0.85rem; margin-top:4px; }
+:root {
+  --bg1:#111;
+  --bg2:#241b14;
+  --card:rgba(255,255,255,.075);
+  --border:rgba(255,255,255,.14);
+  --text:#f8f3ea;
+  --muted:#c9c0b5;
+  --accent:#d7a35f;
+  --accent2:#f0c98c;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0;
+  min-height:100vh;
+  font-family:Arial,Helvetica,sans-serif;
+  background:
+    radial-gradient(circle at 50% -10%, rgba(215,163,95,.24), transparent 34%),
+    linear-gradient(160deg,var(--bg2),var(--bg1) 56%);
+  color:var(--text);
+  padding:28px 16px;
+}
+.wrap { width:min(100%,720px); margin:auto; }
+.card {
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:26px;
+  padding:30px 22px 22px;
+  box-shadow:0 18px 70px rgba(0,0,0,.35);
+  backdrop-filter:blur(10px);
+}
+.mark {
+  width:84px;height:84px;border-radius:50%;
+  border:2px solid rgba(240,201,140,.7);
+  display:grid;place-items:center;margin:0 auto 18px;
+  font-weight:800;font-size:28px;letter-spacing:2px;
+  color:var(--accent2);background:rgba(0,0,0,.2);
+}
+h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.05em; }
+.tagline { text-align:center;color:var(--muted);margin:9px auto 22px;line-height:1.5;max-width:540px; }
+
+.links { display:grid; gap:11px; }
+.btn {
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  text-decoration:none;color:var(--text);background:rgba(255,255,255,.08);
+  border:1px solid var(--border);border-radius:15px;padding:15px 17px;
+  min-height:58px;
+}
+.btn:hover { background:rgba(255,255,255,.13); }
+.btn.primary {
+  border-color:rgba(240,201,140,.48);
+  background:linear-gradient(135deg,rgba(215,163,95,.22),rgba(255,255,255,.07));
+  font-size:1.05em;
+  min-height:68px;
+  box-shadow:0 0 0 1px rgba(240,201,140,.18), 0 10px 28px rgba(0,0,0,.28);
+}
+.service { font-weight:800; }
+.note { color:var(--muted);font-size:12px;margin-left:auto; }
+.arrow { color:var(--accent2);font-size:18px; }
+
+.section-kicker {
+  color:var(--accent2);
+  text-align:center;
+  font-size:11px;
+  letter-spacing:.15em;
+  font-weight:800;
+}
+.catalog-section {
+  margin-top:26px;
+  padding-top:24px;
+  border-top:1px solid var(--border);
+}
+.catalog-section h2 {
+  text-align:center;
+  margin:6px 0 16px;
+  font-size:22px;
+}
+.catalog-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+.catalog-card {
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.055);
+  border-radius:15px;
+  padding:14px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.catalog-card img {
+  width:100%;
+  aspect-ratio:1;
+  object-fit:cover;
+  border-radius:12px;
+  background:rgba(0,0,0,.25);
+}
+.catalog-card h3 { margin:0; font-size:16px; }
+.catalog-meta { color:var(--muted); font-size:12px; line-height:1.4; margin:0; }
+.listen-link {
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  color:var(--text);
+  border:1px solid rgba(240,201,140,.45);
+  background:rgba(215,163,95,.14);
+  border-radius:11px;
+  padding:10px;
+  font-weight:800;
+  margin-top:auto;
+}
+.listen-link:hover { background:rgba(215,163,95,.22); }
+.badge {
+  display:inline-block;
+  font-size:10px;
+  border-radius:999px;
+  padding:7px 9px;
+  border:1px solid var(--border);
+  font-weight:800;
+  text-align:center;
+  margin-top:auto;
+}
+.live { color:#d9f6e1;border-color:rgba(154,231,174,.35);background:rgba(154,231,174,.08); }
+.upcoming { color:var(--accent2);border-color:rgba(240,201,140,.35);background:rgba(215,163,95,.08); }
+
+.savings-cta {
+  margin:18px 0 0;
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  color:var(--text);
+  padding:15px;
+  border:1px solid rgba(240,201,140,.58);
+  border-radius:15px;
+  background:linear-gradient(135deg,rgba(215,163,95,.24),rgba(255,255,255,.06));
+  font-weight:900;
+}
+.savings-cta small {
+  display:block;
+  font-size:11px;
+  font-weight:500;
+  color:var(--muted);
+  margin-top:4px;
+}
+
+.savings-section {
+  margin-top:26px;
+  padding-top:24px;
+  border-top:1px solid var(--border);
+}
+.savings-section h2 {
+  text-align:center;
+  margin:6px 0 8px;
+  font-size:28px;
+}
+.savings-intro {
+  text-align:center;
+  color:var(--muted);
+  max-width:560px;
+  margin:0 auto 18px;
+  line-height:1.5;
+}
+.offer-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+.offer {
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.055);
+  border-radius:15px;
+  padding:15px;
+}
+.offer.selected {
+  border-color:rgba(240,201,140,.75);
+  background:rgba(215,163,95,.12);
+}
+.offer.locked {
+  opacity:.45;
+}
+.offer-cat {
+  color:var(--accent2);
+  font-size:10px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  margin-bottom:6px;
+}
+.offer h3 { margin:0 0 5px; }
+.offer p { color:var(--muted);font-size:12px;line-height:1.45;min-height:50px; }
+.choose-offer { display:none !important; }
+.share-btn {
+  width:100%;
+  border:1px solid rgba(240,201,140,.45);
+  background:rgba(215,163,95,.14);
+  color:var(--text);
+  border-radius:11px;
+  padding:11px;
+  font-weight:800;
+  cursor:pointer;
+}
+.offer-link {
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  color:var(--text);
+  border:1px solid rgba(255,255,255,.15);
+  border-radius:11px;
+  padding:10px;
+  margin-top:8px;
+  font-weight:800;
+}
+.offer.selected .offer-link { display:block; }
+.savings-note {
+  text-align:center;
+  color:#9d968f;
+  font-size:11px;
+  line-height:1.45;
+  margin-top:12px;
+}
+.share { margin-top:16px; }
+.status { min-height:18px;text-align:center;color:var(--accent2);font-size:12px;margin-top:8px; }
+footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-top:17px; }
+
+.market-heading{
+  margin:20px 0 8px;
+  padding:10px 12px;
+  border-radius:11px;
+  border:1px solid rgba(240,201,140,.28);
+  background:rgba(255,255,255,.045);
+  color:var(--accent2);
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.market-note{
+  color:var(--muted);
+  font-size:11px;
+  line-height:1.45;
+  margin:0 2px 10px;
+}
+
+.offer.locked .offer-link{
+  pointer-events:none;
+  opacity:.35;
+}
+
+@media(max-width:620px){
+  .offer-grid { grid-template-columns:1fr; }
+  .catalog-grid { grid-template-columns:1fr; }
+  .note { display:none; }
+}
 </style>
 </head>
 <body>
-<main>
-  <div class="brand">Sirocco Mesa</div>
-  <h1>Music Catalog</h1>
-  <p class="tagline">Sounds of the World · One Wind</p>
-  <p class="lead">Choose a collection — then Listen / Save on your preferred music service.</p>
+<main class="wrap">
+<section class="card">
+  <div class="mark">SM</div>
+  <h1>SIROCCO MESA</h1>
+  <p class="tagline">Music without borders.</p>
 
-  <nav class="cols" aria-label="Collections">
-    <a href="#equator">Equator</a>
-    <a href="#duende">Duende Azul</a>
-    <a href="#ash">Ash &amp; Thunder</a>
-    <a href="#velvet">Velvet Voodoo</a>
-  </nav>
+  <div class="links">
+    <a class="btn primary" href="https://www.youtube.com/@SiroccoMesa" target="_blank" rel="noopener">
+      <span class="service">▶ Watch &amp; Listen on YouTube</span>
+      <span class="note">Official channel</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="https://open.spotify.com/artist/5d0U1202iintbVDJp7cGpa" target="_blank" rel="noopener noreferrer">
+      <span class="service">Spotify</span>
+      <span class="note">Artist profile</span>
+      <span class="arrow">›</span>
+    </a>
+  </div>
 
-  <!-- EQUATOR -->
-  <section class="ep" id="equator">
-    <div class="ep-head">
-      <img src="art/equator.jpg" alt="Equator cover"/>
-      <div>
-        <h2>Equator</h2>
-        <p>Spanish &amp; World Guitar — cinematic Spanish and world-guitar instrumentals.</p>
-      </div>
-    </div>
-    <div class="ep-action">
-      <a class="listen-ep" href="https://ditto.fm/equator-sirocco-mesa">Listen to full EP</a>
-    </div>
-    <div class="row"><div><span class="title">Sand Echo</span></div><a class="btn" href="https://ditto.fm/equator-sirocco-mesa">Listen / Save</a></div>
-    <div class="row"><div><span class="title">Vals de los Sueños</span></div><a class="btn" href="https://ditto.fm/equator-sirocco-mesa">Listen / Save</a></div>
-    <div class="row"><div><span class="title">The Wandering Dance</span></div><a class="btn" href="https://ditto.fm/equator-sirocco-mesa">Listen / Save</a></div>
-    <div class="row"><div><span class="title">Cuerdas de Fuego</span></div><a class="btn" href="https://ditto.fm/equator-sirocco-mesa">Listen / Save</a></div>
-    <div class="row"><div><span class="title">Old Village Roads</span></div><a class="btn" href="https://ditto.fm/equator-sirocco-mesa">Listen / Save</a></div>
-    <div class="row"><div><span class="title">Season Echo</span></div><a class="btn" href="https://ditto.fm/equator-sirocco-mesa">Listen / Save</a></div>
-    <p class="soon-note">Listen to the full Equator collection above.</p>
-  </section>
-
-  <!-- DUENDE AZUL -->
-  <section class="ep" id="duende">
-    <div class="ep-head">
-      <img src="art/duende.jpg" alt="Duende Azul cover"/>
-      <div>
-        <h2>Duende Azul</h2>
-        <p>Latin Jazz &amp; Spanish Guitar — warm Latin jazz, nylon guitar, late-night atmosphere.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div><span class="title">Fuego de Medianoche</span></div>
-      <a class="btn" href="https://ditto.fm/fuego-de-medianoche-duende-azul">Listen / Save</a>
-    </div>
-    <div class="row">
-      <div><span class="title">Alegría De La Vida</span><span class="meta">Listen now</span></div>
-      <a class="btn" href="https://ditto.fm/alegria-de-la-vida-duende-azul">Listen / Save</a>
-    </div>
-    <div class="row">
-      <div><span class="title">La Última Mirada</span><span class="meta">Sep 24</span></div>
-      <a class="btn" href="https://ditto.fm/la-ultima-mirada-sirocco-mesa">Listen / Save</a>
-    </div>
-    <div class="row">
-      <div><span class="title">Cuerdas de Fuego del Ensamble</span><span class="meta">Sep 25</span></div>
-      <a class="btn" href="https://ditto.fm/cuerdas-de-fuego-del-ensamble">Listen / Save</a>
-    </div>
-    <div class="row">
-      <div><span class="title">Entre Sombras</span><span class="meta">Sep 26</span></div>
-      <span class="btn-off">Coming soon</span>
-    </div>
-    <div class="row">
-      <div><span class="title">Corazón al Viento</span><span class="meta">Sep 27</span></div>
-      <span class="btn-off">Coming soon</span>
+  <section class="catalog-section" aria-label="Catalog">
+    <div class="section-kicker">CATALOG</div>
+    <h2>Collections</h2>
+    <div class="catalog-grid">
+      <article class="catalog-card">
+        <img src="art/equator.jpg" alt="Equator cover">
+        <h3>Equator</h3>
+        <p class="catalog-meta">Spanish &amp; World Guitar</p>
+        <a class="listen-link" data-src-append href="equator.html">Listen ›</a>
+      </article>
+      <article class="catalog-card">
+        <img src="art/duende.jpg" alt="Duende Azul cover">
+        <h3>Duende Azul</h3>
+        <p class="catalog-meta">Flamenco &amp; Blue</p>
+        <a class="listen-link" data-src-append href="duende-azul.html">Listen ›</a>
+      </article>
+      <article class="catalog-card">
+        <img src="art/ash.jpg" alt="Ash &amp; Thunder cover">
+        <h3>Ash &amp; Thunder</h3>
+        <p class="catalog-meta">Coming soon</p>
+        <span class="badge upcoming">Upcoming</span>
+      </article>
+      <article class="catalog-card">
+        <img src="art/velvet.jpg" alt="Velvet Voodoo cover">
+        <h3>Velvet Voodoo</h3>
+        <p class="catalog-meta">Coming soon</p>
+        <span class="badge upcoming">Upcoming</span>
+      </article>
     </div>
   </section>
 
-  <!-- ASH & THUNDER -->
-  <section class="ep" id="ash">
-    <div class="ep-head">
-      <img src="art/ash.jpg" alt="Ash and Thunder"/>
-      <div>
-        <h2>Ash &amp; Thunder</h2>
-        <p>Cinematic Heavy Metal — muscular riffs, cinematic weight, story-driven intensity.</p>
-      </div>
-    </div>
-    <div class="row"><div><span class="title">Grith</span><span class="meta">Sep 28</span></div><span class="btn-off">Coming soon</span></div>
-    <div class="row"><div><span class="title">Shadow Riders</span><span class="meta">Sep 29</span></div><span class="btn-off">Coming soon</span></div>
-    <div class="row"><div><span class="title">Some Night Nikad</span><span class="meta">Sep 30</span></div><span class="btn-off">Coming soon</span></div>
-    <div class="row"><div><span class="title">The One I Face</span><span class="meta">Oct 1</span></div><span class="btn-off">Coming soon</span></div>
-    <div class="row"><div><span class="title">The Pulse Within</span><span class="meta">Oct 2</span></div><span class="btn-off">Coming soon</span></div>
-    <p class="soon-note">Tracks appear here as they release.</p>
-  </section>
+  <a class="savings-cta" href="#savings">
+    Everyday Savings
+    <small>Free savings on things you already use.</small>
+  </a>
 
-  <!-- VELVET VOODOO -->
-  <section class="ep" id="velvet">
-    <div class="ep-head">
-      <img src="art/velvet.jpg" alt="Velvet Voodoo"/>
-      <div>
-        <h2>Velvet Voodoo</h2>
-        <p>Blues, Jazz &amp; Funk Fusion — deep-pocket grooves, blues color, late-night atmosphere.</p>
-      </div>
-    </div>
-    <p class="soon-note">Tracks appear here as they release.</p>
-  </section>
+  
+<section id="savings" class="savings-section">
+  <div class="section-kicker">EVERYDAY SAVINGS</div>
+  <p class="savings-intro" style="margin-top:10px;margin-bottom:6px;font-size:18px;font-weight:800;color:var(--text)">
+    Thanks for listening to Sirocco Mesa.</p>
+  <p class="savings-intro" style="margin-top:0;margin-bottom:6px">
+    Free savings on things you already use.</p>
+  <p class="savings-intro" style="margin-top:0;margin-bottom:18px">
+    Choose a savings offer below.</p>
 
-  <section class="follow">
-    <h2>Follow Sirocco Mesa</h2>
-    <a class="social" href="https://open.spotify.com/artist/5d0U1202iintbVDJp7cGpa"><strong>Spotify</strong><span>Artist page</span></a>
-    <a class="social" href="https://www.youtube.com/@SiroccoMesa"><strong>YouTube</strong><span>@SiroccoMesa</span></a>
-  </section>
+  <div class="market-heading">U.S. Savings</div>
+  <div class="market-note">Need-first categories. Only LIVE VERIFIED offers are listed.</div>
+  <div class="offer-grid">
+    <article class="offer" data-id="us-food-vitacost">
+      <div class="offer-cat">🛒 Food &amp; Groceries · Save 15%</div>
+      <h3>Vitacost</h3>
+      <p>15% off select Pantry Essentials — auto-applied at checkout. No code, no signup. $0 minimum. Ends Sep 28, 2026, 7:00 a.m. ET.</p>
+      <a class="offer-link" data-id="us-food-vitacost" href="https://www.vitacost.com/pages/coupons-deals-and-discounts" target="_blank" rel="noopener noreferrer">Get Food Savings ›</a>
+    </article>
+    <article class="offer" data-id="us-laundry-ma5x">
+      <div class="offer-cat">🧺 Laundry &amp; Household · Save 15%</div>
+      <h3>MA5X</h3>
+      <p>Code <strong>FALL15</strong> · $0 minimum. Eligible janitorial, marine, and auto products. Bulk &amp; wholesale excluded. Expires Sep 30, 2026 (ET).</p>
+      <a class="offer-link" data-id="us-laundry-ma5x" href="https://ma5x.com/pages/deals-discounts-promo-codes" target="_blank" rel="noopener noreferrer">Get Laundry Savings ›</a>
+    </article>
+    <article class="offer" data-id="us-personal-swanson">
+      <div class="offer-cat">🧴 Personal Care · Save 40%</div>
+      <h3>Swanson</h3>
+      <p>Automatic sale pricing on select essentials — Save 40% in cart. No code, no signup. $0 minimum on the sale discount. US offers; items rotate.</p>
+      <a class="offer-link" data-id="us-personal-swanson" href="https://www.swansonvitamins.com/collections/all?facet.onsalenow=Y" target="_blank" rel="noopener noreferrer">Get Personal Care Savings ›</a>
+    </article>
+    <article class="offer" data-id="us-auto-chemicalguys">
+      <div class="offer-cat">🚗 Auto &amp; Transportation · Save 10%</div>
+      <h3>Chemical Guys</h3>
+      <p>Automatic sale pricing on select car-care essentials — no code, no signup. $0 minimum on the sale discount. Items rotate; check current deals on arrival.</p>
+      <a class="offer-link" data-id="us-auto-chemicalguys" href="https://www.chemicalguys.com/collections/on-sale" target="_blank" rel="noopener noreferrer">Get Auto Savings ›</a>
+    </article>
+  </div>
+
+
+  <div class="market-heading">International Savings</div>
+  <div class="market-note">Need-first categories. Only country-usable LIVE VERIFIED offers are listed.</div>
+  <div class="offer-grid">
+    <article class="offer" data-id="intl-food-holland-barrett">
+      <div class="offer-cat">🛒 Food &amp; Groceries · 3 for 2 Mix &amp; Match</div>
+      <h3>Holland &amp; Barrett</h3>
+      <p><strong>UK only</strong> — this storefront does not ship USA/AU/EU for this path. 3 for 2 Mix &amp; Match on qualifying pantry essentials (third item free in basket). No code, no membership. Not the £40/£30 %-off thresholds.</p>
+      <a class="offer-link" data-id="intl-food-holland-barrett" href="https://www.hollandandbarrett.com/shop/offers/3-for-2-mix-match" target="_blank" rel="noopener noreferrer">Get Food Savings ›</a>
+    </article>
+    <article class="offer" data-id="intl-laundry-mothers-earth">
+      <div class="offer-cat">🧺 Laundry &amp; Household · Save 25%</div>
+      <h3>Mother’s Earth</h3>
+      <p>One-time Laundry Sheets + Scent Beads Value Bundle — Save 25% in cart. No code, no signup. $0 minimum. Ships from NL to AU, CA, UK, US, and listed EU. Duties/taxes may apply at address.</p>
+      <a class="offer-link" data-id="intl-laundry-mothers-earth" href="https://mothersearth.com/" target="_blank" rel="noopener noreferrer">Get Laundry Savings ›</a>
+    </article>
+    <article class="offer" data-id="intl-personal-holland-barrett">
+      <div class="offer-cat">🧴 Personal Care · 3 for 2 Mix &amp; Match</div>
+      <h3>Holland &amp; Barrett</h3>
+      <p><strong>UK only</strong> — this storefront does not ship USA/AU/EU for this path. 3 for 2 Mix &amp; Match on qualifying essentials (third item free in basket). No code, no membership. Not the £40/£30 %-off thresholds.</p>
+      <a class="offer-link" data-id="intl-personal-holland-barrett" href="https://www.hollandandbarrett.com/shop/offers/" target="_blank" rel="noopener noreferrer">Get Personal Care Savings ›</a>
+    </article>
+    <article class="offer" data-id="intl-auto-halfords">
+      <div class="offer-cat">🚗 Auto &amp; Transportation · Save 20%</div>
+      <h3>Halfords</h3>
+      <p><strong>UK</strong> — Home Delivery; delivery fee may apply under £20. Automatic sale pricing on verified car-care essentials (e.g. Advanced Glass Cleaner Save 20% / Save £2.20). No Motoring Club or email gate required. Items rotate.</p>
+      <a class="offer-link" data-id="intl-auto-halfords" href="https://www.halfords.com/motoring/car-cleaning/all-car-cleaning/halfords-advanced-glass-cleaner-500ml-811078.html" target="_blank" rel="noopener noreferrer">Get Auto Savings ›</a>
+    </article>
+  </div>
+
+  
+  <div style="text-align:center;margin-top:12px">
+    <button id="resetSavingsChoice" type="button" style="
+      border:1px solid rgba(255,255,255,.16);
+      background:rgba(255,255,255,.05);
+      color:var(--muted);
+      border-radius:10px;
+      padding:9px 12px;
+      cursor:pointer;
+      font-size:11px;
+      font-weight:700;">
+      Change Savings Choice
+    </button>
+  </div>
+
+  <div class="savings-note">
+    Pick one offer overall. Offers can change or expire — only LIVE VERIFIED destinations are shown.
+  </div>
+</section>
+
+
+  <div class="share"><button class="share-btn" id="copyBtn">Copy This Landing Link</button></div>
+  <div class="status" id="status"></div>
+  <footer>Central Sirocco Mesa landing / SmartLink hub<br>Independent artist hub — Watch, listen, and everyday savings in one place.</footer>
+</section>
 </main>
+<script>
+(function srcParamSupport() {
+  const params = new URLSearchParams(location.search);
+  const src = params.get("src");
+  if (src) {
+    try { sessionStorage.setItem("siroccoMesaSrc", src); } catch (e) {}
+  }
+  const persisted = src || (function () {
+    try { return sessionStorage.getItem("siroccoMesaSrc"); } catch (e) { return null; }
+  })();
+  if (!persisted) return;
+
+  document.querySelectorAll("a[data-src-append]").forEach(a => {
+    try {
+      const url = new URL(a.getAttribute("href"), location.href);
+      if (url.origin !== location.origin) return;
+      if (!url.searchParams.has("src")) {
+        url.searchParams.set("src", persisted);
+      }
+      // Keep relative if original was relative (no leading http)
+      const original = a.getAttribute("href");
+      if (!/^https?:/i.test(original)) {
+        a.setAttribute("href", url.pathname.split("/").pop() + url.search + url.hash);
+      } else {
+        a.setAttribute("href", url.toString());
+      }
+    } catch (e) {}
+  });
+})();
+
+const choiceKey = "siroccoMesaSavingsChoiceV4_necessities";
+const offerCards = [...document.querySelectorAll(".offer")];
+
+function refreshOffers() {
+  let picked = localStorage.getItem(choiceKey);
+
+  const validIds = offerCards.map(card => card.dataset.id);
+  if (picked && !validIds.includes(picked)) {
+    localStorage.removeItem(choiceKey);
+    picked = null;
+  }
+
+  offerCards.forEach(card => {
+    const id = card.dataset.id;
+    const btn = card.querySelector(".choose-offer");
+    card.classList.remove("selected","locked");
+    const directLink = card.querySelector(".offer-link");
+    if (directLink) {
+      directLink.style.pointerEvents = "auto";
+      directLink.style.opacity = "1";
+    }
+    if (btn) {
+      btn.disabled = false;
+      btn.textContent = "Choose This Offer";
+    }
+
+    if (picked) {
+      if (picked === id) {
+        card.classList.add("selected");
+        if (btn) btn.textContent = "Selected";
+      } else {
+        card.classList.add("locked");
+        if (btn) btn.disabled = true;
+        if (directLink) {
+          directLink.style.pointerEvents = "none";
+          directLink.style.opacity = ".35";
+        }
+      }
+    }
+  });
+}
+
+document.querySelectorAll(".choose-offer").forEach(btn => {
+  btn.addEventListener("click", () => {
+    if (!localStorage.getItem(choiceKey)) {
+      localStorage.setItem(choiceKey, btn.dataset.id);
+      refreshOffers();
+    }
+  });
+});
+refreshOffers();
+
+
+document.querySelectorAll(".offer-link").forEach(link => {
+  link.addEventListener("click", (e) => {
+    const id = link.dataset.id;
+    const picked = localStorage.getItem(choiceKey);
+    if (!picked && id) {
+      localStorage.setItem(choiceKey, id);
+      refreshOffers();
+      return; // allow the same click to open the destination
+    }
+    if (picked && picked !== id) {
+      e.preventDefault();
+      const status = document.getElementById("status");
+      if (status) {
+        status.textContent = "You already selected one savings offer on this browser.";
+        setTimeout(() => status.textContent = "", 3000);
+      }
+    }
+  });
+});
+
+
+const resetSavingsChoice = document.getElementById("resetSavingsChoice");
+if (resetSavingsChoice) {
+  resetSavingsChoice.addEventListener("click", () => {
+    localStorage.removeItem(choiceKey);
+    refreshOffers();
+
+    // Re-enable all direct savings links immediately.
+    document.querySelectorAll(".offer-link").forEach(link => {
+      link.style.pointerEvents = "auto";
+      link.style.opacity = "1";
+    });
+
+    const status = document.getElementById("status");
+    if (status) {
+      status.textContent = "Savings choices unlocked. Pick a new offer.";
+      setTimeout(() => status.textContent = "", 3000);
+    }
+
+    // Keep the user at the savings section after reset.
+    const savings = document.getElementById("savings");
+    if (savings) savings.scrollIntoView({behavior:"smooth", block:"start"});
+  });
+}
+
+const copyBtn = document.getElementById("copyBtn");
+if (copyBtn) {
+  copyBtn.addEventListener("click", async () => {
+    const status = document.getElementById("status");
+    try {
+      await navigator.clipboard.writeText(location.href);
+      status.textContent = "Landing link copied.";
+    } catch(e) {
+      status.textContent = "Copy blocked — copy the address from the browser.";
+    }
+    setTimeout(() => status.textContent = "", 2500);
+  });
+}
+</script>
 </body>
 </html>

@@ -1,9 +1,25 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.7",
+  "version": "1.8",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
+    {
+      "release": "Central Landing",
+      "type": "landing",
+      "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/",
+      "local_file": "index.html",
+      "status": "live",
+      "contains": [
+        "LANDING-001 Path B",
+        "YouTube primary CTA",
+        "Spotify artist (verified)",
+        "Equator+Duende custom SmartLinks",
+        "Ash+Velvet Upcoming",
+        "SAVINGS-002 U.S.+Intl",
+        "no public Ditto"
+      ]
+    },
     {
       "release": "Equator",
       "type": "collection",
@@ -91,7 +107,8 @@
     "effective_rule": "Custom Sirocco Mesa SmartLinks are the primary public links. Ditto SmartLinks remain backend reference/fallback only.",
     "canonical_custom_links": {
       "Equator": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html",
-      "Duende Azul": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html"
+      "Duende Azul": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html",
+      "Central Landing": "https://siroccomesa.github.io/sirocco-mesa-stream-save/"
     },
     "known_legacy_links": {
       "Equator_Ditto": "https://ditto.fm/equator-sirocco-mesa",
@@ -184,10 +201,10 @@
         "merchant": "Holland & Barrett",
         "label": "3 for 2 Mix & Match",
         "code": null,
-        "min": "no \u00a330\u2013\u00a340 %-off threshold",
+        "min": "no £30–£40 %-off threshold",
         "url": "https://www.hollandandbarrett.com/shop/offers/3-for-2-mix-match",
         "countries": "UK only",
-        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off \u00a340 / 15% off \u00a330.",
+        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off £40 / 15% off £30.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk-food/"
       },
       {
@@ -207,10 +224,10 @@
         "merchant": "Holland & Barrett",
         "label": "3 for 2 Mix & Match",
         "code": null,
-        "min": "$0 / no \u00a330\u2013\u00a340 %-off threshold",
+        "min": "$0 / no £30–£40 %-off threshold",
         "url": "https://www.hollandandbarrett.com/shop/offers/",
         "countries": "UK only",
-        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off \u00a340 / 15% off \u00a330.",
+        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off £40 / 15% off £30.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk/"
       },
       {
@@ -218,9 +235,9 @@
         "merchant": "Halfords",
         "label": "Save 20%",
         "code": null,
-        "min": "no Motoring Club / email gate; delivery fee may apply under \u00a320",
+        "min": "no Motoring Club / email gate; delivery fee may apply under £20",
         "url": "https://www.halfords.com/motoring/car-cleaning/all-car-cleaning/halfords-advanced-glass-cleaner-500ml-811078.html",
-        "product": "Halfords Advanced Glass Cleaner 500ml (\u00a311.00 \u2192 \u00a38.80 / Save \u00a32.20)",
+        "product": "Halfords Advanced Glass Cleaner 500ml (£11.00 → £8.80 / Save £2.20)",
         "countries": "UK (Home Delivery)",
         "notes": "Automatic sale; NOT Motoring Club or email gated. Do not publish Chemical Guys.com intl, Meguiar's UK, or Halfords Autoglym 3-for-2 (prior REJECTS).",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/halfords-uk-glass/"
