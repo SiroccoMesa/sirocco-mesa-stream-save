@@ -1,7 +1,7 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.0",
-  "status": "READY_FOR_GITHUB_PAGES_UPLOAD",
+  "version": "1.1",
+  "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
     {
@@ -9,11 +9,12 @@
       "type": "collection",
       "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html",
       "local_file": "equator.html",
-      "status": "approved_test_build",
+      "status": "live",
       "contains": [
         "verified direct music destinations",
-        "U.S. savings offers",
-        "international savings offers",
+        "need-first everyday savings (SAVINGS-002)",
+        "U.S. Laundry MA5X FALL15",
+        "U.S. Auto Chemical Guys on-sale Save 10%",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -23,13 +24,14 @@
       "type": "collection",
       "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html",
       "local_file": "duende-azul.html",
-      "status": "approved_test_build",
+      "status": "live",
       "contains": [
         "all six songs",
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
-        "U.S. savings offers",
-        "international savings offers",
+        "need-first everyday savings (SAVINGS-002)",
+        "U.S. Laundry MA5X FALL15",
+        "U.S. Auto Chemical Guys on-sale Save 10%",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -111,5 +113,41 @@
       "Verify every changed public link by opening it after publication.",
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
+  },
+  "updated": "2026-09-22",
+  "savings": {
+    "sop": "SM-SOP-SAVINGS-002",
+    "layout": "need-first",
+    "framing_locked": [
+      "EVERYDAY SAVINGS",
+      "Thanks for listening to Sirocco Mesa.",
+      "Free savings on things you already use.",
+      "Choose a savings offer below."
+    ],
+    "us_live": [
+      {
+        "category": "Laundry & Household",
+        "merchant": "MA5X",
+        "label": "Save 15%",
+        "code": "FALL15",
+        "min": "$0",
+        "url": "https://ma5x.com/pages/deals-discounts-promo-codes",
+        "expires": "2026-09-30 ET"
+      },
+      {
+        "category": "Auto & Transportation",
+        "merchant": "Chemical Guys",
+        "label": "Save 10%",
+        "code": null,
+        "min": "$0",
+        "url": "https://www.chemicalguys.com/collections/on-sale",
+        "notes": "Automatic sale pricing; items rotate"
+      }
+    ],
+    "us_empty": [
+      "Food & Groceries",
+      "Personal Care"
+    ],
+    "intl_live": []
   }
 }
