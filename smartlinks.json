@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.14",
+  "version": "1.15",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -16,7 +16,7 @@
         "Spotify artist (verified)",
         "Equator+Duende custom SmartLinks",
         "Ash+Velvet Upcoming",
-        "SAVINGS-002 U.S.+UK+Intl",
+        "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "no public Ditto",
         "first-pick savings lock / no public reset"
       ]
@@ -29,15 +29,15 @@
       "status": "live",
       "contains": [
         "verified direct music destinations",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + UK 3 + intl 1 (Mother's Earth only)",
+        "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "UK Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
-        "UK Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
-        "UK Auto Halfords Save 20% (UK Home Delivery)",
-        "Intl Laundry Mother's Earth Save 25% (one-time bundle; multi-country)",
+        "Intl Laundry Mother’s Earth Laundry Bundle — 25% off one-time",
+        "Intl Food iHerb — 35% off Granola Bars",
+        "Intl Personal Care LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
+        "Intl Auto Detailing1 — 40% off D-CON Snow Foam",
         "one-offer choice logic",
         "first-pick savings lock / no public reset"
       ]
@@ -52,19 +52,19 @@
         "all six songs",
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + UK 3 + intl 1 (Mother's Earth only)",
+        "Alegría custom song SmartLink live (alegria-de-la-vida.html)",
+        "Fuego still on Ditto (Wave backlog — custom song page not yet built)",
+        "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "UK Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
-        "UK Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
-        "UK Auto Halfords Save 20% (UK Home Delivery)",
-        "Intl Laundry Mother's Earth Save 25% (one-time bundle; multi-country)",
+        "Intl Laundry Mother’s Earth Laundry Bundle — 25% off one-time",
+        "Intl Food iHerb — 35% off Granola Bars",
+        "Intl Personal Care LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
+        "Intl Auto Detailing1 — 40% off D-CON Snow Foam",
         "one-offer choice logic",
-        "first-pick savings lock / no public reset",
-        "Alegría custom song SmartLink live (alegria-de-la-vida.html)",
-        "Fuego still on Ditto (Wave backlog — custom song page not yet built)"
+        "first-pick savings lock / no public reset"
       ]
     },
     {
@@ -87,7 +87,7 @@
         "iHeartRadio song 431938120",
         "omitted: KKBOX, Apple Music, Amazon Music",
         "no public Ditto",
-        "SAVINGS-002 U.S.+UK+Intl",
+        "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "back link to duende-azul.html",
         "?src= copy support",
         "first-pick savings lock / no public reset"
@@ -308,7 +308,7 @@
       "heading": "UK Savings",
       "public": false,
       "removed_2026_09_22": true,
-      "reason": "Steve SUPERSEDE: UK Savings option/group removed from all public Pages; UK-only offers not shown under International."
+      "reason": "Steve SUPERSEDE: UK Savings option/group removed from all public Pages; UK-only offers not shown under International. Registry retains uk_live for ops history only."
     },
     "intl_note": "Need-first categories. Only multi-country / global LIVE VERIFIED offers are listed.",
     "uk_live": [
@@ -321,7 +321,7 @@
         "url": "https://www.hollandandbarrett.com/shop/offers/3-for-2-mix-match",
         "countries": "UK only",
         "data_id": "intl-food-holland-barrett",
-        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off £40 / 15% off £30. Routed to UK Savings lane (was intl).",
+        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off £40 / 15% off £30. Historical UK-only offer; do not stage on public Pages.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk-food/"
       },
       {
@@ -333,7 +333,7 @@
         "url": "https://www.hollandandbarrett.com/shop/offers/",
         "countries": "UK only",
         "data_id": "intl-personal-holland-barrett",
-        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off £40 / 15% off £30. Routed to UK Savings lane (was intl).",
+        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off £40 / 15% off £30. Historical UK-only offer; do not stage on public Pages.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk/"
       },
       {
@@ -346,7 +346,7 @@
         "product": "Halfords Advanced Glass Cleaner 500ml (£11.00 → £8.80 / Save £2.20)",
         "countries": "UK (Home Delivery)",
         "data_id": "intl-auto-halfords",
-        "notes": "Automatic sale; NOT Motoring Club or email gated. Do not publish Chemical Guys.com intl, Meguiar's UK, or Halfords Autoglym 3-for-2 (prior REJECTS). Routed to UK Savings lane (was intl).",
+        "notes": "NOT PUBLIC (uk_lane.public:false). Automatic sale; NOT Motoring Club or email gated. Do not publish Chemical Guys.com intl, Meguiar's UK, or Halfords Autoglym 3-for-2 (prior REJECTS). Historical UK-only offer; do not stage on public Pages.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/halfords-uk-glass/"
       }
     ],
@@ -354,6 +354,6 @@
       "Laundry & Household"
     ],
     "uk_complete": false,
-    "routing_note": "2026-09-22 SAVINGS-002 International STAGE: 4/4 multi-country LIVE VERIFIED (Mother’s Earth, iHerb Food, LOOKFANTASTIC/INKEY, Detailing1). No UK Savings public lane. Reject for International: Chemical Guys, Auto Finesse, H&B, Halfords. U.S. 4/4 unchanged."
+    "routing_note": "2026-09-22 LIVE: U.S. 4/4 + International 4/4 (Mother’s Earth, iHerb Food, LOOKFANTASTIC/INKEY, Detailing1). UK lane public:false — do not stage UK-only on public Pages or into International. Reject for International: Chemical Guys, Auto Finesse, H&B, Halfords."
   }
 }
