@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.13",
+  "version": "1.14",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -245,22 +245,61 @@
         "category": "Laundry & Household",
         "merchant": "Mother's Earth",
         "label": "Save 25%",
+        "public_label": "Mother’s Earth Laundry Bundle — 25% off one-time",
         "code": null,
         "min": "$0",
-        "url": "https://mothersearth.com/",
-        "product": "One-time Laundry Sheets + Scent Beads Value Bundle",
-        "countries": "AU, CA, UK, US, and listed EU (AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE + Channel Isles)",
+        "url": "https://mothersearth.com/products/scent-beads-laundry",
+        "product": "Eco-Friendly Laundry Sheets + Scent Beads Value Bundle (one-time)",
+        "countries": "AU, CA, UK, US, listed EU (ships NL)",
         "data_id": "intl-laundry-mothers-earth",
-        "notes": "Ships from NL; duties/taxes may apply at address. Label must be Save 25% (not 40%). Multi-country/global — remains in International Savings.",
+        "notes": "Cart one-time = 25% ($140 vs $187). Do NOT use 40%/47% subscription CTAs.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/mothers-earth-bundle/"
+      },
+      {
+        "category": "Food & Groceries",
+        "merchant": "iHerb",
+        "label": "Save 35%",
+        "public_label": "iHerb Food — 35% off Granola Bars",
+        "code": null,
+        "min": "$0",
+        "url": "https://ca.iherb.com/deals?cids=2992&soa=true",
+        "product": "California Gold Nutrition Wild Blueberry & Almond Chewy Granola Bars",
+        "countries": "180+ countries",
+        "data_id": "intl-food-iherb",
+        "notes": "Marketing cart-tested 2026-09-22.",
+        "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/iherb-food/"
+      },
+      {
+        "category": "Personal Care / Basic Health",
+        "merchant": "LOOKFANTASTIC / The INKEY List",
+        "label": "Save 20%",
+        "public_label": "LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
+        "code": null,
+        "min": "$0",
+        "url": "https://www.lookfantastic.com/p/the-inkey-list-bio-active-ceramide-moisturizer-50ml/14992375/",
+        "product": "The INKEY List Bio-Active Ceramide Moisturizer 50ml",
+        "countries": "Multi-country intl delivery (EU + AU/CA/US etc.)",
+        "data_id": "intl-personal-lookfantastic-inkey",
+        "notes": "No EXTRA/Premier code required for labeled 20%. Backup: iHerb Petal Fresh Hair ResQ 60%.",
+        "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/lookfantastic-inkey/"
+      },
+      {
+        "category": "Auto & Transportation",
+        "merchant": "Detailing1",
+        "label": "Save 40%",
+        "public_label": "Detailing1 — 40% off D-CON Snow Foam",
+        "code": null,
+        "min": "$0",
+        "url": "https://detailing1.co/products/d-con-snow-foam-concentrate-reinigungsschaum",
+        "product": "D-CON Snow-Foam-Concentrate",
+        "countries": "EU + NA + Asia + AU/NZ",
+        "data_id": "intl-auto-detailing1",
+        "notes": "Marketing cart-tested 2026-09-22. REJECT Chemical Guys / Auto Finesse for International.",
+        "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/detailing1-auto/"
       }
     ],
-    "intl_empty": [
-      "Food & Groceries",
-      "Personal Care / Basic Health",
-      "Auto & Transportation"
-    ],
-    "intl_complete": false,
+    "intl_empty": [],
+    "intl_complete": true,
     "market_order": [
       "us",
       "international"
@@ -315,6 +354,6 @@
       "Laundry & Household"
     ],
     "uk_complete": false,
-    "routing_note": "2026-09-22 SAVINGS SUPERSEDE (Steve): REMOVE UK Savings group from all public landing/SmartLink pages. Public order: U.S. Savings → International Savings (multi-country/global only). Do NOT put UK-only offers into International. Empty intl Food/Personal Care/Auto stay empty until Marketing LIVE VERIFIED multi-country replacements."
+    "routing_note": "2026-09-22 SAVINGS-002 International STAGE: 4/4 multi-country LIVE VERIFIED (Mother’s Earth, iHerb Food, LOOKFANTASTIC/INKEY, Detailing1). No UK Savings public lane. Reject for International: Chemical Guys, Auto Finesse, H&B, Halfords. U.S. 4/4 unchanged."
   }
 }
