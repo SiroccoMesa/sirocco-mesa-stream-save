@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.5",
+  "version": "1.6",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -12,11 +12,12 @@
       "status": "live",
       "contains": [
         "verified direct music destinations",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Laundry+Personal Care",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Food+Laundry+Personal Care",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
+        "Intl Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "Intl Laundry Mother's Earth Save 25% (one-time bundle)",
         "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "one-offer choice logic",
@@ -33,11 +34,12 @@
         "all six songs",
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Laundry+Personal Care",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Food+Laundry+Personal Care",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
+        "Intl Food Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "Intl Laundry Mother's Earth Save 25% (one-time bundle)",
         "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "one-offer choice logic",
@@ -176,6 +178,17 @@
     "us_empty": [],
     "intl_live": [
       {
+        "category": "Food & Groceries",
+        "merchant": "Holland & Barrett",
+        "label": "3 for 2 Mix & Match",
+        "code": null,
+        "min": "no \u00a330\u2013\u00a340 %-off threshold",
+        "url": "https://www.hollandandbarrett.com/shop/offers/3-for-2-mix-match",
+        "countries": "UK only",
+        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off \u00a340 / 15% off \u00a330.",
+        "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk-food/"
+      },
+      {
         "category": "Laundry & Household",
         "merchant": "Mother's Earth",
         "label": "Save 25%",
@@ -200,7 +213,6 @@
       }
     ],
     "intl_empty": [
-      "Food & Groceries",
       "Auto & Transportation"
     ]
   }
