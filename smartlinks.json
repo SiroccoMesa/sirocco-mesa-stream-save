@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.4",
+  "version": "1.5",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -12,12 +12,13 @@
       "status": "live",
       "contains": [
         "verified direct music destinations",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Laundry 1/4",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Laundry+Personal Care",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
         "Intl Laundry Mother's Earth Save 25% (one-time bundle)",
+        "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -32,12 +33,13 @@
         "all six songs",
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
-        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Laundry 1/4",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4 + intl Laundry+Personal Care",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
         "Intl Laundry Mother's Earth Save 25% (one-time bundle)",
+        "Intl Personal Care Holland & Barrett 3 for 2 Mix & Match (UK only)",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -182,13 +184,23 @@
         "url": "https://mothersearth.com/",
         "product": "One-time Laundry Sheets + Scent Beads Value Bundle",
         "countries": "AU, CA, UK, US, and listed EU (AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE + Channel Isles)",
-        "notes": "Ships from NL; duties/taxes may apply at address. Label must be Save 25% (not 40%). Food/PC/Auto intl remain empty.",
+        "notes": "Ships from NL; duties/taxes may apply at address. Label must be Save 25% (not 40%).",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/mothers-earth-bundle/"
+      },
+      {
+        "category": "Personal Care / Basic Health",
+        "merchant": "Holland & Barrett",
+        "label": "3 for 2 Mix & Match",
+        "code": null,
+        "min": "$0 / no \u00a330\u2013\u00a340 %-off threshold",
+        "url": "https://www.hollandandbarrett.com/shop/offers/",
+        "countries": "UK only",
+        "notes": "UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off \u00a340 / 15% off \u00a330.",
+        "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk/"
       }
     ],
     "intl_empty": [
       "Food & Groceries",
-      "Personal Care / Basic Health",
       "Auto & Transportation"
     ]
   }
