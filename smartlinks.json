@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.2",
+  "version": "1.3",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -12,10 +12,11 @@
       "status": "live",
       "contains": [
         "verified direct music destinations",
-        "need-first everyday savings (SAVINGS-002)",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4",
+        "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
-        "U.S. Auto Chemical Guys on-sale Save 10%",
-        "U.S. Personal Care Swanson on-sale Save 40%",
+        "U.S. Personal Care Swanson Save 40%",
+        "U.S. Auto Chemical Guys Save 10%",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -30,10 +31,11 @@
         "all six songs",
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
-        "need-first everyday savings (SAVINGS-002)",
+        "need-first everyday savings (SAVINGS-002) U.S. 4/4",
+        "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
-        "U.S. Auto Chemical Guys on-sale Save 10%",
-        "U.S. Personal Care Swanson on-sale Save 40%",
+        "U.S. Personal Care Swanson Save 40%",
+        "U.S. Auto Chemical Guys Save 10%",
         "one-offer choice logic",
         "change savings choice control"
       ]
@@ -120,6 +122,7 @@
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
+    "us_complete": true,
     "framing_locked": [
       "EVERYDAY SAVINGS",
       "Thanks for listening to Sirocco Mesa.",
@@ -127,6 +130,17 @@
       "Choose a savings offer below."
     ],
     "us_live": [
+      {
+        "category": "Food & Groceries",
+        "merchant": "Vitacost",
+        "label": "Save 15%",
+        "code": null,
+        "min": "$0",
+        "url": "https://www.vitacost.com/pages/coupons-deals-and-discounts",
+        "collection_ref": "https://www.vitacost.com/collections/select-pantry-essentials",
+        "notes": "Pantry Essentials auto at checkout; do not use SMS/email 25% welcome",
+        "expires": "2026-09-28 7:00 a.m. ET"
+      },
       {
         "category": "Laundry & Household",
         "merchant": "MA5X",
@@ -137,15 +151,6 @@
         "expires": "2026-09-30 ET"
       },
       {
-        "category": "Auto & Transportation",
-        "merchant": "Chemical Guys",
-        "label": "Save 10%",
-        "code": null,
-        "min": "$0",
-        "url": "https://www.chemicalguys.com/collections/on-sale",
-        "notes": "Automatic sale pricing; items rotate"
-      },
-      {
         "category": "Personal Care / Basic Health",
         "merchant": "Swanson",
         "label": "Save 40%",
@@ -153,11 +158,18 @@
         "min": "$0",
         "url": "https://www.swansonvitamins.com/collections/all?facet.onsalenow=Y",
         "notes": "Automatic sale in cart; US-only; items rotate"
+      },
+      {
+        "category": "Auto & Transportation",
+        "merchant": "Chemical Guys",
+        "label": "Save 10%",
+        "code": null,
+        "min": "$0",
+        "url": "https://www.chemicalguys.com/collections/on-sale",
+        "notes": "Automatic sale pricing; items rotate"
       }
     ],
-    "us_empty": [
-      "Food & Groceries"
-    ],
+    "us_empty": [],
     "intl_live": []
   }
 }
