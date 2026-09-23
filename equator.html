@@ -178,9 +178,6 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
   border-color:rgba(240,201,140,.75);
   background:rgba(215,163,95,.12);
 }
-.offer.locked {
-  opacity:.45;
-}
 .offer-cat {
   color:var(--accent2);
   font-size:10px;
@@ -268,11 +265,6 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
   margin:0 2px 10px;
 }
 
-
-.offer.locked .offer-link{
-  pointer-events:none;
-  opacity:.35;
-}
 
 @media(max-width:620px){
   .offer-grid { grid-template-columns:1fr; }
@@ -414,7 +406,7 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
   </div>
 
   <div class="savings-note">
-    Choice locks on this browser; offers rotate via site updates.
+    Offers rotate via site updates. Merchant one-use or expiry rules may still apply.
   </div>
 </section>
 
@@ -467,78 +459,11 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
 })();
 
 
-const choiceKey = "siroccoMesaSavingsChoiceV4_necessities";
-const offerCards = [...document.querySelectorAll(".offer")];
 
-function refreshOffers() {
-  let picked = localStorage.getItem(choiceKey);
+// SM-SOP-SAVINGS_NO_OFFER_LOCKOUT_2026-09-22: no browser lockout.
+// Clear any legacy single-choice key so prior visitors regain all offers.
+try { localStorage.removeItem("siroccoMesaSavingsChoiceV4_necessities"); } catch (e) {}
 
-  const validIds = offerCards.map(card => card.dataset.id);
-  if (picked && !validIds.includes(picked)) {
-    localStorage.removeItem(choiceKey);
-    picked = null;
-  }
-
-  offerCards.forEach(card => {
-    const id = card.dataset.id;
-    const btn = card.querySelector(".choose-offer");
-    card.classList.remove("selected","locked");
-    const directLink = card.querySelector(".offer-link");
-    if (directLink) {
-      directLink.style.pointerEvents = "auto";
-      directLink.style.opacity = "1";
-    }
-    if (btn) {
-      btn.disabled = false;
-      btn.textContent = "Choose This Offer";
-    }
-
-    if (picked) {
-      if (picked === id) {
-        card.classList.add("selected");
-        if (btn) btn.textContent = "Selected";
-      } else {
-        card.classList.add("locked");
-        if (btn) btn.disabled = true;
-        if (directLink) {
-          directLink.style.pointerEvents = "none";
-          directLink.style.opacity = ".35";
-        }
-      }
-    }
-  });
-}
-
-document.querySelectorAll(".choose-offer").forEach(btn => {
-  btn.addEventListener("click", () => {
-    if (!localStorage.getItem(choiceKey)) {
-      localStorage.setItem(choiceKey, btn.dataset.id);
-      refreshOffers();
-    }
-  });
-});
-refreshOffers();
-
-
-document.querySelectorAll(".offer-link").forEach(link => {
-  link.addEventListener("click", (e) => {
-    const id = link.dataset.id;
-    const picked = localStorage.getItem(choiceKey);
-    if (!picked && id) {
-      localStorage.setItem(choiceKey, id);
-      refreshOffers();
-      return; // allow the same click to open the destination
-    }
-    if (picked && picked !== id) {
-      e.preventDefault();
-      const status = document.getElementById("status");
-      if (status) {
-        status.textContent = "You already selected one savings offer on this browser.";
-        setTimeout(() => status.textContent = "", 3000);
-      }
-    }
-  });
-});
 
 
 
