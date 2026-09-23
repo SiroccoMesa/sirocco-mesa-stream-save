@@ -48,6 +48,7 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
 .tagline { text-align:center;color:var(--muted);margin:9px auto 22px;line-height:1.5;max-width:540px; }
 
 .about-section {
+  position:relative;
   margin:0 0 20px;
   padding:16px 18px 17px;
   border:1px solid rgba(240,201,140,.28);
@@ -68,6 +69,19 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
 .about-section strong { color:var(--text); }
 .about-section a { color:var(--accent2); text-decoration:underline; text-underline-offset:2px; }
 .about-section a:hover { color:var(--text); }
+.about-stream-save {
+  position:absolute;
+  top:12px;
+  right:14px;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.04em;
+  color:var(--muted);
+  text-decoration:none;
+  text-underline-offset:2px;
+}
+.about-stream-save:hover { color:var(--accent2); text-decoration:underline; }
+.about-section > p:first-of-type { margin-top:4px; padding-right:7.5em; }
 
 .links { display:grid; gap:11px; }
 .btn {
@@ -348,10 +362,12 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
     </a>
 
   <section class="about-section">
-    <p><strong>Sirocco Mesa</strong> is an independent music project presenting Sounds of the World — music without borders.</p>
-    <p>Genres and collections include <strong>Equator</strong> (Spanish &amp; World Guitar); <strong>Duende Azul</strong> (Latin Jazz &amp; Spanish Guitar); <strong>Ash &amp; Thunder</strong> (cinematic heavy metal); and <strong>Velvet Voodoo</strong> (blues/jazz/funk fusion).</p>
-    <p>Featured on <strong>Duende Azul</strong>: <a href="alegria-de-la-vida.html"><strong>Alegría De La Vida</strong></a> by <strong>Sirocco Mesa</strong>.</p>
-    <p>Use this permanent hub for <strong>Watch &amp; Listen</strong> and <strong>Stream &amp; Save</strong>.</p>
+    <a class="about-stream-save" href="https://open.spotify.com/artist/5d0U1202iintbVDJp7cGpa" target="_blank" rel="noopener noreferrer">STREAM &amp; SAVE ›</a>
+    <p>Sirocco Mesa is an independent music project presenting Sounds of the World — music without borders.</p>
+    <p>Equator explores Spanish &amp; World Guitar.</p>
+    <p>Duende Azul blends Latin Jazz &amp; Spanish Guitar.</p>
+    <p>Ash &amp; Thunder delivers cinematic heavy metal.</p>
+    <p>Velvet Voodoo moves through blues, jazz &amp; funk fusion.</p>
   </section>
 
     <a class="btn" href="https://open.spotify.com/artist/5d0U1202iintbVDJp7cGpa" target="_blank" rel="noopener noreferrer">
