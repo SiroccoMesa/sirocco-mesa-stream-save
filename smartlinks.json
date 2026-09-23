@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.17",
+  "version": "1.18",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -34,10 +34,10 @@
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "Intl Laundry Mother’s Earth Laundry Bundle — 25% off one-time",
-        "Intl Food iHerb — 35% off Granola Bars",
-        "Intl Personal Care LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
-        "Intl Auto Detailing1 — 40% off D-CON Snow Foam",
+        "Intl Laundry Mother\u2019s Earth Laundry Bundle \u2014 25% off one-time",
+        "Intl Food iHerb \u2014 35% off Granola Bars",
+        "Intl Personal Care LOOKFANTASTIC / INKEY \u2014 20% off Ceramide Moisturizer",
+        "Intl Auto Detailing1 \u2014 40% off D-CON Snow Foam",
         "one-offer choice logic",
         "first-pick savings lock / no public reset"
       ]
@@ -52,23 +52,23 @@
         "all six songs",
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
-        "Alegría custom song SmartLink live (alegria-de-la-vida.html)",
-        "Fuego still on Ditto (Wave backlog — custom song page not yet built)",
+        "Alegr\u00eda custom song SmartLink live (alegria-de-la-vida.html)",
+        "Fuego still on Ditto (Wave backlog \u2014 custom song page not yet built)",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "Intl Laundry Mother’s Earth Laundry Bundle — 25% off one-time",
-        "Intl Food iHerb — 35% off Granola Bars",
-        "Intl Personal Care LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
-        "Intl Auto Detailing1 — 40% off D-CON Snow Foam",
+        "Intl Laundry Mother\u2019s Earth Laundry Bundle \u2014 25% off one-time",
+        "Intl Food iHerb \u2014 35% off Granola Bars",
+        "Intl Personal Care LOOKFANTASTIC / INKEY \u2014 20% off Ceramide Moisturizer",
+        "Intl Auto Detailing1 \u2014 40% off D-CON Snow Foam",
         "one-offer choice logic",
         "first-pick savings lock / no public reset"
       ]
     },
     {
-      "release": "Alegría De La Vida",
+      "release": "Alegr\u00eda De La Vida",
       "type": "song",
       "collection": "Duende Azul",
       "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html",
@@ -152,7 +152,7 @@
       "Equator": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html",
       "Duende Azul": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html",
       "Central Landing": "https://siroccomesa.github.io/sirocco-mesa-stream-save/",
-      "Alegría De La Vida": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html"
+      "Alegr\u00eda De La Vida": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html"
     },
     "known_legacy_links": {
       "Equator_Ditto": "https://ditto.fm/equator-sirocco-mesa",
@@ -245,7 +245,7 @@
         "category": "Laundry & Household",
         "merchant": "Mother's Earth",
         "label": "Save 25%",
-        "public_label": "Mother’s Earth Laundry Bundle — 25% off one-time",
+        "public_label": "Mother\u2019s Earth Laundry Bundle \u2014 25% off one-time",
         "code": null,
         "min": "$0",
         "url": "https://mothersearth.com/products/scent-beads-laundry",
@@ -259,7 +259,7 @@
         "category": "Food & Groceries",
         "merchant": "iHerb",
         "label": "Save 35%",
-        "public_label": "iHerb Food — 35% off Granola Bars",
+        "public_label": "iHerb Food \u2014 35% off Granola Bars",
         "code": null,
         "min": "$0",
         "url": "https://ca.iherb.com/deals?cids=2992&soa=true",
@@ -273,7 +273,7 @@
         "category": "Personal Care / Basic Health",
         "merchant": "LOOKFANTASTIC / The INKEY List",
         "label": "Save 20%",
-        "public_label": "LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
+        "public_label": "LOOKFANTASTIC / INKEY \u2014 20% off Ceramide Moisturizer",
         "code": null,
         "min": "$0",
         "url": "https://www.lookfantastic.com/p/the-inkey-list-bio-active-ceramide-moisturizer-50ml/14992375/",
@@ -287,7 +287,7 @@
         "category": "Auto & Transportation",
         "merchant": "Detailing1",
         "label": "Save 40%",
-        "public_label": "Detailing1 — 40% off D-CON Snow Foam",
+        "public_label": "Detailing1 \u2014 40% off D-CON Snow Foam",
         "code": null,
         "min": "$0",
         "url": "https://detailing1.co/products/d-con-snow-foam-concentrate-reinigungsschaum",
@@ -317,11 +317,11 @@
         "merchant": "Holland & Barrett",
         "label": "3 for 2 Mix & Match",
         "code": null,
-        "min": "no £30–£40 %-off threshold",
+        "min": "no \u00a330\u2013\u00a340 %-off threshold",
         "url": "https://www.hollandandbarrett.com/shop/offers/3-for-2-mix-match",
         "countries": "UK only",
         "data_id": "intl-food-holland-barrett",
-        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off £40 / 15% off £30. Historical UK-only offer; do not stage on public Pages.",
+        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off \u00a340 / 15% off \u00a330. Historical UK-only offer; do not stage on public Pages.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk-food/"
       },
       {
@@ -329,11 +329,11 @@
         "merchant": "Holland & Barrett",
         "label": "3 for 2 Mix & Match",
         "code": null,
-        "min": "$0 / no £30–£40 %-off threshold",
+        "min": "$0 / no \u00a330\u2013\u00a340 %-off threshold",
         "url": "https://www.hollandandbarrett.com/shop/offers/",
         "countries": "UK only",
         "data_id": "intl-personal-holland-barrett",
-        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off £40 / 15% off £30. Historical UK-only offer; do not stage on public Pages.",
+        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off \u00a340 / 15% off \u00a330. Historical UK-only offer; do not stage on public Pages.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk/"
       },
       {
@@ -341,9 +341,9 @@
         "merchant": "Halfords",
         "label": "Save 20%",
         "code": null,
-        "min": "no Motoring Club / email gate; delivery fee may apply under £20",
+        "min": "no Motoring Club / email gate; delivery fee may apply under \u00a320",
         "url": "https://www.halfords.com/motoring/car-cleaning/all-car-cleaning/halfords-advanced-glass-cleaner-500ml-811078.html",
-        "product": "Halfords Advanced Glass Cleaner 500ml (£11.00 → £8.80 / Save £2.20)",
+        "product": "Halfords Advanced Glass Cleaner 500ml (\u00a311.00 \u2192 \u00a38.80 / Save \u00a32.20)",
         "countries": "UK (Home Delivery)",
         "data_id": "intl-auto-halfords",
         "notes": "NOT PUBLIC (uk_lane.public:false). Automatic sale; NOT Motoring Club or email gated. Do not publish Chemical Guys.com intl, Meguiar's UK, or Halfords Autoglym 3-for-2 (prior REJECTS). Historical UK-only offer; do not stage on public Pages.",
@@ -354,7 +354,7 @@
       "Laundry & Household"
     ],
     "uk_complete": false,
-    "routing_note": "2026-09-22 Offer B Anywhere placed modularly on hub + Equator + Duende (no new page). Tracked src=anywhere_savings / radio_anywhere. 20-city untouched; uk_lane.public:false. | 2026-09-22 LIVE: U.S. 4/4 + International 4/4 (Mother’s Earth, iHerb Food, LOOKFANTASTIC/INKEY, Detailing1). UK lane public:false — do not stage UK-only on public Pages or into International. Reject for International: Chemical Guys, Auto Finesse, H&B, Halfords.",
+    "routing_note": "2026-09-22 Offer B Anywhere placed modularly on hub + Equator + Duende (no new page). Tracked src=anywhere_savings / radio_anywhere. 20-city untouched; uk_lane.public:false. | 2026-09-22 LIVE: U.S. 4/4 + International 4/4 (Mother\u2019s Earth, iHerb Food, LOOKFANTASTIC/INKEY, Detailing1). UK lane public:false \u2014 do not stage UK-only on public Pages or into International. Reject for International: Chemical Guys, Auto Finesse, H&B, Halfords.",
     "anywhere_offer_b": true,
     "anywhere_tracked_urls": {
       "hub_anywhere_savings": "https://siroccomesa.github.io/sirocco-mesa-stream-save/?src=anywhere_savings",
@@ -367,5 +367,6 @@
     "anywhere_note": "20-city untouched; no public UK lane; Offer B modular on hub/equator/duende only"
   },
   "city_smartlink_separation": true,
-  "notes_city_separation": "2026-09-22 hub Everyday Savings no longer links featured cities; city campaign remains city/*.html only"
+  "notes_city_separation": "2026-09-22 hub Everyday Savings no longer links featured cities; city campaign remains city/*.html only",
+  "everyday_savings_clean_intro": true
 }

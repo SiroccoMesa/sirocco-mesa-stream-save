@@ -112,6 +112,51 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
   margin:0 auto 16px;
 }
 
+.anywhere-banner {
+  display:none;
+  margin:10px 0 0;
+  padding:8px 12px;
+  border-radius:10px;
+  border:1px solid rgba(212,175,55,.35);
+  background:rgba(212,175,55,.08);
+  color:var(--gold,#d4af37);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.04em;
+  text-align:center;
+}
+.anywhere-banner.is-visible { display:block; }
+.anywhere-routing {
+  margin:0 0 18px;
+}
+.anywhere-routing .anywhere-prompt {
+  margin:0 0 10px;
+  color:var(--muted);
+  font-size:14px;
+  font-weight:700;
+}
+.anywhere-route-row {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.anywhere-route {
+  flex:1 1 160px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px 14px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.04);
+  color:var(--text);
+  text-decoration:none;
+  font-weight:800;
+  font-size:13px;
+  letter-spacing:.03em;
+}
+
+
 .savings-intro {
   text-align:center;
   color:var(--muted);
@@ -345,13 +390,21 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
   
 <section id="savings" class="savings-section">
   <div class="section-kicker">EVERYDAY SAVINGS</div>
-  <p class="savings-intro" style="margin-top:10px;margin-bottom:6px;font-size:18px;font-weight:800;color:var(--text)">
-    Thanks for listening to Sirocco Mesa. Explore listener savings available to you.</p>
-  <p class="savings-intro" style="margin-top:0;margin-bottom:6px">
-    Free access. No obligations. Just useful savings on everyday items you already use.</p>
-  <p class="anywhere-note">Outside our city landings, these Everyday Savings are your Anywhere (Offer B) path — free access, no membership.</p>
+  <div id="anywhere-kicker" class="anywhere-banner" role="status">Listener Savings · Anywhere</div>
+  <p class="savings-intro" style="margin-top:10px;margin-bottom:6px">
+    Free savings for Sirocco Mesa listeners.</p>
+  <p class="savings-intro" style="margin-top:0;margin-bottom:14px">
+    No purchase or obligation required.</p>
 
-  <div class="market-heading">U.S. Savings</div>
+  <div id="anywhere-routing" class="anywhere-routing">
+    <p class="anywhere-prompt">Choose your savings:</p>
+    <div class="anywhere-route-row">
+      <a class="anywhere-route" href="#us-savings">U.S. / ONLINE</a>
+      <a class="anywhere-route" href="#intl-savings">INTERNATIONAL</a>
+    </div>
+  </div>
+
+  <div class="market-heading" id="us-savings">U.S. Savings</div>
   <div class="market-note">Need-first categories. Only LIVE VERIFIED offers are listed.</div>
   <div class="offer-grid">
     <article class="offer" data-id="us-food-vitacost">
@@ -382,7 +435,7 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
 
 
 
-  <div class="market-heading">International Savings</div>
+  <div class="market-heading" id="intl-savings">International Savings</div>
   <div class="market-note">Need-first categories. Only multi-country / global LIVE VERIFIED offers are listed.</div>
   <div class="offer-grid">
     <article class="offer" data-id="intl-laundry-mothers-earth">
