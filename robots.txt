@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siroccomesa.github.io/sirocco-mesa-stream-save/sitemap.xml
