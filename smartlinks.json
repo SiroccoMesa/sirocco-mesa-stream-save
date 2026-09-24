@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.19",
+  "version": "1.20",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -53,6 +53,7 @@
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
         "Alegría custom song SmartLink live (alegria-de-la-vida.html)",
+        "La Última Mirada custom song SmartLink live (la-ultima-mirada.html)",
         "Fuego still on Ditto (Wave backlog — custom song page not yet built)",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
@@ -106,6 +107,44 @@
         "Apple Music",
         "Amazon Music"
       ]
+    },
+    {
+      "release": "La Última Mirada",
+      "type": "song",
+      "collection": "Duende Azul",
+      "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html",
+      "local_file": "la-ultima-mirada.html",
+      "status": "live",
+      "ticket": "SMARTLINK-003 / LANDING-001 activate",
+      "backend_ditto": "https://ditto.fm/la-ultima-mirada-sirocco-mesa",
+      "contains": [
+        "LINKS VERIFIED song SmartLink",
+        "Spotify track 361hbY9dchW1KAOZaUarcE",
+        "YouTube Topic 7vkXLGvmk68",
+        "YouTube Music 7vkXLGvmk68",
+        "Deezer track 4284283492",
+        "TIDAL track 560948192",
+        "omitted: KKBOX, Apple Music, Amazon Music, SoundCloud, iHeart",
+        "no public Ditto",
+        "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
+        "back link to duende-azul.html",
+        "?src= copy support",
+        "no browser offer lockout (multi-offer OK)"
+      ],
+      "verified_destinations": {
+        "spotify": "https://open.spotify.com/track/361hbY9dchW1KAOZaUarcE",
+        "youtube": "https://www.youtube.com/watch?v=7vkXLGvmk68",
+        "youtube_music": "https://music.youtube.com/watch?v=7vkXLGvmk68",
+        "deezer": "https://www.deezer.com/track/4284283492",
+        "tidal": "http://www.tidal.com/track/560948192"
+      },
+      "omitted_destinations": [
+        "KKBOX",
+        "Apple Music",
+        "Amazon Music",
+        "SoundCloud",
+        "iHeart"
+      ]
     }
   ],
   "employee_rules": {
@@ -152,12 +191,14 @@
       "Equator": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html",
       "Duende Azul": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html",
       "Central Landing": "https://siroccomesa.github.io/sirocco-mesa-stream-save/",
-      "Alegría De La Vida": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html"
+      "Alegría De La Vida": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html",
+      "La Última Mirada": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html"
     },
     "known_legacy_links": {
       "Equator_Ditto": "https://ditto.fm/equator-sirocco-mesa",
       "Fuego_de_Medianoche_Ditto": "https://ditto.fm/fuego-de-medianoche-duende-azul",
-      "Alegria_De_La_Vida_Ditto": "https://ditto.fm/alegria-de-la-vida-duende-azul"
+      "Alegria_De_La_Vida_Ditto": "https://ditto.fm/alegria-de-la-vida-duende-azul",
+      "La_Ultima_Mirada_Ditto": "https://ditto.fm/la-ultima-mirada-sirocco-mesa"
     },
     "audit_surfaces": [
       "YouTube video descriptions",
@@ -188,7 +229,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-09-22",
+  "updated": "2026-09-24",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
@@ -377,7 +418,8 @@
       "index.html",
       "equator.html",
       "duende-azul.html",
-      "alegria-de-la-vida.html"
+      "alegria-de-la-vida.html",
+      "la-ultima-mirada.html"
     ],
     "city_pages": "untouched",
     "supersedes": "first-pick savings lock / SAVINGS_LOCK_NO_RESET"

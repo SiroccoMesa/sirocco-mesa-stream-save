@@ -3,10 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sirocco Mesa — Duende Azul | SmartLink</title>
-<meta name="description" content="Sirocco Mesa — Duende Azul. All six songs plus free everyday savings on items you already use.">
+<title>Sirocco Mesa — La Última Mirada | SmartLink</title>
+<meta name="description" content="Listen to Sirocco Mesa — La Última Mirada (Duende Azul) and find free everyday savings on items you already use.">
 <style>
-
 :root {
   --bg1:#111;
   --bg2:#241b14;
@@ -47,6 +46,7 @@ body {
 }
 h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.05em; }
 .album-title { text-align:center;color:var(--accent2);font-weight:800;font-size:20px;margin-top:7px; }
+.ep-line { text-align:center;color:var(--muted);font-size:13px;margin-top:4px;font-weight:700;letter-spacing:.04em; }
 .tagline { text-align:center;color:var(--muted);margin:9px auto 22px;line-height:1.5;max-width:540px; }
 
 .links { display:grid; gap:11px; }
@@ -102,61 +102,6 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
   margin:6px 0 8px;
   font-size:28px;
 }
-
-.anywhere-note {
-  text-align:center;
-  color:var(--muted);
-  font-size:12px;
-  line-height:1.45;
-  max-width:560px;
-  margin:0 auto 16px;
-}
-
-.anywhere-banner {
-  display:none;
-  margin:10px 0 0;
-  padding:8px 12px;
-  border-radius:10px;
-  border:1px solid rgba(212,175,55,.35);
-  background:rgba(212,175,55,.08);
-  color:var(--gold,#d4af37);
-  font-size:12px;
-  font-weight:700;
-  letter-spacing:.04em;
-  text-align:center;
-}
-.anywhere-banner.is-visible { display:block; }
-.anywhere-routing {
-  margin:0 0 18px;
-}
-.anywhere-routing .anywhere-prompt {
-  margin:0 0 10px;
-  color:var(--muted);
-  font-size:14px;
-  font-weight:700;
-}
-.anywhere-route-row {
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
-}
-.anywhere-route {
-  flex:1 1 160px;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  padding:12px 14px;
-  border-radius:12px;
-  border:1px solid var(--border);
-  background:rgba(255,255,255,.04);
-  color:var(--text);
-  text-decoration:none;
-  font-weight:800;
-  font-size:13px;
-  letter-spacing:.03em;
-}
-
-
 .savings-intro {
   text-align:center;
   color:var(--muted);
@@ -247,28 +192,6 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
 footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-top:17px; }
 
 
-.song-link{
-  text-decoration:none;
-  color:inherit;
-  display:block;
-}
-.song.live-link{
-  transition:transform .16s ease, background .16s ease, border-color .16s ease;
-  cursor:pointer;
-}
-.song.live-link:hover{
-  transform:translateY(-2px);
-  background:rgba(255,255,255,.10);
-  border-color:rgba(169,229,250,.55);
-}
-.song-action{
-  color:var(--accent2);
-  font-size:11px;
-  font-weight:800;
-  margin-top:5px;
-}
-
-
 .market-heading{
   margin:20px 0 8px;
   padding:10px 12px;
@@ -289,16 +212,20 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
 }
 
 
+.back-collection {
+  display:block;
+  text-align:center;
+  margin-top:14px;
+  color:var(--accent2);
+  text-decoration:none;
+  font-size:13px;
+  font-weight:800;
+}
+.back-collection:hover { text-decoration:underline; }
+
 @media(max-width:620px){
   .offer-grid { grid-template-columns:1fr; }
   .note { display:none; }
-}
-
-:root {
-  --bg1:#08131d;
-  --bg2:#123247;
-  --accent:#5cb8de;
-  --accent2:#a9e5fa;
 }
 </style>
 </head>
@@ -307,75 +234,40 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
 <section class="card">
   <div class="mark">SM</div>
   <h1>SIROCCO MESA</h1>
-  <div class="album-title">DUENDE AZUL</div>
-  <p class="tagline">Latin Jazz & Spanish Guitar • All six songs</p>
+  <div class="album-title">LA ÚLTIMA MIRADA</div>
+  <div class="ep-line">EP · Duende Azul</div>
+  <p class="tagline">Latin Jazz &amp; Spanish Guitar • Choose your music service</p>
 
   <div class="links">
-    <a class="btn primary" href="https://www.youtube.com/@SiroccoMesa" target="_blank" rel="noopener noreferrer">
+    <a class="btn primary" href="https://open.spotify.com/track/361hbY9dchW1KAOZaUarcE" target="_blank" rel="noopener noreferrer">
+      <span class="service">Spotify</span>
+      <span class="note">La Última Mirada</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="https://www.youtube.com/watch?v=7vkXLGvmk68" target="_blank" rel="noopener noreferrer">
       <span class="service">YouTube</span>
-      <span class="note">Official Sirocco Mesa channel</span>
+      <span class="note">Topic · La Última Mirada</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="https://music.youtube.com/watch?v=7vkXLGvmk68" target="_blank" rel="noopener noreferrer">
+      <span class="service">YouTube Music</span>
+      <span class="note">La Última Mirada</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="https://www.deezer.com/track/4284283492" target="_blank" rel="noopener noreferrer">
+      <span class="service">Deezer</span>
+      <span class="note">La Última Mirada</span>
+      <span class="arrow">›</span>
+    </a>
+    <a class="btn" href="http://www.tidal.com/track/560948192" target="_blank" rel="noopener noreferrer">
+      <span class="service">TIDAL</span>
+      <span class="note">La Última Mirada</span>
       <span class="arrow">›</span>
     </a>
   </div>
-
-  <div style="height:18px"></div>
-  <div class="song-list">
-    <a class="song-link" href="https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html" target="_blank" rel="noopener noreferrer">
-    <div class="song live-link">
-      <div>
-        <div class="song-name">Fuego de Medianoche</div>
-        <div class="song-meta">Released September 4, 2026</div>
-        <div class="song-action">Open SmartLink ›</div>
-      </div>
-      <div class="badge live">LIVE</div>
-    </div>
-  </a>
-<a class="song-link" href="alegria-de-la-vida.html" target="_blank" rel="noopener noreferrer">
-    <div class="song live-link">
-      <div>
-        <div class="song-name">Alegría De La Vida</div>
-        <div class="song-meta">Released September 21, 2026</div>
-        <div class="song-action">Open SmartLink ›</div>
-      </div>
-      <div class="badge live">LIVE</div>
-    </div>
-  </a>
-<a class="song-link" href="la-ultima-mirada.html" target="_blank" rel="noopener noreferrer">
-    <div class="song live-link">
-      <div>
-        <div class="song-name">La Última Mirada</div>
-        <div class="song-meta">Released September 24, 2026</div>
-        <div class="song-action">Open SmartLink ›</div>
-      </div>
-      <div class="badge live">LIVE</div>
-    </div>
-  </a>
-<div class="song">
-      <div>
-        <div class="song-name">Cuerdas de Fuego del Ensamble</div>
-        <div class="song-meta">Releases September 25, 2026</div>
-      </div>
-      <div class="badge upcoming">SEP 25</div>
-    </div>
-<div class="song">
-      <div>
-        <div class="song-name">Entre Sombras</div>
-        <div class="song-meta">Releases September 26, 2026</div>
-      </div>
-      <div class="badge upcoming">SEP 26</div>
-    </div>
-<div class="song">
-      <div>
-        <div class="song-name">Corazón al Viento</div>
-        <div class="song-meta">Releases September 27, 2026</div>
-      </div>
-      <div class="badge upcoming">SEP 27</div>
-    </div>
   </div>
 
-  <div style="margin-top:14px;padding:12px 13px;border:1px solid var(--border);border-radius:12px;color:var(--muted);font-size:12px;line-height:1.5;background:rgba(0,0,0,.14)">
-    Live songs open their verified song-level SmartLinks. Upcoming songs become clickable as soon as their live destination is verified.
-  </div>
+  <a class="back-collection" data-src-append href="duende-azul.html">‹ Back to Duende Azul collection</a>
 
   <a class="savings-cta" href="#savings">
     Everyday Savings
@@ -385,21 +277,14 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
   
 <section id="savings" class="savings-section">
   <div class="section-kicker">EVERYDAY SAVINGS</div>
-  <div id="anywhere-kicker" class="anywhere-banner" role="status">Listener Savings · Anywhere</div>
-  <p class="savings-intro" style="margin-top:10px;margin-bottom:6px">
-    Free savings for Sirocco Mesa listeners.</p>
-  <p class="savings-intro" style="margin-top:0;margin-bottom:14px">
-    No purchase or obligation required.</p>
+  <p class="savings-intro" style="margin-top:10px;margin-bottom:6px;font-size:18px;font-weight:800;color:var(--text)">
+    Thanks for listening to Sirocco Mesa.</p>
+  <p class="savings-intro" style="margin-top:0;margin-bottom:6px">
+    Free savings on things you already use.</p>
+  <p class="savings-intro" style="margin-top:0;margin-bottom:18px">
+    Choose a savings offer below.</p>
 
-  <div id="anywhere-routing" class="anywhere-routing">
-    <p class="anywhere-prompt">Choose your savings:</p>
-    <div class="anywhere-route-row">
-      <a class="anywhere-route" href="#us-savings">U.S. / ONLINE</a>
-      <a class="anywhere-route" href="#intl-savings">INTERNATIONAL</a>
-    </div>
-  </div>
-
-  <div class="market-heading" id="us-savings">U.S. Savings</div>
+  <div class="market-heading">U.S. Savings</div>
   <div class="market-note">Need-first categories. Only LIVE VERIFIED offers are listed.</div>
   <div class="offer-grid">
     <article class="offer" data-id="us-food-vitacost">
@@ -430,7 +315,7 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
 
 
 
-  <div class="market-heading" id="intl-savings">International Savings</div>
+  <div class="market-heading">International Savings</div>
   <div class="market-note">Need-first categories. Only multi-country / global LIVE VERIFIED offers are listed.</div>
   <div class="offer-grid">
     <article class="offer" data-id="intl-laundry-mothers-earth">
@@ -467,7 +352,7 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
 
   <div class="share"><button class="share-btn" id="copyBtn">Copy This SmartLink</button></div>
   <div class="status" id="status"></div>
-  <footer>Independent artist SmartLink • Sirocco Mesa<br>Duende Azul master page • self-contained savings section.</footer>
+  <footer>Independent artist SmartLink • Sirocco Mesa<br>Permanent custom SmartLink (SMARTLINK-003) • Ditto is backend only — not linked publicly.</footer>
 </section>
 </main>
 <script>
@@ -480,18 +365,6 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
   const persisted = src || (function () {
     try { return sessionStorage.getItem("siroccoMesaSrc"); } catch (e) { return null; }
   })();
-
-  function isAnywhereSrc(v) {
-    if (!v) return false;
-    return v === "anywhere_savings" || v === "radio_anywhere"
-      || v.indexOf("anywhere_savings") === 0
-      || v.indexOf("radio_anywhere") === 0;
-  }
-  if (isAnywhereSrc(src) || isAnywhereSrc(persisted)) {
-    const banner = document.getElementById("anywhere-kicker");
-    if (banner) banner.classList.add("is-visible");
-  }
-
   if (!persisted) return;
 
   document.querySelectorAll("a[data-src-append]").forEach(a => {
@@ -503,15 +376,13 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
       }
       const original = a.getAttribute("href");
       if (!/^https?:/i.test(original)) {
-        const base = original.split(/[?#]/)[0];
-        a.setAttribute("href", base + url.search + url.hash);
+        a.setAttribute("href", url.pathname.split("/").pop() + url.search + url.hash);
       } else {
         a.setAttribute("href", url.toString());
       }
     } catch (e) {}
   });
 })();
-
 
 
 // SM-SOP-SAVINGS_NO_OFFER_LOCKOUT_2026-09-22: no browser lockout.
@@ -526,7 +397,20 @@ if (copyBtn) {
   copyBtn.addEventListener("click", async () => {
     const status = document.getElementById("status");
     try {
-      await navigator.clipboard.writeText(location.href.split("#")[0]);
+      // Preserve ?src= when present; strip hash only
+      let copyUrl = location.href.split("#")[0];
+      const params = new URLSearchParams(location.search);
+      if (!params.get("src")) {
+        try {
+          const persisted = sessionStorage.getItem("siroccoMesaSrc");
+          if (persisted) {
+            const u = new URL(copyUrl);
+            u.searchParams.set("src", persisted);
+            copyUrl = u.toString();
+          }
+        } catch (e) {}
+      }
+      await navigator.clipboard.writeText(copyUrl);
       status.textContent = "SmartLink copied.";
     } catch(e) {
       status.textContent = "Copy blocked — copy the address from the browser.";
