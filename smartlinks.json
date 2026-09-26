@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.20",
+  "version": "1.21",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -65,7 +65,8 @@
         "Intl Personal Care LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
         "Intl Auto Detailing1 — 40% off D-CON Snow Foam",
         "multi-offer available (no SmartLink lockout)",
-        "no browser offer lockout (multi-offer OK)"
+        "no browser offer lockout (multi-offer OK)",
+        "Entre Sombras song SmartLink LIVE (ditto.fm/entre-sombras-sirocco-mesa; never bare entre-sombras)"
       ]
     },
     {
@@ -145,6 +146,23 @@
         "SoundCloud",
         "iHeart"
       ]
+    },
+    {
+      "release": "Entre Sombras",
+      "type": "song",
+      "collection": "Duende Azul",
+      "public_url": "https://ditto.fm/entre-sombras-sirocco-mesa",
+      "local_file": null,
+      "status": "live",
+      "ticket": "LANDING-001 / hub LIVE-wire after STREET_LIVE_VERIFY",
+      "backend_ditto": "https://ditto.fm/entre-sombras-sirocco-mesa",
+      "contains": [
+        "verified song SmartLink LIVE",
+        "Spotify track 2dUiZPauz95euIxy9MwqI2",
+        "DO NOT USE bare ditto.fm/entre-sombras (wrong release)",
+        "hub row LIVE on duende-azul.html",
+        "custom Pages song page not yet built (Ensamble-style Ditto dest)"
+      ]
     }
   ],
   "employee_rules": {
@@ -192,13 +210,16 @@
       "Duende Azul": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html",
       "Central Landing": "https://siroccomesa.github.io/sirocco-mesa-stream-save/",
       "Alegría De La Vida": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html",
-      "La Última Mirada": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html"
+      "La Última Mirada": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html",
+      "Entre Sombras": "https://ditto.fm/entre-sombras-sirocco-mesa"
     },
     "known_legacy_links": {
       "Equator_Ditto": "https://ditto.fm/equator-sirocco-mesa",
       "Fuego_de_Medianoche_Ditto": "https://ditto.fm/fuego-de-medianoche-duende-azul",
       "Alegria_De_La_Vida_Ditto": "https://ditto.fm/alegria-de-la-vida-duende-azul",
-      "La_Ultima_Mirada_Ditto": "https://ditto.fm/la-ultima-mirada-sirocco-mesa"
+      "La_Ultima_Mirada_Ditto": "https://ditto.fm/la-ultima-mirada-sirocco-mesa",
+      "Entre_Sombras_WRONG_SLUG": "https://ditto.fm/entre-sombras",
+      "Entre_Sombras_CORRECT_Ditto": "https://ditto.fm/entre-sombras-sirocco-mesa"
     },
     "audit_surfaces": [
       "YouTube video descriptions",
@@ -229,7 +250,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
