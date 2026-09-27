@@ -372,7 +372,7 @@
       "removed_2026_09_22": true,
       "reason": "Steve SUPERSEDE: UK Savings option/group removed from all public Pages; UK-only offers not shown under International. Registry retains uk_live for ops history only."
     },
-    "intl_note": "Need-first categories. Only multi-country / global LIVE VERIFIED offers are listed.",
+    "intl_note": "Only LIVE VERIFIED offers are listed.",
     "uk_live": [
       {
         "category": "Food & Groceries",
