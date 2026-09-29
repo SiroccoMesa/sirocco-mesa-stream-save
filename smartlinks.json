@@ -15,10 +15,11 @@
         "YouTube primary CTA",
         "Spotify artist (verified)",
         "Equator+Duende custom SmartLinks",
-        "Ash+Velvet Upcoming",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "no public Ditto",
-        "no browser offer lockout (multi-offer OK)"
+        "no browser offer lockout (multi-offer OK)",
+        "Ash & Thunder LIVE tile art (Grith Ditto cover as EP tile; Duende/Fuego pattern) + Listen\u2192ash-and-thunder.html",
+        "Velvet Voodoo still Upcoming text tile (OK until live)"
       ]
     },
     {
@@ -34,10 +35,10 @@
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "Intl Laundry Mother’s Earth Laundry Bundle — 25% off one-time",
-        "Intl Food iHerb — 35% off Granola Bars",
-        "Intl Personal Care LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
-        "Intl Auto Detailing1 — 40% off D-CON Snow Foam",
+        "Intl Laundry Mother\u2019s Earth Laundry Bundle \u2014 25% off one-time",
+        "Intl Food iHerb \u2014 35% off Granola Bars",
+        "Intl Personal Care LOOKFANTASTIC / INKEY \u2014 20% off Ceramide Moisturizer",
+        "Intl Auto Detailing1 \u2014 40% off D-CON Snow Foam",
         "multi-offer available (no SmartLink lockout)",
         "no browser offer lockout (multi-offer OK)"
       ]
@@ -52,25 +53,25 @@
         "all six songs",
         "live song SmartLinks for released songs",
         "upcoming-song placeholders until verified",
-        "Alegría custom song SmartLink live (alegria-de-la-vida.html)",
-        "La Última Mirada custom song SmartLink live (la-ultima-mirada.html)",
-        "Fuego still on Ditto (Wave backlog — custom song page not yet built)",
+        "Alegr\u00eda custom song SmartLink live (alegria-de-la-vida.html)",
+        "La \u00daltima Mirada custom song SmartLink live (la-ultima-mirada.html)",
+        "Fuego still on Ditto (Wave backlog \u2014 custom song page not yet built)",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "U.S. Food Vitacost Pantry Essentials Save 15%",
         "U.S. Laundry MA5X FALL15",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "Intl Laundry Mother’s Earth Laundry Bundle — 25% off one-time",
-        "Intl Food iHerb — 35% off Granola Bars",
-        "Intl Personal Care LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
-        "Intl Auto Detailing1 — 40% off D-CON Snow Foam",
+        "Intl Laundry Mother\u2019s Earth Laundry Bundle \u2014 25% off one-time",
+        "Intl Food iHerb \u2014 35% off Granola Bars",
+        "Intl Personal Care LOOKFANTASTIC / INKEY \u2014 20% off Ceramide Moisturizer",
+        "Intl Auto Detailing1 \u2014 40% off D-CON Snow Foam",
         "multi-offer available (no SmartLink lockout)",
         "no browser offer lockout (multi-offer OK)",
         "Entre Sombras song SmartLink LIVE (ditto.fm/entre-sombras-sirocco-mesa; never bare entre-sombras)"
       ]
     },
     {
-      "release": "Alegría De La Vida",
+      "release": "Alegr\u00eda De La Vida",
       "type": "song",
       "collection": "Duende Azul",
       "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html",
@@ -110,7 +111,7 @@
       ]
     },
     {
-      "release": "La Última Mirada",
+      "release": "La \u00daltima Mirada",
       "type": "song",
       "collection": "Duende Azul",
       "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html",
@@ -163,6 +164,25 @@
         "hub row LIVE on duende-azul.html",
         "custom Pages song page not yet built (Ensamble-style Ditto dest)"
       ]
+    },
+    {
+      "release": "Ash & Thunder",
+      "type": "collection",
+      "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html",
+      "local_file": "ash-and-thunder.html",
+      "status": "live",
+      "ticket": "SMARTLINK-004",
+      "contains": [
+        "EP Custom SmartLink for Ash titles (primary Listen CTA)",
+        "index tile art = locked Grith Ditto cover (01_Grith_Ditto_3000x3000) \u2014 no separate EP-only cover in locked folder",
+        "Grith + Shadow Riders song rows: Custom SmartLink EP URL (not ditto.fm primary)",
+        "Ditto backend fallback only: ditto.fm/grith \u00b7 ditto.fm/shadow-riders",
+        "custom song pages not yet built (Wave backlog)"
+      ],
+      "backend_ditto_examples": [
+        "https://ditto.fm/grith",
+        "https://ditto.fm/shadow-riders"
+      ]
     }
   ],
   "employee_rules": {
@@ -209,8 +229,8 @@
       "Equator": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html",
       "Duende Azul": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html",
       "Central Landing": "https://siroccomesa.github.io/sirocco-mesa-stream-save/",
-      "Alegría De La Vida": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html",
-      "La Última Mirada": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html",
+      "Alegr\u00eda De La Vida": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html",
+      "La \u00daltima Mirada": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html",
       "Entre Sombras": "https://ditto.fm/entre-sombras-sirocco-mesa"
     },
     "known_legacy_links": {
@@ -250,7 +270,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-09-25",
+  "updated": "2026-09-28",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
@@ -307,7 +327,7 @@
         "category": "Laundry & Household",
         "merchant": "Mother's Earth",
         "label": "Save 25%",
-        "public_label": "Mother’s Earth Laundry Bundle — 25% off one-time",
+        "public_label": "Mother\u2019s Earth Laundry Bundle \u2014 25% off one-time",
         "code": null,
         "min": "$0",
         "url": "https://mothersearth.com/products/scent-beads-laundry",
@@ -321,7 +341,7 @@
         "category": "Food & Groceries",
         "merchant": "iHerb",
         "label": "Save 35%",
-        "public_label": "iHerb Food — 35% off Granola Bars",
+        "public_label": "iHerb Food \u2014 35% off Granola Bars",
         "code": null,
         "min": "$0",
         "url": "https://ca.iherb.com/deals?cids=2992&soa=true",
@@ -335,7 +355,7 @@
         "category": "Personal Care / Basic Health",
         "merchant": "LOOKFANTASTIC / The INKEY List",
         "label": "Save 20%",
-        "public_label": "LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
+        "public_label": "LOOKFANTASTIC / INKEY \u2014 20% off Ceramide Moisturizer",
         "code": null,
         "min": "$0",
         "url": "https://www.lookfantastic.com/p/the-inkey-list-bio-active-ceramide-moisturizer-50ml/14992375/",
@@ -349,7 +369,7 @@
         "category": "Auto & Transportation",
         "merchant": "Detailing1",
         "label": "Save 40%",
-        "public_label": "Detailing1 — 40% off D-CON Snow Foam",
+        "public_label": "Detailing1 \u2014 40% off D-CON Snow Foam",
         "code": null,
         "min": "$0",
         "url": "https://detailing1.co/products/d-con-snow-foam-concentrate-reinigungsschaum",
@@ -379,11 +399,11 @@
         "merchant": "Holland & Barrett",
         "label": "3 for 2 Mix & Match",
         "code": null,
-        "min": "no £30–£40 %-off threshold",
+        "min": "no \u00a330\u2013\u00a340 %-off threshold",
         "url": "https://www.hollandandbarrett.com/shop/offers/3-for-2-mix-match",
         "countries": "UK only",
         "data_id": "intl-food-holland-barrett",
-        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off £40 / 15% off £30. Historical UK-only offer; do not stage on public Pages.",
+        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified pantry 3 for 2 (chia seeds). Do NOT use Choose 20% off \u00a340 / 15% off \u00a330. Historical UK-only offer; do not stage on public Pages.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk-food/"
       },
       {
@@ -391,11 +411,11 @@
         "merchant": "Holland & Barrett",
         "label": "3 for 2 Mix & Match",
         "code": null,
-        "min": "$0 / no £30–£40 %-off threshold",
+        "min": "$0 / no \u00a330\u2013\u00a340 %-off threshold",
         "url": "https://www.hollandandbarrett.com/shop/offers/",
         "countries": "UK only",
         "data_id": "intl-personal-holland-barrett",
-        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off £40 / 15% off £30. Historical UK-only offer; do not stage on public Pages.",
+        "notes": "NOT PUBLIC (uk_lane.public:false). UK storefront does not ship USA/AU/EU for this path. Cart verified 3 for 2 (third free). Do NOT use Choose 20% off \u00a340 / 15% off \u00a330. Historical UK-only offer; do not stage on public Pages.",
         "evidence": "ops/marketing/savings-002-cart-tests/evidence/intl/holland-barrett-uk/"
       },
       {
@@ -403,9 +423,9 @@
         "merchant": "Halfords",
         "label": "Save 20%",
         "code": null,
-        "min": "no Motoring Club / email gate; delivery fee may apply under £20",
+        "min": "no Motoring Club / email gate; delivery fee may apply under \u00a320",
         "url": "https://www.halfords.com/motoring/car-cleaning/all-car-cleaning/halfords-advanced-glass-cleaner-500ml-811078.html",
-        "product": "Halfords Advanced Glass Cleaner 500ml (£11.00 → £8.80 / Save £2.20)",
+        "product": "Halfords Advanced Glass Cleaner 500ml (\u00a311.00 \u2192 \u00a38.80 / Save \u00a32.20)",
         "countries": "UK (Home Delivery)",
         "data_id": "intl-auto-halfords",
         "notes": "NOT PUBLIC (uk_lane.public:false). Automatic sale; NOT Motoring Club or email gated. Do not publish Chemical Guys.com intl, Meguiar's UK, or Halfords Autoglym 3-for-2 (prior REJECTS). Historical UK-only offer; do not stage on public Pages.",
@@ -416,7 +436,7 @@
       "Laundry & Household"
     ],
     "uk_complete": false,
-    "routing_note": "2026-09-22 Offer B Anywhere placed modularly on hub + Equator + Duende (no new page). Tracked src=anywhere_savings / radio_anywhere. 20-city untouched; uk_lane.public:false. | 2026-09-22 LIVE: U.S. 4/4 + International 4/4 (Mother’s Earth, iHerb Food, LOOKFANTASTIC/INKEY, Detailing1). UK lane public:false — do not stage UK-only on public Pages or into International. Reject for International: Chemical Guys, Auto Finesse, H&B, Halfords.",
+    "routing_note": "2026-09-22 Offer B Anywhere placed modularly on hub + Equator + Duende (no new page). Tracked src=anywhere_savings / radio_anywhere. 20-city untouched; uk_lane.public:false. | 2026-09-22 LIVE: U.S. 4/4 + International 4/4 (Mother\u2019s Earth, iHerb Food, LOOKFANTASTIC/INKEY, Detailing1). UK lane public:false \u2014 do not stage UK-only on public Pages or into International. Reject for International: Chemical Guys, Auto Finesse, H&B, Halfords.",
     "anywhere_offer_b": true,
     "anywhere_tracked_urls": {
       "hub_anywhere_savings": "https://siroccomesa.github.io/sirocco-mesa-stream-save/?src=anywhere_savings",
