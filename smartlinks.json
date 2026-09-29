@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.22",
+  "version": "1.23",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -179,9 +179,9 @@
         "Ditto backend fallback only: ditto.fm/grith · ditto.fm/shadow-riders",
         "custom song pages not yet built (Wave backlog)",
         "song list: Grith + Shadow Riders LIVE; Some Night Nikad Sep 30; The Pulse Within Oct 2; The Weight of Rain Oct 9; Back to You Too Oct 9",
-        "The One I Face marked SUPERSEDED/HOLD (not Oct 1 street)",
         "optional Spotify listen for Grith (verified track 6DX8L5gDMi5kDzfhI2rUoK)",
-        "Back to You Too + The Weight of Rain are Ash titles (NOT Velvet)"
+        "Back to You Too + The Weight of Rain are Ash titles (NOT Velvet)",
+        "The One I Face removed from public Ash page (Steve Not Public — do not show HOLD/SUPERSEDED)"
       ],
       "backend_ditto_examples": [
         "https://ditto.fm/grith",
@@ -306,7 +306,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-09-28",
+  "updated": "2026-09-28T23:05:00-07:00",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
