@@ -175,8 +175,8 @@
       "contains": [
         "EP Custom SmartLink for Ash titles (primary Listen CTA)",
         "index tile art = locked Grith Ditto cover (01_Grith_Ditto_3000x3000) — no separate EP-only cover in locked folder",
-        "LIVE song rows (Open SmartLink ›) → ditto.fm/grith · ditto.fm/shadow-riders (not self-href)",
-        "Header DSP buttons unchanged: YouTube @SiroccoMesa + Spotify Grith only",
+        "LIVE song Open SmartLink › → Ditto (ditto.fm/grith · ditto.fm/shadow-riders); header YouTube+Spotify unchanged (Steve 2026-09-28)",
+        "Ditto backend fallback only: ditto.fm/grith · ditto.fm/shadow-riders",
         "custom song pages not yet built (Wave backlog)",
         "song list: Grith + Shadow Riders LIVE; Some Night Nikad Sep 30; The Pulse Within Oct 2; The Weight of Rain Oct 9; Back to You Too Oct 9",
         "optional Spotify listen for Grith (verified track 6DX8L5gDMi5kDzfhI2rUoK)",
@@ -189,8 +189,9 @@
       ],
       "verified_destinations": {
         "grith_spotify": "https://open.spotify.com/track/6DX8L5gDMi5kDzfhI2rUoK",
-        "grith_open_smartlink": "https://ditto.fm/grith",
-        "shadow_riders_open_smartlink": "https://ditto.fm/shadow-riders"
+        "grith_ditto": "https://ditto.fm/grith",
+        "shadow_riders_ditto": "https://ditto.fm/shadow-riders",
+        "shadow_riders_spotify": "https://open.spotify.com/track/564IZJ610GtVUgG0Z3Y3rU"
       }
     },
     {
@@ -211,15 +212,15 @@
       "contains": [
         "EP Custom SmartLink for Velvet titles (primary Listen CTA)",
         "index tile art = locked Velvet Voodoo EP cover (Velvet_Voodoo_Cover_3000x3000 → art/velvet.jpg 320×320)",
-        "One Dry Match song row (Open SmartLink ›) → https://ditto.fm/one-dry-match (not self-href); header YouTube unchanged",
+        "One Dry Match Open SmartLink › → https://ditto.fm/one-dry-match; header YouTube unchanged",
         "custom song page still blocked for permanent direct-DSP buttons (0 LIVE track URLs; Pre-Save only)",
         "NOT Ash titles: Back to You Too + The Weight of Rain belong on ash-and-thunder.html",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "no browser offer lockout (multi-offer OK)"
       ],
-      "notes": "Steve allows EP page with Pre-Save/Listen dests that VERIFY — do not leave index Upcoming. Index Listen must be custom .html (FACELESS · hub URL forever). One Dry Match Open SmartLink › is ditto.fm/one-dry-match; header YouTube stays @SiroccoMesa.",
+      "notes": "Steve allows EP page with Pre-Save/Listen dests that VERIFY — do not leave index Upcoming. Index Listen must be custom .html (FACELESS · hub URL forever · Ditto = fallback only).",
       "verified_destinations": {
-        "one_dry_match_open_smartlink": "https://ditto.fm/one-dry-match"
+        "one_dry_match_ditto": "https://ditto.fm/one-dry-match"
       }
     }
   ],
