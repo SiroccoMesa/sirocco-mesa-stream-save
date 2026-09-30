@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.31",
+  "version": "1.32",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -270,7 +270,8 @@
       "status": "live",
       "ticket": "SMARTLINK-004",
       "street_dates": {
-        "One Dry Match": "2026-10-10"
+        "One Dry Match": "2026-10-10",
+        "Nocturne Boulevard": "2026-10-14"
       },
       "isrc": {
         "One Dry Match": "GXLF22679509"
@@ -281,12 +282,20 @@
         "EP Custom SmartLink for Velvet titles (primary Listen CTA)",
         "index tile art = locked Velvet Voodoo EP cover (Velvet_Voodoo_Cover_3000x3000 → art/velvet.jpg 320×320)",
         "One Dry Match Open SmartLink › → https://ditto.fm/one-dry-match; header YouTube unchanged",
+        "Nocturne Boulevard Upcoming OCT 14 (no Open SmartLink yet; Pre-Save HOLD until Ditto URL + ISRC/UPC)",
         "custom song page still blocked for permanent direct-DSP buttons (0 LIVE track URLs; Pre-Save only)",
         "NOT Ash titles: Back to You Too + The Weight of Rain belong on ash-and-thunder.html",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "no browser offer lockout (multi-offer OK)"
       ],
       "notes": "Steve allows EP page with Pre-Save/Listen dests that VERIFY — do not leave index Upcoming. Index Listen must be custom .html (FACELESS · hub URL forever · Ditto = fallback only).",
+      "nocturne_boulevard_status": {
+        "status": "upcoming",
+        "street": "2026-10-14",
+        "public_title": "Nocturne Boulevard",
+        "open_smartlink": "pending Ditto URL + ISRC/UPC",
+        "note": "Pre-Save HOLD. Hub row Upcoming only — plain song row, badge OCT 14. No Open SmartLink and no ditto.fm href until Ditto SmartLink URL + ISRC/UPC."
+      },
       "verified_destinations": {
         "one_dry_match_ditto": "https://ditto.fm/one-dry-match"
       }
@@ -379,7 +388,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-09-30T11:01:40-07:00",
+  "updated": "2026-09-30T12:30:13-07:00",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
