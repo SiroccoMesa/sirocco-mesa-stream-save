@@ -195,7 +195,7 @@
         "LIVE song Open SmartLink › → Ditto (ditto.fm/grith only); header YouTube+Spotify unchanged",
         "Ditto backend fallback only: ditto.fm/grith",
         "custom song pages not yet built (Wave backlog)",
-        "song list PUBLIC: Grith LIVE; The Weight of Rain Oct 9; Back to You Too Oct 9; Some Night Nikad ~ Under the Train Upcoming Oct 12 (remaster replacement — no Open SmartLink until new Ditto exists; LIVE-wire at street)",
+        "song list PUBLIC: Grith LIVE; The Weight of Rain Oct 9; Back to You Too Oct 9; Some Nights Nikad ~ Under The Train Upcoming Oct 12 (remaster replacement — no Open SmartLink until new Ditto exists; LIVE-wire at street)",
         "WITHDRAWN still (do not relaunch until rebuilt masters): Shadow Riders; The Pulse Within — reference only; no public Open SmartLink",
         "NIKAD REMASTER Steve LOCK 2026-09-29 ~9:37 PM PT — street 2026-10-12; partial supersede of Ash RESET for Nikad only",
         "optional Spotify listen for Grith (verified track 6DX8L5gDMi5kDzfhI2rUoK)",
@@ -226,7 +226,7 @@
           "street": "2026-10-12",
           "lock": "NIKAD REMASTER Steve LOCK 2026-09-29 ~9:37 PM PT",
           "evidence": "ops/gm/evidence/NIKAD_REMASTER_RELEASE_SETUP_OCT12_2026-09-29.md",
-          "public_title": "Some Night Nikad ~ Under the Train",
+          "public_title": "Some Nights Nikad ~ Under The Train",
           "open_smartlink": "pending new Ditto SmartLink for remaster; LIVE-wire at street"
         }
       }
@@ -348,7 +348,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-09-29T21:41:36-07:00",
+  "updated": "2026-09-29T21:55:42-07:00",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
