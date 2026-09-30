@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.27",
+  "version": "1.28",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -192,23 +192,35 @@
       "contains": [
         "EP Custom SmartLink for Ash titles (primary Listen CTA)",
         "index tile art = locked Grith Ditto cover (01_Grith_Ditto_3000x3000) — no separate EP-only cover in locked folder",
-        "LIVE song Open SmartLink › → Ditto (ditto.fm/grith · ditto.fm/shadow-riders); header YouTube+Spotify unchanged (Steve 2026-09-28)",
-        "Ditto backend fallback only: ditto.fm/grith · ditto.fm/shadow-riders",
+        "LIVE song Open SmartLink › → Ditto (ditto.fm/grith only); header YouTube+Spotify unchanged",
+        "Ditto backend fallback only: ditto.fm/grith",
         "custom song pages not yet built (Wave backlog)",
-        "song list: Grith + Shadow Riders LIVE; Some Night Nikad Sep 30; The Pulse Within Oct 2; The Weight of Rain Oct 9; Back to You Too Oct 9",
+        "song list PUBLIC: Grith LIVE; The Weight of Rain Oct 9; Back to You Too Oct 9",
+        "WITHDRAWN (Steve LOCK 2026-09-29 ~8:47 PM PT — do not relaunch until rebuilt masters): Shadow Riders; Some Night Nikad ~ Under the Train; The Pulse Within — preserve metadata/story/artwork refs for reference only; no public Open SmartLink to their Ditto URLs",
         "optional Spotify listen for Grith (verified track 6DX8L5gDMi5kDzfhI2rUoK)",
         "Back to You Too + The Weight of Rain are Ash titles (NOT Velvet)",
         "The One I Face removed from public Ash page (Steve Not Public — do not show HOLD/SUPERSEDED)"
       ],
       "backend_ditto_examples": [
-        "https://ditto.fm/grith",
-        "https://ditto.fm/shadow-riders"
+        "https://ditto.fm/grith"
       ],
       "verified_destinations": {
         "grith_spotify": "https://open.spotify.com/track/6DX8L5gDMi5kDzfhI2rUoK",
-        "grith_ditto": "https://ditto.fm/grith",
-        "shadow_riders_ditto": "https://ditto.fm/shadow-riders",
-        "shadow_riders_spotify": "https://open.spotify.com/track/564IZJ610GtVUgG0Z3Y3rU"
+        "grith_ditto": "https://ditto.fm/grith"
+      },
+      "withdrawn_reference_only": {
+        "lock": "ASH & THUNDER RESET Steve LOCK 2026-09-29 ~8:47 PM PT",
+        "evidence": "ops/gm/evidence/ASH_THUNDER_RESET_WITHDRAW_2026-09-29.md",
+        "titles": [
+          "Shadow Riders",
+          "Some Night Nikad ~ Under the Train",
+          "The Pulse Within"
+        ],
+        "prior_destinations": {
+          "shadow_riders_ditto": "https://ditto.fm/shadow-riders",
+          "shadow_riders_spotify": "https://open.spotify.com/track/564IZJ610GtVUgG0Z3Y3rU"
+        },
+        "note": "Do not expose on public hub. Do not relaunch until Steve hands rebuilt masters."
       }
     },
     {
@@ -328,7 +340,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-09-29T19:23:18-07:00",
+  "updated": "2026-09-29T20:49:44-07:00",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
