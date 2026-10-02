@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.36",
+  "version": "1.37",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -285,7 +285,8 @@
         "One Dry Match": "2026-10-10",
         "Nocturne Boulevard": "2026-10-14",
         "Losing My Change": "2026-10-14",
-        "Slappenin": "2026-10-18"
+        "Slappenin": "2026-10-18",
+        "Where the Good Road Goes": "2026-10-22"
       },
       "isrc": {
         "One Dry Match": "GXLF22679509"
@@ -299,6 +300,7 @@
         "Nocturne Boulevard Pre-Save Open SmartLink → ditto.fm/nocturne-boulevard; street Oct 14; dual with Losing My Change; Public HOLD until street",
         "Losing My Change Pre-Save Open SmartLink → ditto.fm/losing-my-change; street Oct 14; dual with Nocturne; Public HOLD until street",
         "Slappenin Pre-Save Open SmartLink → ditto.fm/slappenin; street Oct 18; Public HOLD until street",
+        "Where the Good Road Goes Pre-Save Open SmartLink → ditto.fm/where-the-good-road-goes; street Oct 22; Public HOLD until street",
         "custom song page still blocked for permanent direct-DSP buttons (0 LIVE track URLs; Pre-Save only)",
         "NOT Ash titles: Back to You Too + The Weight of Rain belong on ash-and-thunder.html",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
@@ -341,11 +343,23 @@
         ],
         "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/slappenin. Street Oct 18. Public HOLD until street. Verified HTTP 200, artist_name Sirocco Mesa, Pre-Save, releaseDate 2026-10-18. Do not use 404 slugs slappenin-sirocco-mesa, slappenin-velvet-voodoo, or any invented suffix."
       },
+      "where_the_good_road_goes_status": {
+        "status": "upcoming_presave",
+        "street": "2026-10-22",
+        "public_title": "Where the Good Road Goes",
+        "open_smartlink": "https://ditto.fm/where-the-good-road-goes",
+        "do_not_use": [
+          "https://ditto.fm/where-the-good-road-goes-sirocco-mesa",
+          "https://ditto.fm/where-the-good-road-goes-velvet-voodoo"
+        ],
+        "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/where-the-good-road-goes. Street Oct 22. Public HOLD until street. Verified HTTP 200, artist_name Sirocco Mesa, Pre-Save (pre_release), releaseDate 2026-10-22. Do not use 404 slugs where-the-good-road-goes-sirocco-mesa, where-the-good-road-goes-velvet-voodoo, or any invented suffix."
+      },
       "verified_destinations": {
         "one_dry_match_ditto": "https://ditto.fm/one-dry-match",
         "nocturne_boulevard_ditto": "https://ditto.fm/nocturne-boulevard",
         "losing_my_change_ditto": "https://ditto.fm/losing-my-change",
-        "slappenin_ditto": "https://ditto.fm/slappenin"
+        "slappenin_ditto": "https://ditto.fm/slappenin",
+        "where_the_good_road_goes_ditto": "https://ditto.fm/where-the-good-road-goes"
       }
     }
   ],
@@ -436,7 +450,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-10-01T20:38:06-07:00",
+  "updated": "2026-10-02T07:14:33-07:00",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
