@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.34",
+  "version": "1.35",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -283,7 +283,8 @@
       "ticket": "SMARTLINK-004",
       "street_dates": {
         "One Dry Match": "2026-10-10",
-        "Nocturne Boulevard": "2026-10-14"
+        "Nocturne Boulevard": "2026-10-14",
+        "Losing My Change": "2026-10-14"
       },
       "isrc": {
         "One Dry Match": "GXLF22679509"
@@ -294,7 +295,8 @@
         "EP Custom SmartLink for Velvet titles (primary Listen CTA)",
         "index tile art = locked Velvet Voodoo EP cover (Velvet_Voodoo_Cover_3000x3000 → art/velvet.jpg 320×320)",
         "One Dry Match Open SmartLink › → https://ditto.fm/one-dry-match; header YouTube unchanged",
-        "Nocturne Boulevard Pre-Save Open SmartLink → ditto.fm/nocturne-boulevard; street Oct 14; Public HOLD until street",
+        "Nocturne Boulevard Pre-Save Open SmartLink → ditto.fm/nocturne-boulevard; street Oct 14; dual with Losing My Change; Public HOLD until street",
+        "Losing My Change Pre-Save Open SmartLink → ditto.fm/losing-my-change; street Oct 14; dual with Nocturne; Public HOLD until street",
         "custom song page still blocked for permanent direct-DSP buttons (0 LIVE track URLs; Pre-Save only)",
         "NOT Ash titles: Back to You Too + The Weight of Rain belong on ash-and-thunder.html",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
@@ -309,11 +311,27 @@
         "ditto_release_id": "6585094",
         "upc": "5064090355339",
         "isrc": "GXLEZ2621546",
-        "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/nocturne-boulevard. Street Oct 14. Public HOLD until street."
+        "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/nocturne-boulevard. Street Oct 14. Dual with Losing My Change. Public HOLD until street."
+      },
+      "losing_my_change_status": {
+        "status": "upcoming_presave",
+        "street": "2026-10-14",
+        "public_title": "Losing My Change",
+        "open_smartlink": "https://ditto.fm/losing-my-change",
+        "do_not_use": [
+          "https://ditto.fm/losing-my-change-sirocco-mesa",
+          "https://ditto.fm/losing-my-change-velvet-voodoo",
+          "https://ditto.fm/losing-my-chance",
+          "https://ditto.fm/losing-my-chance-sirocco-mesa",
+          "https://ditto.fm/losing-my-chance-velvet-voodoo"
+        ],
+        "ditto_release_id": "6592162",
+        "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/losing-my-change. Street Oct 14. Dual with Nocturne Boulevard. Public HOLD until street. Do not use 404 slugs losing-my-change-sirocco-mesa, losing-my-change-velvet-voodoo, or chance variants."
       },
       "verified_destinations": {
         "one_dry_match_ditto": "https://ditto.fm/one-dry-match",
-        "nocturne_boulevard_ditto": "https://ditto.fm/nocturne-boulevard"
+        "nocturne_boulevard_ditto": "https://ditto.fm/nocturne-boulevard",
+        "losing_my_change_ditto": "https://ditto.fm/losing-my-change"
       }
     }
   ],
@@ -404,7 +422,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-10-01T11:01:14-07:00",
+  "updated": "2026-10-01T16:56:30-07:00",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
