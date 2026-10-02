@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.35",
+  "version": "1.36",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -284,7 +284,8 @@
       "street_dates": {
         "One Dry Match": "2026-10-10",
         "Nocturne Boulevard": "2026-10-14",
-        "Losing My Change": "2026-10-14"
+        "Losing My Change": "2026-10-14",
+        "Slappenin": "2026-10-18"
       },
       "isrc": {
         "One Dry Match": "GXLF22679509"
@@ -297,6 +298,7 @@
         "One Dry Match Open SmartLink › → https://ditto.fm/one-dry-match; header YouTube unchanged",
         "Nocturne Boulevard Pre-Save Open SmartLink → ditto.fm/nocturne-boulevard; street Oct 14; dual with Losing My Change; Public HOLD until street",
         "Losing My Change Pre-Save Open SmartLink → ditto.fm/losing-my-change; street Oct 14; dual with Nocturne; Public HOLD until street",
+        "Slappenin Pre-Save Open SmartLink → ditto.fm/slappenin; street Oct 18; Public HOLD until street",
         "custom song page still blocked for permanent direct-DSP buttons (0 LIVE track URLs; Pre-Save only)",
         "NOT Ash titles: Back to You Too + The Weight of Rain belong on ash-and-thunder.html",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
@@ -328,10 +330,22 @@
         "ditto_release_id": "6592162",
         "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/losing-my-change. Street Oct 14. Dual with Nocturne Boulevard. Public HOLD until street. Do not use 404 slugs losing-my-change-sirocco-mesa, losing-my-change-velvet-voodoo, or chance variants."
       },
+      "slappenin_status": {
+        "status": "upcoming_presave",
+        "street": "2026-10-18",
+        "public_title": "Slappenin",
+        "open_smartlink": "https://ditto.fm/slappenin",
+        "do_not_use": [
+          "https://ditto.fm/slappenin-sirocco-mesa",
+          "https://ditto.fm/slappenin-velvet-voodoo"
+        ],
+        "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/slappenin. Street Oct 18. Public HOLD until street. Verified HTTP 200, artist_name Sirocco Mesa, Pre-Save, releaseDate 2026-10-18. Do not use 404 slugs slappenin-sirocco-mesa, slappenin-velvet-voodoo, or any invented suffix."
+      },
       "verified_destinations": {
         "one_dry_match_ditto": "https://ditto.fm/one-dry-match",
         "nocturne_boulevard_ditto": "https://ditto.fm/nocturne-boulevard",
-        "losing_my_change_ditto": "https://ditto.fm/losing-my-change"
+        "losing_my_change_ditto": "https://ditto.fm/losing-my-change",
+        "slappenin_ditto": "https://ditto.fm/slappenin"
       }
     }
   ],
@@ -422,7 +436,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-10-01T16:56:30-07:00",
+  "updated": "2026-10-01T20:38:06-07:00",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
