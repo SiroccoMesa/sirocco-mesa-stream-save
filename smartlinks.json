@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.39",
+  "version": "1.40",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -16,7 +16,6 @@
         "Spotify artist (verified)",
         "Equator+Duende custom SmartLinks",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
-        "U.S. scheduled supplemental SoftPro Phone15 Save 15% Oct 2–3 2026 PT (Always-4 unchanged; Sunday restore)",
         "no public Ditto",
         "no browser offer lockout (multi-offer OK)",
         "Ash & Thunder LIVE tile art (locked EP cover; Duende/Fuego pattern) + Listen→ash-and-thunder.html",
@@ -36,7 +35,6 @@
         "U.S. Laundry Dropps WELCOME20",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "U.S. scheduled supplemental SoftPro Phone15 Save 15% Oct 2–3 2026 PT (Always-4 unchanged; Sunday restore)",
         "Intl Laundry Mother’s Earth Laundry Bundle — 25% off one-time",
         "Intl Food iHerb — 35% off Granola Bars",
         "Intl Personal Care LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
@@ -63,7 +61,6 @@
         "U.S. Laundry Dropps WELCOME20",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
-        "U.S. scheduled supplemental SoftPro Phone15 Save 15% Oct 2–3 2026 PT (Always-4 unchanged; Sunday restore)",
         "Intl Laundry Mother’s Earth Laundry Bundle — 25% off one-time",
         "Intl Food iHerb — 35% off Granola Bars",
         "Intl Personal Care LOOKFANTASTIC / INKEY — 20% off Ceramide Moisturizer",
@@ -203,8 +200,7 @@
         "NIKAD REMASTER Steve LOCK 2026-09-29 ~9:37 PM PT — street 2026-10-12; title Some Nights Nikad ~ Under The Train",
         "PULSE WITHIN ONE Steve LOCK 2026-09-29 ~11:09 PM PT — street 2026-10-13; new work not remaster of withdrawn Pulse",
         "Back to You Too + The Weight of Rain are Ash titles (NOT Velvet)",
-        "The One I Face removed from public Ash page (Steve Not Public — do not show HOLD/SUPERSEDED)",
-        "U.S. scheduled supplemental SoftPro Phone15 Save 15% Oct 2–3 2026 PT (Always-4 unchanged; Sunday restore)"
+        "The One I Face removed from public Ash page (Steve Not Public — do not show HOLD/SUPERSEDED)"
       ],
       "verified_destinations": {
         "back_to_you_too_ditto": "https://ditto.fm/back-to-you-too",
@@ -301,7 +297,6 @@
         "custom song page still blocked for permanent direct-DSP buttons (0 LIVE track URLs; Pre-Save only)",
         "NOT Ash titles: Back to You Too + The Weight of Rain belong on ash-and-thunder.html",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
-        "U.S. scheduled supplemental SoftPro Phone15 Save 15% Oct 2–3 2026 PT (Always-4 unchanged; Sunday restore)",
         "no browser offer lockout (multi-offer OK)"
       ],
       "notes": "Steve allows EP page with Pre-Save/Listen dests that VERIFY — do not leave index Upcoming. Index Listen must be custom .html (FACELESS · hub URL forever · Ditto = fallback only).",
@@ -448,7 +443,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-10-03T07:30:43-07:00",
+  "updated": "2026-10-04T08:30:42-07:00",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
@@ -478,7 +473,7 @@
         "code": "WELCOME20",
         "min": "$0",
         "url": "https://www.dropps.com/discount/WELCOME20",
-        "notes": "Cart PASS 2026-09-30 ~10:50 PM PT — WELCOME20 applies 20% on laundry pods SKUs; $0 promo min. Free shipping $35+ is shipping threshold. SoftPro is not the Always-4 laundry merchant; it is the Oct 2–3 2026 PT scheduled supplemental only. Evidence ops/marketing/smartlink-004/evidence/laundry-replace-2026-09-30/",
+        "notes": "Cart PASS 2026-09-30 ~10:50 PM PT — WELCOME20 applies 20% on laundry pods SKUs; $0 promo min. Free shipping $35+ is shipping threshold. SoftPro is not the Always-4 laundry merchant. The Oct 2–3 2026 PT SoftPro supplemental was removed Sunday 2026-10-04 PT. Evidence ops/marketing/smartlink-004/evidence/laundry-replace-2026-09-30/",
         "expires": null
       },
       {
@@ -503,7 +498,11 @@
     "us_scheduled_supplemental": [
       {
         "role": "scheduled_supplemental",
-        "status": "PLACED_IN_WINDOW",
+        "status": "REMOVED",
+        "inactive": true,
+        "active_placement": false,
+        "removed": "2026-10-04",
+        "removed_timezone": "America/Los_Angeles",
         "window": {
           "start": "2026-10-02",
           "end": "2026-10-03",
@@ -518,7 +517,7 @@
         "min": "$0",
         "url": "https://www.softprowatersystems.com/discount/Phone15",
         "data_id": "us-household-softpro-phone15",
-        "placement": "Additive card immediately after Dropps on every public page that carries the U.S. Always-4. Always-4 order unchanged: Vitacost, Dropps, Swanson, Chemical Guys.",
+        "placement": "REMOVED Sunday 2026-10-04 PT. Not on public Pages. Always-4 only: Vitacost, Dropps, Swanson, Chemical Guys.",
         "always4_unchanged": [
           "Vitacost",
           "Dropps",
@@ -526,9 +525,10 @@
           "Chemical Guys"
         ],
         "lockout": "NO_OFFER_LOCKOUT — SoftPro does not disable other offers",
-        "sunday_restore": "Sunday 2026-10-04 PT: remove this supplemental card and restore the Always-4-only U.S. baseline. SoftPro is window-only.",
-        "gm_verify": "GM VERIFY PASS 2026-10-02 ~8:08 AM PT. Code Phone15 applies 15% in cart. SoftPro Elite Smart HE city-water softener 32k grain: $1,367.00 → $205.05 off → $1,161.95. Discount URL redirects to homepage; code still applies in cart. KEEP preferred discount URL as href. Cart not re-tested in this Pages edit.",
-        "pages": [
+        "sunday_restore": "DONE Sunday 2026-10-04 PT. Supplemental card removed from public Pages. Always-4-only U.S. baseline restored. SoftPro is window-only.",
+        "gm_verify": "GM VERIFY PASS 2026-10-02 ~8:08 AM PT. Code Phone15 applies 15% in cart. SoftPro Elite Smart HE city-water softener 32k grain: $1,367.00 → $205.05 off → $1,161.95. Discount URL redirects to homepage; code still applies in cart. KEEP preferred discount URL as href. Cart not re-tested in this Pages edit. Historical verify for the closed Oct 2–3 window only — do not place from this record.",
+        "pages": [],
+        "removed_from": [
           "index.html",
           "equator.html",
           "duende-azul.html",
@@ -537,10 +537,20 @@
         ],
         "not_placed_on": [
           "alegria-de-la-vida.html",
-          "la-ultima-mirada.html"
+          "la-ultima-mirada.html",
+          "city/"
         ],
-        "not_placed_reason": "Those song pages do not currently carry the U.S. Always-4 (Vitacost Food absent since 2026-09-29; not restored here). SoftPro was not used to fill that gap.",
-        "notes": "Laundry & Household affinity only for this card. Not a permanent 5th doctrine category. International, 20-city, BMI, YouTube Publics, and song Pre-Save rows untouched."
+        "not_placed_reason": "Alegría and La Última Mirada do not carry the U.S. Always-4 (Vitacost Food absent since 2026-09-29). SoftPro was not used to fill that gap. City pages were never a SoftPro surface.",
+        "next_window": {
+          "status": "SCHEDULED",
+          "start": "2026-11-06",
+          "end": "2026-11-07",
+          "timezone": "America/Los_Angeles",
+          "label": "Nov 6–7, 2026 PT",
+          "do_not_place_now": true,
+          "note": "Next SoftPro window is SCHEDULED only. Do not place SoftPro now."
+        },
+        "notes": "Oct 2–3 2026 PT window ended. Card removed Sunday 2026-10-04 PT. Not an active placement. Next window Nov 6–7 2026 PT is SCHEDULED — do not place SoftPro now. Not a permanent 5th doctrine category. International, 20-city, BMI, YouTube Publics, and song Pre-Save rows untouched."
       }
     ],
     "us_empty": [],
@@ -658,7 +668,7 @@
       "Laundry & Household"
     ],
     "uk_complete": false,
-    "routing_note": "2026-09-22 Offer B Anywhere placed modularly on hub + Equator + Duende (no new page). Tracked src=anywhere_savings / radio_anywhere. 20-city untouched; uk_lane.public:false. | 2026-09-22 LIVE: U.S. 4/4 + International 4/4 (Mother’s Earth, iHerb Food, LOOKFANTASTIC/INKEY, Detailing1). UK lane public:false — do not stage UK-only on public Pages or into International. Reject for International: Chemical Guys, Auto Finesse, H&B, Halfords. | 2026-09-29: U.S. Food Vitacost removed (expired); later filled Always-4. KEEP Swanson / Chemical Guys. International 4/4 unchanged. | 2026-09-29 evening: U.S. Food filled Always-4 with Vitacost Dastony Save 15% (brand-scoped; expires 2026-10-26 7:00 a.m. ET). U.S. 4/4 + International 4/4. | 2026-09-30: Laundry = Dropps WELCOME20. SoftPro not placed. U.S. 4/4 + International 4/4. | 2026-10-02: SoftPro Water Systems Phone15 PLACED_IN_WINDOW as scheduled supplemental (Laundry & Household affinity only; not a 5th doctrine category). Window Oct 2–3 2026 PT. Destination https://www.softprowatersystems.com/discount/Phone15. Always-4 unchanged. NO_OFFER_LOCKOUT. Sunday 2026-10-04 PT restore baseline: remove SoftPro and return to Always-4 only. International 4/4 unchanged. 20-city untouched.",
+    "routing_note": "2026-09-22 Offer B Anywhere placed modularly on hub + Equator + Duende (no new page). Tracked src=anywhere_savings / radio_anywhere. 20-city untouched; uk_lane.public:false. | 2026-09-22 LIVE: U.S. 4/4 + International 4/4 (Mother’s Earth, iHerb Food, LOOKFANTASTIC/INKEY, Detailing1). UK lane public:false — do not stage UK-only on public Pages or into International. Reject for International: Chemical Guys, Auto Finesse, H&B, Halfords. | 2026-09-29: U.S. Food Vitacost removed (expired); later filled Always-4. KEEP Swanson / Chemical Guys. International 4/4 unchanged. | 2026-09-29 evening: U.S. Food filled Always-4 with Vitacost Dastony Save 15% (brand-scoped; expires 2026-10-26 7:00 a.m. ET). U.S. 4/4 + International 4/4. | 2026-09-30: Laundry = Dropps WELCOME20. SoftPro not placed. U.S. 4/4 + International 4/4. | 2026-10-02: SoftPro Water Systems Phone15 PLACED_IN_WINDOW as scheduled supplemental (Laundry & Household affinity only; not a 5th doctrine category). Window Oct 2–3 2026 PT. Destination https://www.softprowatersystems.com/discount/Phone15. Always-4 unchanged. NO_OFFER_LOCKOUT. Sunday 2026-10-04 PT restore baseline: remove SoftPro and return to Always-4 only. International 4/4 unchanged. 20-city untouched. | 2026-10-04: SoftPro removed Sunday 2026-10-04 PT. Always-4 only. Next SoftPro window Nov 6–7 2026 PT SCHEDULED (do not place SoftPro now). International 4/4 unchanged. 20-city untouched.",
     "anywhere_offer_b": true,
     "anywhere_tracked_urls": {
       "hub_anywhere_savings": "https://siroccomesa.github.io/sirocco-mesa-stream-save/?src=anywhere_savings",
