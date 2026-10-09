@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.44",
+  "version": "1.45",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -42,6 +42,27 @@
         "multi-offer available (no SmartLink lockout)",
         "no browser offer lockout (multi-offer OK)"
       ]
+    },
+    {
+      "id": "equator_ch1_story",
+      "release": "Equator Chapter 1 — Sand Echo",
+      "type": "story",
+      "collection": "Equator",
+      "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator-ch1-sand-echo.html",
+      "local_file": "equator-ch1-sand-echo.html",
+      "status": "live",
+      "youtube": "HuUO-uaT9nY",
+      "note": "2026-10-09 NARRATIVE-LIT: Equator Ch1 story page + chapter index added (HuUO-uaT9nY)"
+    },
+    {
+      "id": "equator_story_index",
+      "release": "Equator Story",
+      "type": "story_index",
+      "collection": "Equator",
+      "public_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator-story.html",
+      "local_file": "equator-story.html",
+      "status": "live",
+      "note": "2026-10-09 NARRATIVE-LIT: Equator Ch1 story page + chapter index added (HuUO-uaT9nY)"
     },
     {
       "release": "Duende Azul",
