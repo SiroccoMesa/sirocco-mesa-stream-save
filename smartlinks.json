@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.46",
+  "version": "1.47",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -492,8 +492,8 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-10-09T22:08:11-07:00",
-  "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street).",
+  "updated": "2026-10-09T22:50:22-07:00",
+  "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
