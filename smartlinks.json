@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.52",
+  "version": "1.53",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -216,7 +216,7 @@
         "no LIVE Open SmartLink row; header YouTube only (Spotify verified-track row removed)",
         "primary Listen remains Custom SmartLink ash-and-thunder.html / hub — never ditto.fm as the primary Listen CTA",
         "custom song pages not yet built (Wave backlog)",
-        "song list PUBLIC: The Weight of Rain is LIVE Open SmartLink → ditto.fm/the-weight-of-rain-sirocco-mesa (NOT bare the-weight-of-rain) on ash-and-thunder.html (released 2026-10-09; YouTube long + Short public 2026-10-08 ~9:37 PM PT; Ditto page still pre_release with Ditto date 2026-10-10, so the Open SmartLink target stays the Ditto pre-save URL until Ditto flips); Back to You Too is LIVE Open SmartLink → https://ditto.fm/back-to-you-too on ash-and-thunder.html (released 2026-10-09 street; Ditto post-release live 2026-10-08); Some Nights Nikad ~ Under The Train is LIVE Open SmartLink → https://ditto.fm/some-nights-nikad-under-the-train on ash-and-thunder.html (released 2026-10-12 street; Ditto post-release live 2026-10-11; YouTube long DQ-Q7kU7-Dw / Short TJHSlJZgEWw public 2026-10-11); The Pulse Within One is Pre-Save Open SmartLink on ash-and-thunder.html (street still future); Bastion is Pre-Save Open SmartLink → https://ditto.fm/bastion-sirocco-mesa; street Oct 13; badge PRE-SAVE · OCT 13; Take You There is Pre-Save Open SmartLink → https://ditto.fm/take-you-there-sirocco-mesa (NOT bare take-you-there); street Oct 18; badge PRE-SAVE · OCT 18",
+        "song list PUBLIC: The Weight of Rain is LIVE Open SmartLink → ditto.fm/the-weight-of-rain-sirocco-mesa (NOT bare the-weight-of-rain) on ash-and-thunder.html (released 2026-10-09; YouTube long + Short public 2026-10-08 ~9:37 PM PT; Ditto page post_release/live (Ditto date 2026-10-10); Open SmartLink remains https://ditto.fm/the-weight-of-rain-sirocco-mesa); Back to You Too is LIVE Open SmartLink → https://ditto.fm/back-to-you-too on ash-and-thunder.html (released 2026-10-09 street; Ditto post-release live 2026-10-08); Some Nights Nikad ~ Under The Train is LIVE Open SmartLink → https://ditto.fm/some-nights-nikad-under-the-train on ash-and-thunder.html (released 2026-10-12 street; Ditto post-release live 2026-10-11; YouTube long DQ-Q7kU7-Dw / Short TJHSlJZgEWw public 2026-10-11); The Pulse Within One is Pre-Save Open SmartLink on ash-and-thunder.html (street still future); Bastion is Pre-Save Open SmartLink → https://ditto.fm/bastion-sirocco-mesa; street Oct 13; badge PRE-SAVE · OCT 13; Take You There is Pre-Save Open SmartLink → https://ditto.fm/take-you-there-sirocco-mesa (NOT bare take-you-there); street Oct 18; badge PRE-SAVE · OCT 18",
         "BASTION Pre-Save Open SmartLink → https://ditto.fm/bastion-sirocco-mesa; street Oct 13; badge PRE-SAVE · OCT 13; do NOT use bare ditto.fm/bastion (wrong artist API); do NOT re-add Grith",
         "TAKE YOU THERE Pre-Save Open SmartLink → https://ditto.fm/take-you-there-sirocco-mesa; street Oct 18; badge PRE-SAVE · OCT 18; do NOT use bare ditto.fm/take-you-there; Ash title NOT Velvet (Slappenin is the Velvet Oct 18 title); do NOT re-add Grith",
         "WITHDRAWN still: Shadow Riders; older The Pulse Within (distinct from The Pulse Within One — do not revive)",
@@ -244,7 +244,7 @@
           "shadow_riders_ditto": "https://ditto.fm/shadow-riders",
           "shadow_riders_spotify": "https://open.spotify.com/track/564IZJ610GtVUgG0Z3Y3rU"
         },
-        "note": "Shadow Riders + older The Pulse Within remain withdrawn. Back to You Too is LIVE Open SmartLink on ash-and-thunder.html (released 2026-10-09 street; Ditto post-release live 2026-10-08). Some Nights Nikad ~ Under The Train is LIVE Open SmartLink → https://ditto.fm/some-nights-nikad-under-the-train on ash-and-thunder.html (released 2026-10-12 street; Ditto post-release live 2026-10-11; YouTube long DQ-Q7kU7-Dw / Short TJHSlJZgEWw public 2026-10-11). The Pulse Within One, Bastion, and Take You There are active Pre-Save Open SmartLink rows (streets still future). The Weight of Rain is LIVE Open SmartLink → ditto.fm/the-weight-of-rain-sirocco-mesa (NOT bare the-weight-of-rain) on ash-and-thunder.html (released 2026-10-09; YouTube long + Short public 2026-10-08 ~9:37 PM PT; Ditto page still pre_release with Ditto date 2026-10-10, so the Open SmartLink target stays the Ditto pre-save URL until Ditto flips). Bastion is Pre-Save Open SmartLink → https://ditto.fm/bastion-sirocco-mesa; street Oct 13; badge PRE-SAVE · OCT 13. Do NOT use bare ditto.fm/bastion (wrong artist API). Take You There is Pre-Save Open SmartLink → https://ditto.fm/take-you-there-sirocco-mesa; street Oct 18; badge PRE-SAVE · OCT 18. Do NOT use bare ditto.fm/take-you-there. Do NOT re-add Grith. Do not reference Back To You 6551435 as active.",
+        "note": "Shadow Riders + older The Pulse Within remain withdrawn. Back to You Too is LIVE Open SmartLink on ash-and-thunder.html (released 2026-10-09 street; Ditto post-release live 2026-10-08). Some Nights Nikad ~ Under The Train is LIVE Open SmartLink → https://ditto.fm/some-nights-nikad-under-the-train on ash-and-thunder.html (released 2026-10-12 street; Ditto post-release live 2026-10-11; YouTube long DQ-Q7kU7-Dw / Short TJHSlJZgEWw public 2026-10-11). The Pulse Within One, Bastion, and Take You There are active Pre-Save Open SmartLink rows (streets still future). The Weight of Rain is LIVE Open SmartLink → ditto.fm/the-weight-of-rain-sirocco-mesa (NOT bare the-weight-of-rain) on ash-and-thunder.html (released 2026-10-09; YouTube long + Short public 2026-10-08 ~9:37 PM PT; Ditto page post_release/live (Ditto date 2026-10-10); Open SmartLink remains https://ditto.fm/the-weight-of-rain-sirocco-mesa). Bastion is Pre-Save Open SmartLink → https://ditto.fm/bastion-sirocco-mesa; street Oct 13; badge PRE-SAVE · OCT 13. Do NOT use bare ditto.fm/bastion (wrong artist API). Take You There is Pre-Save Open SmartLink → https://ditto.fm/take-you-there-sirocco-mesa; street Oct 18; badge PRE-SAVE · OCT 18. Do NOT use bare ditto.fm/take-you-there. Do NOT re-add Grith. Do not reference Back To You 6551435 as active.",
         "nikad_status": {
           "status": "live",
           "street": "2026-10-12",
@@ -301,7 +301,7 @@
           "street": "2026-10-09",
           "released": "2026-10-09",
           "youtube_long_and_short_public": "2026-10-08 ~9:37 PM PT",
-          "ditto_page": "pre_release",
+          "ditto_page": "post_release",
           "ditto_date": "2026-10-10",
           "public_title": "The Weight of Rain",
           "open_smartlink": "https://ditto.fm/the-weight-of-rain-sirocco-mesa",
@@ -309,7 +309,7 @@
           "ditto_release_id": "6565218",
           "upc": "5064090209045",
           "isrc": "GXLF22677740",
-          "note": "LIVE Open SmartLink on ash-and-thunder.html → https://ditto.fm/the-weight-of-rain-sirocco-mesa (NOT bare the-weight-of-rain). YouTube long + Short public 2026-10-08 ~9:37 PM PT. Ditto page still pre_release with Ditto date 2026-10-10; Open SmartLink stays the Ditto pre-save URL until Ditto flips."
+          "note": "LIVE Open SmartLink on ash-and-thunder.html → https://ditto.fm/the-weight-of-rain-sirocco-mesa (NOT bare the-weight-of-rain). YouTube long + Short public 2026-10-08 ~9:37 PM PT. Ditto page post_release/live (Ditto date 2026-10-10)."
         },
         "take_you_there_status": {
           "status": "upcoming_presave",
@@ -344,17 +344,28 @@
       "contains": [
         "EP Custom SmartLink for Velvet titles (primary Listen CTA)",
         "index tile art = locked Velvet Voodoo EP cover (Velvet_Voodoo_Cover_3000x3000 → art/velvet.jpg 320×320)",
-        "One Dry Match Open SmartLink › → https://ditto.fm/one-dry-match; header YouTube unchanged",
+        "One Dry Match LIVE Open SmartLink › → https://ditto.fm/one-dry-match; released October 10, 2026; header YouTube unchanged",
         "Nocturne Boulevard Pre-Save Open SmartLink → ditto.fm/nocturne-boulevard; street Oct 14; dual with Losing My Change; Public HOLD until street",
         "Losing My Change Pre-Save Open SmartLink → ditto.fm/losing-my-change; street Oct 14; dual with Nocturne; Public HOLD until street",
         "Slappenin Pre-Save Open SmartLink → ditto.fm/slappenin; street Oct 18; Public HOLD until street",
         "Where the Good Road Goes Pre-Save Open SmartLink → ditto.fm/where-the-good-road-goes; street Oct 22; Public HOLD until street",
-        "custom song page still blocked for permanent direct-DSP buttons (0 LIVE track URLs; Pre-Save only)",
+        "custom song page still blocked for permanent direct-DSP buttons (One Dry Match is LIVE/released; other Velvet titles remain Pre-Save)",
         "NOT Ash titles: Back to You Too + The Weight of Rain belong on ash-and-thunder.html",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "no browser offer lockout (multi-offer OK)"
       ],
       "notes": "Steve allows EP page with Pre-Save/Listen dests that VERIFY — do not leave index Upcoming. Index Listen must be custom .html (FACELESS · hub URL forever · Ditto = fallback only).",
+      "one_dry_match_status": {
+        "status": "live",
+        "street": "2026-10-10",
+        "released": "2026-10-10",
+        "ditto_page": "post_release",
+        "public_title": "One Dry Match",
+        "open_smartlink": "https://ditto.fm/one-dry-match",
+        "upc": "5064090214346",
+        "isrc": "GXLF22679509",
+        "note": "LIVE Open SmartLink on velvet-voodoo.html → https://ditto.fm/one-dry-match. Released October 10, 2026."
+      },
       "nocturne_boulevard_status": {
         "status": "upcoming_presave",
         "street": "2026-10-14",
@@ -499,7 +510,7 @@
     ]
   },
   "updated": "2026-10-11T21:29:29-07:00",
-  "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed. Stale Vegas sale lead removed. 2026-10-09 Steve: AI note removed from Equator story pages. 2026-10-10 Steve ONE-TAP: hub + city song links go direct to Ditto; la-ultima-mirada.html/alegria-de-la-vida.html kept but no longer linked from hub. 2026-10-12: city/tokyo primary swapped to Some Nights Nikad ~ Under The Train (Ash & Thunder) on street day, src=city_tokyo; Steve-approved Oct 9 swap.",
+  "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed. Stale Vegas sale lead removed. 2026-10-09 Steve: AI note removed from Equator story pages. 2026-10-10 Steve ONE-TAP: hub + city song links go direct to Ditto; la-ultima-mirada.html/alegria-de-la-vida.html kept but no longer linked from hub. 2026-10-12: city/tokyo primary swapped to Some Nights Nikad ~ Under The Train (Ash & Thunder) on street day, src=city_tokyo; Steve-approved Oct 9 swap. 2026-10-12: One Dry Match is LIVE/released on velvet-voodoo.html (Open SmartLink https://ditto.fm/one-dry-match). The Weight of Rain ditto_page is post_release/live.",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
