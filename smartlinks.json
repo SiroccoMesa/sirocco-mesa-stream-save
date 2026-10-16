@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.55",
+  "version": "1.56",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -803,5 +803,20 @@
     ],
     "city_pages": "untouched",
     "supersedes": "first-pick savings lock / SAVINGS_LOCK_NO_RESET"
+  },
+  "src_tags": {
+    "t_vis_v1": {
+      "test": "T-VIS V1 real photo (A) vs Wan AI frame (B), Equator Ch1; directional, 5/10 scene match",
+      "approved": "Steve via GM 2026-10-16 09:26 PT; AI label on B = one-time exception to AB_TEST_PLAN_SRC no-AI-labels rule",
+      "destination": "https://ditto.fm/equator-sirocco-mesa",
+      "tags": {
+        "ig_equator_tvis_a": "https://ditto.fm/equator-sirocco-mesa?src=ig_equator_tvis_a",
+        "ig_equator_tvis_b": "https://ditto.fm/equator-sirocco-mesa?src=ig_equator_tvis_b",
+        "fb_equator_tvis_a": "https://ditto.fm/equator-sirocco-mesa?src=fb_equator_tvis_a",
+        "fb_equator_tvis_b": "https://ditto.fm/equator-sirocco-mesa?src=fb_equator_tvis_b"
+      },
+      "verified_http_200": "2026-10-16 PT (all four)",
+      "plan": "ops/atlas/visual/deliverables/2026-10-16/t-vis-v1/T-VIS-V1_TEST_PLAN_2026-10-16.md"
+    }
   }
 }
