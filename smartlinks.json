@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.58",
+  "version": "1.59",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -834,6 +834,16 @@
       "verified_http_200": "2026-10-19 PT (all four, curl -L)",
       "note": "Slappenin Ditto post_release (street 2026-10-18). Where the Good Road Goes Ditto pre_release until street 2026-10-22; tags registered ahead of Oct 21 ~9 PM PT hub flip. yt_short_where_the_good_road_goes already in use on file (2026-10-13 swap file); other three are new registry entries.",
       "plan": "ops/marketing/spotify-bridge-2026-10-19/SPOTIFY_BRIDGE_PLAN_2026-10-19.md"
+    },
+    "entwined_oct23": {
+      "test": "Entwined Oct 23, 2026: YouTube MV, long, and Short to the Sirocco Mesa Ditto pre-save (Velvet Voodoo); street Oct 24",
+      "tags": {
+        "yt_mv_entwined": "https://ditto.fm/entwined-sirocco-mesa?src=yt_mv_entwined",
+        "yt_long_entwined": "https://ditto.fm/entwined-sirocco-mesa?src=yt_long_entwined",
+        "yt_short_entwined": "https://ditto.fm/entwined-sirocco-mesa?src=yt_short_entwined"
+      },
+      "verified_http_200": "2026-10-19 PT (base URL curl, HTTP 200, linkType pre_release)",
+      "note": "Entwined Ditto pre_release (street 2026-10-24; releaseDate 2026-10-24T00:00:00.000Z; curl 2026-10-19 HTTP 200). Listed services: Spotify, Apple Music, Deezer, TIDAL, SoundCloud, Amazon Music (Streaming), Anghami, YouTube Music, Audiomack. All three tags use https://ditto.fm/entwined-sirocco-mesa. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE)."
     }
   }
 }
