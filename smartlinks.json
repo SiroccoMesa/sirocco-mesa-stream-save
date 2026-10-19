@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.57",
+  "version": "1.58",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -828,7 +828,8 @@
         "yt_long_slappenin": "https://ditto.fm/slappenin?src=yt_long_slappenin",
         "yt_community_slappenin": "https://ditto.fm/slappenin?src=yt_community_slappenin",
         "yt_short_where_the_good_road_goes": "https://ditto.fm/where-the-good-road-goes?src=yt_short_where_the_good_road_goes",
-        "yt_long_where_the_good_road_goes": "https://ditto.fm/where-the-good-road-goes?src=yt_long_where_the_good_road_goes"
+        "yt_long_where_the_good_road_goes": "https://ditto.fm/where-the-good-road-goes?src=yt_long_where_the_good_road_goes",
+        "yt_community_take_you_there": "https://ditto.fm/take-you-there-sirocco-mesa?src=yt_community_take_you_there"
       },
       "verified_http_200": "2026-10-19 PT (all four, curl -L)",
       "note": "Slappenin Ditto post_release (street 2026-10-18). Where the Good Road Goes Ditto pre_release until street 2026-10-22; tags registered ahead of Oct 21 ~9 PM PT hub flip. yt_short_where_the_good_road_goes already in use on file (2026-10-13 swap file); other three are new registry entries.",
