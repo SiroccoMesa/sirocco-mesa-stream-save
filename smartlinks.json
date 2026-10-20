@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.63",
+  "version": "1.64",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -868,16 +868,16 @@
       "note": "Equator Ditto post_release (releaseDate 2026-09-04T00:00:00.000Z; curl 2026-10-19 PT HTTP 200). Listed services: Spotify, YouTube, Deezer, TIDAL, Amazon Music (Streaming), YouTube Music, iHeart Radio. ig_equator_idea3 uses https://ditto.fm/equator-sirocco-mesa. No Duende Azul EP Ditto URL in the registry; tt_duende_idea4 uses the GitHub Pages hub https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html (curl HTTP 200)."
     },
     "wtgrg_oct22": {
-      "test": "Where the Good Road Goes Oct 22, 2026: YouTube community, music video, Facebook, Instagram, and TikTok to the Sirocco Mesa Ditto pre-save (Velvet Voodoo); street Oct 22",
+      "test": "Where the Good Road Goes Oct 22, 2026: YouTube community and music video to the Sirocco Mesa Ditto pre-save; Facebook, Instagram, and TikTok to the Velvet Voodoo hub; street Oct 22",
       "tags": {
         "yt_community_wtgrg": "https://ditto.fm/where-the-good-road-goes?src=yt_community_wtgrg",
         "yt_mv_wtgrg": "https://ditto.fm/where-the-good-road-goes?src=yt_mv_wtgrg",
-        "fb_where_the_good_road_goes": "https://ditto.fm/where-the-good-road-goes?src=fb_where_the_good_road_goes",
-        "ig_where_the_good_road_goes": "https://ditto.fm/where-the-good-road-goes?src=ig_where_the_good_road_goes",
-        "tt_where_the_good_road_goes": "https://ditto.fm/where-the-good-road-goes?src=tt_where_the_good_road_goes"
+        "fb_where_the_good_road_goes": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=fb_where_the_good_road_goes",
+        "ig_where_the_good_road_goes": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=ig_where_the_good_road_goes",
+        "tt_where_the_good_road_goes": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=tt_where_the_good_road_goes"
       },
       "verified_http_200": "2026-10-20 PT (base URL curl, HTTP 200, linkType pre_release)",
-      "note": "Where the Good Road Goes Ditto pre_release (street 2026-10-22; releaseDate 2026-10-22T00:00:00.000Z; artist_name Sirocco Mesa; curl 2026-10-20 HTTP 200). Listed services: Spotify, Apple Music, Deezer, TIDAL, SoundCloud, Amazon Music (Streaming), Anghami, YouTube Music, Audiomack. Spotify and Amazon Music (Streaming) are both listed. All five tags use https://ditto.fm/where-the-good-road-goes, the same URL as yt_long_where_the_good_road_goes. Do not use a bare slug or the 404 slugs where-the-good-road-goes-sirocco-mesa and where-the-good-road-goes-velvet-voodoo."
+      "note": "Where the Good Road Goes Ditto pre_release (street 2026-10-22; releaseDate 2026-10-22T00:00:00.000Z; artist_name Sirocco Mesa; curl 2026-10-20 HTTP 200). Listed services: Spotify, Apple Music, Deezer, TIDAL, SoundCloud, Amazon Music (Streaming), Anghami, YouTube Music, Audiomack. Spotify and Amazon Music (Streaming) are both listed. yt_community_wtgrg and yt_mv_wtgrg use https://ditto.fm/where-the-good-road-goes, the same URL as yt_long_where_the_good_road_goes. fb_where_the_good_road_goes, ig_where_the_good_road_goes, and tt_where_the_good_road_goes use the Velvet Voodoo hub https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html (curl 2026-10-20 HTTP 200). Do not use a bare slug or the 404 slugs where-the-good-road-goes-sirocco-mesa and where-the-good-road-goes-velvet-voodoo."
     },
     "bio_links": {
       "test": "Instagram and TikTok bio links to the hub home page",
