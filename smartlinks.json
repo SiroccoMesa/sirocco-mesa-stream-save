@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.60",
+  "version": "1.61",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -848,6 +848,14 @@
       },
       "verified_http_200": "2026-10-19 PT (base URL curl, HTTP 200, linkType pre_release)",
       "note": "Entwined Ditto pre_release (street 2026-10-24; releaseDate 2026-10-24T00:00:00.000Z; curl 2026-10-19 HTTP 200). Listed services: Spotify, Apple Music, Deezer, TIDAL, SoundCloud, Amazon Music (Streaming), Anghami, YouTube Music, Audiomack. All three tags use https://ditto.fm/entwined-sirocco-mesa. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE)."
+    },
+    "fuego_long_oct19": {
+      "test": "Fuego de Medianoche Oct 19, 2026: YouTube long to the Duende Azul Ditto page; street Sep 4",
+      "tags": {
+        "yt_long_fuego": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=yt_long_fuego"
+      },
+      "verified_http_200": "2026-10-19 PT (base URL curl, HTTP 200, linkType post_release)",
+      "note": "Fuego de Medianoche Ditto post_release (street 2026-09-04; releaseDate 2026-09-04T00:00:00.000Z; curl 2026-10-19 HTTP 200). Listed services: Spotify, YouTube, Deezer, TIDAL, Amazon Music (Streaming), YouTube Music, iHeart Radio. Tag uses https://ditto.fm/fuego-de-medianoche-duende-azul."
     }
   }
 }
