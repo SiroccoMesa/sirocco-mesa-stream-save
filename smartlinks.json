@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.65",
+  "version": "1.66",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -371,12 +371,12 @@
         "EP Custom SmartLink for Velvet titles (primary Listen CTA)",
         "index tile art = locked Velvet Voodoo EP cover (Velvet_Voodoo_Cover_3000x3000 → art/velvet.jpg 320×320)",
         "One Dry Match LIVE Open SmartLink › → https://ditto.fm/one-dry-match; released October 10, 2026; header YouTube unchanged",
-        "Nocturne Boulevard Pre-Save Open SmartLink → ditto.fm/nocturne-boulevard; street Oct 14; stays PRE-SAVE because the Ditto service list has no Spotify or Amazon (anghami and kkbox only)",
+        "Nocturne Boulevard LIVE Open SmartLink → https://ditto.fm/nocturne-boulevard-sirocco-mesa; released October 14, 2026; Ditto page post_release",
         "Losing My Change LIVE Open SmartLink → https://ditto.fm/losing-my-change; released October 14, 2026; Ditto page post_release",
         "Slappenin LIVE Open SmartLink → ditto.fm/slappenin; released October 18, 2026; Ditto page post_release",
         "Where the Good Road Goes Pre-Save Open SmartLink → ditto.fm/where-the-good-road-goes; street Oct 22; Public HOLD until street",
         "Entwined Pre-Save Open SmartLink → https://ditto.fm/entwined-sirocco-mesa; street Oct 24; badge PRE-SAVE · OCT 24; do NOT use bare ditto.fm/entwined (different artist, CHRIS AH GEE)",
-        "custom song page still blocked for permanent direct-DSP buttons (One Dry Match, Losing My Change, and Slappenin are LIVE/released; Nocturne Boulevard, Where the Good Road Goes, and Entwined remain Pre-Save)",
+        "custom song page still blocked for permanent direct-DSP buttons (One Dry Match, Losing My Change, Slappenin, and Nocturne Boulevard are LIVE/released; Where the Good Road Goes and Entwined remain Pre-Save)",
         "NOT Ash titles: Back to You Too + The Weight of Rain belong on ash-and-thunder.html",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "no browser offer lockout (multi-offer OK)"
@@ -394,14 +394,16 @@
         "note": "LIVE Open SmartLink on velvet-voodoo.html → https://ditto.fm/one-dry-match. Released October 10, 2026."
       },
       "nocturne_boulevard_status": {
-        "status": "upcoming_presave",
+        "status": "live",
         "street": "2026-10-14",
         "public_title": "Nocturne Boulevard",
-        "open_smartlink": "https://ditto.fm/nocturne-boulevard",
+        "open_smartlink": "https://ditto.fm/nocturne-boulevard-sirocco-mesa",
         "ditto_release_id": "6585094",
         "upc": "5064090355339",
         "isrc": "GXLEZ2621546",
-        "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/nocturne-boulevard. Street Oct 14. Left PRE-SAVE on 2026-10-14: Ditto linkType is post_release, but the embedded service list is anghami and kkbox only (no Spotify or Amazon)."
+        "note": "LIVE Open SmartLink on velvet-voodoo.html → https://ditto.fm/nocturne-boulevard-sirocco-mesa. Released October 14, 2026.",
+        "released": "2026-10-14",
+        "ditto_page": "post_release"
       },
       "losing_my_change_status": {
         "status": "live",
@@ -455,7 +457,7 @@
       },
       "verified_destinations": {
         "one_dry_match_ditto": "https://ditto.fm/one-dry-match",
-        "nocturne_boulevard_ditto": "https://ditto.fm/nocturne-boulevard",
+        "nocturne_boulevard_ditto": "https://ditto.fm/nocturne-boulevard-sirocco-mesa",
         "losing_my_change_ditto": "https://ditto.fm/losing-my-change",
         "slappenin_ditto": "https://ditto.fm/slappenin",
         "where_the_good_road_goes_ditto": "https://ditto.fm/where-the-good-road-goes",
@@ -550,7 +552,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-10-20T09:09:49-07:00",
+  "updated": "2026-10-20T10:47:47-07:00",
   "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed. Stale Vegas sale lead removed. 2026-10-09 Steve: AI note removed from Equator story pages. 2026-10-10 Steve ONE-TAP: hub + city song links go direct to Ditto; la-ultima-mirada.html/alegria-de-la-vida.html kept but no longer linked from hub. 2026-10-12: city/tokyo primary swapped to Some Nights Nikad ~ Under The Train (Ash & Thunder) on street day, src=city_tokyo; Steve-approved Oct 9 swap. 2026-10-12: One Dry Match is LIVE/released on velvet-voodoo.html (Open SmartLink https://ditto.fm/one-dry-match). The Weight of Rain ditto_page is post_release/live. 2026-10-14: Bastion and The Pulse Within One are LIVE/released on ash-and-thunder.html (Open SmartLinks https://ditto.fm/bastion-sirocco-mesa and https://ditto.fm/the-pulse-within-one; Ditto post_release with Spotify and Amazon). Losing My Change is LIVE/released on velvet-voodoo.html (https://ditto.fm/losing-my-change). Nocturne Boulevard stays PRE-SAVE: Ditto linkType post_release but embedded services are anghami and kkbox only (no Spotify or Amazon). Cuerdas de Fuego del Ensamble added LIVE (https://ditto.fm/cuerdas-de-fuego-del-ensamble). 2026-10-15: Entwined Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/entwined-sirocco-mesa; street Oct 24; badge PRE-SAVE · OCT 24. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE). 2026-10-19: Slappenin and Take You There are LIVE/released (street 2026-10-18; Ditto post_release verified 2026-10-19). city/liverpool primary swapped to Take You There (Ash & Thunder), src=city_liverpool; Steve-approved Oct 9 swap (was due Oct 18). Spotify bridge src_tags.spotify_bridge_oct20_26 registered for Oct 20-26 test.",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
