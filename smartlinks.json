@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.67",
+  "version": "1.68",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -322,8 +322,8 @@
         },
         "weight_of_rain_status": {
           "status": "live",
-          "street": "2026-10-09",
-          "released": "2026-10-09",
+          "street": "2026-10-10",
+          "released": "2026-10-10",
           "youtube_long_and_short_public": "2026-10-08 ~9:37 PM PT",
           "ditto_page": "post_release",
           "ditto_date": "2026-10-10",
@@ -333,7 +333,8 @@
           "ditto_release_id": "6565218",
           "upc": "5064090209045",
           "isrc": "GXLF22677740",
-          "note": "LIVE Open SmartLink on ash-and-thunder.html → https://ditto.fm/the-weight-of-rain-sirocco-mesa (NOT bare the-weight-of-rain). YouTube long + Short public 2026-10-08 ~9:37 PM PT. Ditto page post_release/live (Ditto date 2026-10-10)."
+          "note": "LIVE Open SmartLink on ash-and-thunder.html → https://ditto.fm/the-weight-of-rain-sirocco-mesa (NOT bare the-weight-of-rain). YouTube long + Short public 2026-10-08 ~9:37 PM PT. Ditto page post_release/live (Ditto date 2026-10-10).",
+          "date_fix": "2026-10-21: release date corrected 2026-10-09 -> 2026-10-10 (YouTube Topic upload + S7 Ditto reconcile)"
         },
         "take_you_there_status": {
           "status": "live",
@@ -552,7 +553,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-10-20T17:41:03-07:00",
+  "updated": "2026-10-21T23:48:50-07:00",
   "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed. Stale Vegas sale lead removed. 2026-10-09 Steve: AI note removed from Equator story pages. 2026-10-10 Steve ONE-TAP: hub + city song links go direct to Ditto; la-ultima-mirada.html/alegria-de-la-vida.html kept but no longer linked from hub. 2026-10-12: city/tokyo primary swapped to Some Nights Nikad ~ Under The Train (Ash & Thunder) on street day, src=city_tokyo; Steve-approved Oct 9 swap. 2026-10-12: One Dry Match is LIVE/released on velvet-voodoo.html (Open SmartLink https://ditto.fm/one-dry-match). The Weight of Rain ditto_page is post_release/live. 2026-10-14: Bastion and The Pulse Within One are LIVE/released on ash-and-thunder.html (Open SmartLinks https://ditto.fm/bastion-sirocco-mesa and https://ditto.fm/the-pulse-within-one; Ditto post_release with Spotify and Amazon). Losing My Change is LIVE/released on velvet-voodoo.html (https://ditto.fm/losing-my-change). Nocturne Boulevard stays PRE-SAVE: Ditto linkType post_release but embedded services are anghami and kkbox only (no Spotify or Amazon). Cuerdas de Fuego del Ensamble added LIVE (https://ditto.fm/cuerdas-de-fuego-del-ensamble). 2026-10-15: Entwined Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/entwined-sirocco-mesa; street Oct 24; badge PRE-SAVE · OCT 24. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE). 2026-10-19: Slappenin and Take You There are LIVE/released (street 2026-10-18; Ditto post_release verified 2026-10-19). city/liverpool primary swapped to Take You There (Ash & Thunder), src=city_liverpool; Steve-approved Oct 9 swap (was due Oct 18). Spotify bridge src_tags.spotify_bridge_oct20_26 registered for Oct 20-26 test.",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
@@ -845,22 +846,34 @@
         "yt_mv_entwined": "https://ditto.fm/entwined-sirocco-mesa?src=yt_mv_entwined",
         "yt_long_entwined": "https://ditto.fm/entwined-sirocco-mesa?src=yt_long_entwined",
         "yt_short_entwined": "https://ditto.fm/entwined-sirocco-mesa?src=yt_short_entwined",
-        "ig_entwined_reel": "https://ditto.fm/entwined-sirocco-mesa?src=ig_entwined_reel",
-        "ig_entwined_post": "https://ditto.fm/entwined-sirocco-mesa?src=ig_entwined_post",
-        "tt_entwined_reel": "https://ditto.fm/entwined-sirocco-mesa?src=tt_entwined_reel",
-        "tt_entwined_post": "https://ditto.fm/entwined-sirocco-mesa?src=tt_entwined_post",
-        "fb_entwined": "https://ditto.fm/entwined-sirocco-mesa?src=fb_entwined"
+        "ig_entwined_reel": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=ig_entwined_reel",
+        "ig_entwined_post": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=ig_entwined_post",
+        "tt_entwined_reel": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=tt_entwined_reel",
+        "tt_entwined_post": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=tt_entwined_post",
+        "fb_entwined": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=fb_entwined"
       },
       "verified_http_200": "2026-10-19 PT (base URL curl, HTTP 200, linkType pre_release)",
-      "note": "Entwined Ditto pre_release (street 2026-10-24; releaseDate 2026-10-24T00:00:00.000Z; curl 2026-10-19 HTTP 200). Listed services: Spotify, Apple Music, Deezer, TIDAL, SoundCloud, Amazon Music (Streaming), Anghami, YouTube Music, Audiomack. All three tags use https://ditto.fm/entwined-sirocco-mesa. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE)."
+      "note": "Entwined Ditto pre_release (street 2026-10-24; releaseDate 2026-10-24T00:00:00.000Z; curl 2026-10-19 HTTP 200). Listed services: Spotify, Apple Music, Deezer, TIDAL, SoundCloud, Amazon Music (Streaming), Anghami, YouTube Music, Audiomack. All three tags use https://ditto.fm/entwined-sirocco-mesa. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE).",
+      "secondary": {
+        "ig_entwined_reel": "https://ditto.fm/entwined-sirocco-mesa?src=ig_entwined_reel",
+        "tt_entwined_reel": "https://ditto.fm/entwined-sirocco-mesa?src=tt_entwined_reel",
+        "fb_entwined": "https://ditto.fm/entwined-sirocco-mesa?src=fb_entwined",
+        "ig_entwined_post": "https://ditto.fm/entwined-sirocco-mesa?src=ig_entwined_post",
+        "tt_entwined_post": "https://ditto.fm/entwined-sirocco-mesa?src=tt_entwined_post"
+      },
+      "hub_first_oct21_repoint": "2026-10-21 hub-first (Steve via GM 3:49 PM PT; GM ruling 5:28 PM PT): Entwined social tags repointed from Ditto to velvet-voodoo.html; the old Ditto URL is kept in 'secondary'."
     },
     "fuego_long_oct19": {
       "test": "Fuego de Medianoche Oct 19, 2026: YouTube long to the Duende Azul Ditto page; street Sep 4",
       "tags": {
-        "yt_long_fuego": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=yt_long_fuego"
+        "yt_long_fuego": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_long_fuego"
       },
       "verified_http_200": "2026-10-19 PT (base URL curl, HTTP 200, linkType post_release)",
-      "note": "Fuego de Medianoche Ditto post_release (street 2026-09-04; releaseDate 2026-09-04T00:00:00.000Z; curl 2026-10-19 HTTP 200). Listed services: Spotify, YouTube, Deezer, TIDAL, Amazon Music (Streaming), YouTube Music, iHeart Radio. Tag uses https://ditto.fm/fuego-de-medianoche-duende-azul."
+      "note": "Fuego de Medianoche Ditto post_release (street 2026-09-04; releaseDate 2026-09-04T00:00:00.000Z; curl 2026-10-19 HTTP 200). Listed services: Spotify, YouTube, Deezer, TIDAL, Amazon Music (Streaming), YouTube Music, iHeart Radio. Tag uses https://ditto.fm/fuego-de-medianoche-duende-azul.",
+      "secondary": {
+        "yt_long_fuego": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=yt_long_fuego"
+      },
+      "hub_first_oct21_repoint": "2026-10-21 hub-first (Steve via GM 3:49 PM PT): repointed from Ditto to the hub page; the old Ditto URL is kept in 'secondary'."
     },
     "top3_cards_oct20": {
       "test": "Top 3 cards Oct 20, 2026: Instagram Equator idea 3 to the Equator Ditto page; TikTok Duende idea 4 to the Duende Azul hub",
@@ -899,10 +912,143 @@
         "fb_equator_ch3": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=fb_equator_ch3",
         "fb_equator_ch5": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=fb_equator_ch5",
         "fb_equator_ch6": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=fb_equator_ch6",
-        "fb_fuego_de_medianoche": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=fb_fuego_de_medianoche",
-        "fb_corazon_al_viento": "https://ditto.fm/corazon-al-viento?src=fb_corazon_al_viento"
+        "fb_fuego_de_medianoche": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=fb_fuego_de_medianoche",
+        "fb_corazon_al_viento": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=fb_corazon_al_viento"
       },
-      "note": "Oct 21, 2026: FB tags for DM posts (Equator Ch2 Wed 11 AM, Fuego Thu 5 PM), plus a backfill of Equator Ch3/5/6 and Corazón al Viento used on earlier FB posts. The Equator chapters point to the equator.html hub, because there is no per-track Ditto page (ditto.fm/vals-de-los-suenos-sirocco-mesa returns 404)."
+      "note": "Oct 21, 2026: FB tags for DM posts (Equator Ch2 Wed 11 AM, Fuego Thu 5 PM), plus a backfill of Equator Ch3/5/6 and Corazón al Viento used on earlier FB posts. The Equator chapters point to the equator.html hub, because there is no per-track Ditto page (ditto.fm/vals-de-los-suenos-sirocco-mesa returns 404).",
+      "secondary": {
+        "fb_corazon_al_viento": "https://ditto.fm/corazon-al-viento?src=fb_corazon_al_viento",
+        "fb_fuego_de_medianoche": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=fb_fuego_de_medianoche"
+      },
+      "hub_first_oct21_repoint": "2026-10-21 hub-first (Steve via GM 3:49 PM PT): repointed from Ditto to the hub page; the old Ditto URL is kept in 'secondary'."
+    },
+    "hub_first_oct21": {
+      "test": "Hub-first link edits (Steve via GM 2026-10-21 3:49 PM PT): hub page primary, Ditto secondary",
+      "approved": "GM rulings 2026-10-21 under Steve's 3:49 PM PT direction: reuse existing tag names (no _hub variants); register 4 new Equator tags; repoint registered Ditto tags in place; T-BRIDGE-01 tags unchanged until the Mon 10/27 readout",
+      "tags": {
+        "yt_short_pulse_within_one": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_short_pulse_within_one",
+        "yt_short_nocturne_boulevard": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_short_nocturne_boulevard",
+        "yt_mv_losing_my_change": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_mv_losing_my_change",
+        "yt_long_take_you_there": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_long_take_you_there",
+        "yt_short_grith": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_short_grith",
+        "yt_long_fuego_de_medianoche_duende_azul_top5": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_long_fuego_de_medianoche_duende_azul_top5",
+        "yt_long_cuerdas_ensamble": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_long_cuerdas_ensamble",
+        "yt_long_sand_echo": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=yt_long_sand_echo",
+        "yt_long_the_weight_of_rain_sirocco_mesa_top5": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_long_the_weight_of_rain_sirocco_mesa_top5",
+        "yt_long_nikad": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_long_nikad",
+        "yt_long_one_dry_match": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_long_one_dry_match",
+        "yt_long_alegria": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html?src=yt_long_alegria",
+        "yt_short_slappenin": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_short_slappenin",
+        "yt_short_nikad": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_short_nikad",
+        "yt_short_bastion": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_short_bastion",
+        "yt_long_grith_top5": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_long_grith_top5",
+        "yt_long_back_to_you_too": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_long_back_to_you_too",
+        "yt_short_weight_of_rain": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_short_weight_of_rain",
+        "yt_mv_weight_of_rain": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_mv_weight_of_rain",
+        "yt_long_corazon_al_viento_top5": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_long_corazon_al_viento_top5",
+        "yt_long_pulse_within_one": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_long_pulse_within_one",
+        "yt_long_ultima_mirada": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html?src=yt_long_ultima_mirada",
+        "yt_long_entre_sombras": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_long_entre_sombras",
+        "yt_short_losing_my_change": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_short_losing_my_change",
+        "yt_mv_bastion": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_mv_bastion",
+        "yt_short_one_dry_match": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_short_one_dry_match",
+        "yt_long_wandering_dance": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=yt_long_wandering_dance",
+        "yt_long_losing_my_change": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_long_losing_my_change",
+        "yt_long_vals_de_los_suenos": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=yt_long_vals_de_los_suenos",
+        "yt_long_bastion": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_long_bastion",
+        "yt_short_vals_de_los_suenos": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=yt_short_vals_de_los_suenos",
+        "yt_mv_nocturne_v2": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_mv_nocturne_v2",
+        "yt_short_cuerdas_ensamble": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_short_cuerdas_ensamble",
+        "yt_short_alegria": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html?src=yt_short_alegria",
+        "yt_short_entre_sombras": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_short_entre_sombras",
+        "yt_short_ultima_mirada": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html?src=yt_short_ultima_mirada",
+        "yt_short_fuego_2": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_short_fuego_2",
+        "yt_long_grith": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_long_grith",
+        "yt_short_fuego_3": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_short_fuego_3",
+        "yt_short_fuego": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=yt_short_fuego",
+        "fb_alegria_de_la_vida": "https://siroccomesa.github.io/sirocco-mesa-stream-save/alegria-de-la-vida.html?src=fb_alegria_de_la_vida",
+        "fb_la_ultima_mirada": "https://siroccomesa.github.io/sirocco-mesa-stream-save/la-ultima-mirada.html?src=fb_la_ultima_mirada",
+        "fb_reel_bastion": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=fb_reel_bastion",
+        "fb_pulse_within_one": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=fb_pulse_within_one",
+        "fb_losing_my_change": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=fb_losing_my_change",
+        "fb_slappenin": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=fb_slappenin",
+        "ig_grith": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=ig_grith"
+      },
+      "secondary": {
+        "yt_short_pulse_within_one": "https://ditto.fm/the-pulse-within-one?src=yt_short_pulse_within_one",
+        "yt_short_nocturne_boulevard": "https://ditto.fm/nocturne-boulevard-sirocco-mesa?src=yt_short_nocturne_boulevard",
+        "yt_mv_losing_my_change": "https://ditto.fm/losing-my-change?src=yt_mv_losing_my_change",
+        "yt_long_take_you_there": "https://ditto.fm/take-you-there-sirocco-mesa?src=yt_long_take_you_there",
+        "yt_short_grith": "https://ditto.fm/bastion-sirocco-mesa?src=yt_short_grith",
+        "yt_long_fuego_de_medianoche_duende_azul_top5": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=yt_long_fuego_de_medianoche_duende_azul_top5",
+        "yt_long_cuerdas_ensamble": "https://ditto.fm/cuerdas-de-fuego-del-ensamble?src=yt_long_cuerdas_ensamble",
+        "yt_long_sand_echo": "https://ditto.fm/equator-sirocco-mesa?src=yt_long_sand_echo",
+        "yt_long_the_weight_of_rain_sirocco_mesa_top5": "https://ditto.fm/the-weight-of-rain-sirocco-mesa?src=yt_long_the_weight_of_rain_sirocco_mesa_top5",
+        "yt_long_nikad": "https://ditto.fm/some-nights-nikad-under-the-train?src=yt_long_nikad",
+        "yt_long_one_dry_match": "https://ditto.fm/one-dry-match?src=yt_long_one_dry_match",
+        "yt_long_alegria": "https://ditto.fm/alegria-de-la-vida-duende-azul?src=yt_long_alegria",
+        "yt_short_slappenin": "https://ditto.fm/slappenin?src=yt_short_slappenin",
+        "yt_short_nikad": "https://ditto.fm/some-nights-nikad-under-the-train?src=yt_short_nikad",
+        "yt_short_bastion": "https://ditto.fm/bastion-sirocco-mesa?src=yt_short_bastion",
+        "yt_long_grith_top5": "https://ditto.fm/bastion-sirocco-mesa?src=yt_long_grith_top5",
+        "yt_long_back_to_you_too": "https://ditto.fm/back-to-you-too?src=yt_long_back_to_you_too",
+        "yt_short_weight_of_rain": "https://ditto.fm/the-weight-of-rain-sirocco-mesa?src=yt_short_weight_of_rain",
+        "yt_mv_weight_of_rain": "https://ditto.fm/the-weight-of-rain-sirocco-mesa?src=yt_mv_weight_of_rain",
+        "yt_long_corazon_al_viento_top5": "https://ditto.fm/corazon-al-viento?src=yt_long_corazon_al_viento_top5",
+        "yt_long_pulse_within_one": "https://ditto.fm/the-pulse-within-one?src=yt_long_pulse_within_one",
+        "yt_long_ultima_mirada": "https://ditto.fm/la-ultima-mirada-sirocco-mesa?src=yt_long_ultima_mirada",
+        "yt_long_entre_sombras": "https://ditto.fm/entre-sombras-sirocco-mesa?src=yt_long_entre_sombras",
+        "yt_short_losing_my_change": "https://ditto.fm/losing-my-change?src=yt_short_losing_my_change",
+        "yt_mv_bastion": "https://ditto.fm/bastion-sirocco-mesa?src=yt_mv_bastion",
+        "yt_short_one_dry_match": "https://ditto.fm/one-dry-match?src=yt_short_one_dry_match",
+        "yt_long_wandering_dance": "https://ditto.fm/equator-sirocco-mesa?src=yt_long_wandering_dance",
+        "yt_long_losing_my_change": "https://ditto.fm/losing-my-change?src=yt_long_losing_my_change",
+        "yt_long_vals_de_los_suenos": "https://ditto.fm/equator-sirocco-mesa?src=yt_long_vals_de_los_suenos",
+        "yt_long_bastion": "https://ditto.fm/bastion-sirocco-mesa?src=yt_long_bastion",
+        "yt_short_vals_de_los_suenos": "https://ditto.fm/equator-sirocco-mesa?src=yt_short_vals_de_los_suenos",
+        "yt_mv_nocturne_v2": "https://ditto.fm/nocturne-boulevard-sirocco-mesa?src=yt_mv_nocturne_v2",
+        "yt_short_cuerdas_ensamble": "https://ditto.fm/cuerdas-de-fuego-del-ensamble?src=yt_short_cuerdas_ensamble",
+        "yt_short_alegria": "https://ditto.fm/alegria-de-la-vida-duende-azul?src=yt_short_alegria",
+        "yt_short_entre_sombras": "https://ditto.fm/entre-sombras-sirocco-mesa?src=yt_short_entre_sombras",
+        "yt_short_ultima_mirada": "https://ditto.fm/la-ultima-mirada-sirocco-mesa?src=yt_short_ultima_mirada",
+        "yt_short_fuego_2": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=yt_short_fuego_2",
+        "yt_long_grith": "https://ditto.fm/bastion-sirocco-mesa?src=yt_long_grith",
+        "yt_short_fuego_3": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=yt_short_fuego_3",
+        "yt_short_fuego": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=yt_short_fuego",
+        "fb_alegria_de_la_vida": "https://ditto.fm/alegria-de-la-vida-duende-azul?src=fb_alegria_de_la_vida",
+        "fb_la_ultima_mirada": "https://ditto.fm/la-ultima-mirada-sirocco-mesa?src=fb_la_ultima_mirada",
+        "fb_reel_bastion": "https://ditto.fm/bastion-sirocco-mesa?src=fb_reel_bastion",
+        "fb_pulse_within_one": "https://ditto.fm/the-pulse-within-one?src=fb_pulse_within_one",
+        "fb_losing_my_change": "https://ditto.fm/losing-my-change?src=fb_losing_my_change",
+        "fb_slappenin": "https://ditto.fm/slappenin?src=fb_slappenin",
+        "ig_grith": "https://ditto.fm/bastion-sirocco-mesa?src=ig_grith"
+      },
+      "new_tags": [
+        "yt_long_sand_echo",
+        "yt_long_vals_de_los_suenos",
+        "yt_long_wandering_dance",
+        "yt_short_vals_de_los_suenos"
+      ],
+      "skipped_t_bridge_01": [
+        "yt_community_slappenin",
+        "yt_community_take_you_there",
+        "yt_long_nocturne_boulevard",
+        "yt_long_slappenin",
+        "yt_mv_slappenin",
+        "yt_short_take_you_there"
+      ],
+      "verified_http_200": "2026-10-21 PT (curl -L, every hub destination and every Ditto secondary returned HTTP 200)",
+      "note": "Each tag reuses the tag already on that placement's Ditto link. 'tags' is the hub destination (primary); 'secondary' is the Ditto page (All platforms). Ditto secondaries use registry slugs only (nocturne-boulevard-sirocco-mesa, bastion-sirocco-mesa). Equator chapter tags use equator.html; there is no per-track Ditto page. Some tag keys carry a retired working title; they are pre-existing live tags, used internally only, and appear in no public copy. Repointed tags stay in their original blocks with a 'secondary' field, so no tag key is duplicated."
+    },
+    "comment_reply_oct21": {
+      "tags": {
+        "yt_reply": "https://siroccomesa.github.io/sirocco-mesa-stream-save/?src=yt_reply",
+        "fb_reply": "https://siroccomesa.github.io/sirocco-mesa-stream-save/?src=fb_reply",
+        "ig_reply": "https://siroccomesa.github.io/sirocco-mesa-stream-save/?src=ig_reply",
+        "tt_reply": "https://siroccomesa.github.io/sirocco-mesa-stream-save/?src=tt_reply"
+      },
+      "test": "Comment-reply links (GM J-1021-03, 2026-10-21): DM's replies on YouTube, Facebook, Instagram and TikTok",
+      "note": "Registered URL is the hub home. A reply may carry the same ?src on the matching EP hub page (duende-azul.html, ash-and-thunder.html, velvet-voodoo.html, equator.html)."
     }
   }
 }
