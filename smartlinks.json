@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.68",
+  "version": "1.69",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -375,9 +375,9 @@
         "Nocturne Boulevard LIVE Open SmartLink → https://ditto.fm/nocturne-boulevard-sirocco-mesa; released October 14, 2026; Ditto page post_release",
         "Losing My Change LIVE Open SmartLink → https://ditto.fm/losing-my-change; released October 14, 2026; Ditto page post_release",
         "Slappenin LIVE Open SmartLink → ditto.fm/slappenin; released October 18, 2026; Ditto page post_release",
-        "Where the Good Road Goes Pre-Save Open SmartLink → ditto.fm/where-the-good-road-goes; street Oct 22; Public HOLD until street",
+        "Where the Good Road Goes Listen (LIVE) direct-store buttons on velvet-voodoo.html; released October 22, 2026; Ditto ditto.fm/where-the-good-road-goes is All platforms",
         "Entwined Pre-Save Open SmartLink → https://ditto.fm/entwined-sirocco-mesa; street Oct 24; badge PRE-SAVE · OCT 24; do NOT use bare ditto.fm/entwined (different artist, CHRIS AH GEE)",
-        "custom song page still blocked for permanent direct-DSP buttons (One Dry Match, Losing My Change, Slappenin, and Nocturne Boulevard are LIVE/released; Where the Good Road Goes and Entwined remain Pre-Save)",
+        "custom song page still blocked for permanent direct-DSP buttons (One Dry Match, Losing My Change, Slappenin, Nocturne Boulevard, and Where the Good Road Goes are LIVE/released; Entwined remains Pre-Save)",
         "NOT Ash titles: Back to You Too + The Weight of Rain belong on ash-and-thunder.html",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
         "no browser offer lockout (multi-offer OK)"
@@ -437,15 +437,29 @@
         "ditto_page": "post_release"
       },
       "where_the_good_road_goes_status": {
-        "status": "upcoming_presave",
+        "status": "live",
         "street": "2026-10-22",
+        "released": "2026-10-22",
+        "ditto_page": "post_release",
         "public_title": "Where the Good Road Goes",
+        "hub_row": "direct-store Listen",
         "open_smartlink": "https://ditto.fm/where-the-good-road-goes",
         "do_not_use": [
           "https://ditto.fm/where-the-good-road-goes-sirocco-mesa",
           "https://ditto.fm/where-the-good-road-goes-velvet-voodoo"
         ],
-        "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/where-the-good-road-goes. Street Oct 22. Public HOLD until street. Verified HTTP 200, artist_name Sirocco Mesa, Pre-Save (pre_release), releaseDate 2026-10-22. Do not use 404 slugs where-the-good-road-goes-sirocco-mesa, where-the-good-road-goes-velvet-voodoo, or any invented suffix."
+        "note": "Released 2026-10-22. Hub row is direct-store Listen (LIVE) on velvet-voodoo.html with direct-store buttons. Ditto https://ditto.fm/where-the-good-road-goes is 'All platforms'. Do not use 404 slugs where-the-good-road-goes-sirocco-mesa, where-the-good-road-goes-velvet-voodoo, or any invented suffix.",
+        "direct_store": {
+          "spotify": "https://open.spotify.com/track/61yoM8roYJogRnB8th5zmp",
+          "amazon_music": "https://music.amazon.com/tracks/B0HLS5WHP9/",
+          "youtube_music": "https://music.youtube.com/watch?v=ZV8Z1M6ib_M",
+          "deezer": "https://www.deezer.com/track/4323645042",
+          "tidal": "https://www.tidal.com/track/566476017",
+          "youtube": "https://www.youtube.com/watch?v=ZV8Z1M6ib_M",
+          "soundcloud": "https://soundcloud.com/sirocco-mesa/where-the-good-road-goes",
+          "iheartradio": "https://www.iheart.com/artist/52060424/songs/437105813/",
+          "all_platforms": "https://ditto.fm/where-the-good-road-goes"
+        }
       },
       "entwined_status": {
         "status": "upcoming_presave",
@@ -553,7 +567,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-10-21T23:48:50-07:00",
+  "updated": "2026-10-22T09:18:00-07:00",
   "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed. Stale Vegas sale lead removed. 2026-10-09 Steve: AI note removed from Equator story pages. 2026-10-10 Steve ONE-TAP: hub + city song links go direct to Ditto; la-ultima-mirada.html/alegria-de-la-vida.html kept but no longer linked from hub. 2026-10-12: city/tokyo primary swapped to Some Nights Nikad ~ Under The Train (Ash & Thunder) on street day, src=city_tokyo; Steve-approved Oct 9 swap. 2026-10-12: One Dry Match is LIVE/released on velvet-voodoo.html (Open SmartLink https://ditto.fm/one-dry-match). The Weight of Rain ditto_page is post_release/live. 2026-10-14: Bastion and The Pulse Within One are LIVE/released on ash-and-thunder.html (Open SmartLinks https://ditto.fm/bastion-sirocco-mesa and https://ditto.fm/the-pulse-within-one; Ditto post_release with Spotify and Amazon). Losing My Change is LIVE/released on velvet-voodoo.html (https://ditto.fm/losing-my-change). Nocturne Boulevard stays PRE-SAVE: Ditto linkType post_release but embedded services are anghami and kkbox only (no Spotify or Amazon). Cuerdas de Fuego del Ensamble added LIVE (https://ditto.fm/cuerdas-de-fuego-del-ensamble). 2026-10-15: Entwined Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/entwined-sirocco-mesa; street Oct 24; badge PRE-SAVE · OCT 24. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE). 2026-10-19: Slappenin and Take You There are LIVE/released (street 2026-10-18; Ditto post_release verified 2026-10-19). city/liverpool primary swapped to Take You There (Ash & Thunder), src=city_liverpool; Steve-approved Oct 9 swap (was due Oct 18). Spotify bridge src_tags.spotify_bridge_oct20_26 registered for Oct 20-26 test.",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
@@ -887,14 +901,19 @@
     "wtgrg_oct22": {
       "test": "Where the Good Road Goes Oct 22, 2026: YouTube community and music video to the Sirocco Mesa Ditto pre-save; Facebook, Instagram, and TikTok to the Velvet Voodoo hub; street Oct 22",
       "tags": {
-        "yt_community_wtgrg": "https://ditto.fm/where-the-good-road-goes?src=yt_community_wtgrg",
-        "yt_mv_wtgrg": "https://ditto.fm/where-the-good-road-goes?src=yt_mv_wtgrg",
+        "yt_community_wtgrg": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_community_wtgrg",
+        "yt_mv_wtgrg": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_mv_wtgrg",
         "fb_where_the_good_road_goes": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=fb_where_the_good_road_goes",
         "ig_where_the_good_road_goes": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=ig_where_the_good_road_goes",
         "tt_where_the_good_road_goes": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=tt_where_the_good_road_goes"
       },
       "verified_http_200": "2026-10-20 PT (base URL curl, HTTP 200, linkType pre_release)",
-      "note": "Where the Good Road Goes Ditto pre_release (street 2026-10-22; releaseDate 2026-10-22T00:00:00.000Z; artist_name Sirocco Mesa; curl 2026-10-20 HTTP 200). Listed services: Spotify, Apple Music, Deezer, TIDAL, SoundCloud, Amazon Music (Streaming), Anghami, YouTube Music, Audiomack. Spotify and Amazon Music (Streaming) are both listed. yt_community_wtgrg and yt_mv_wtgrg use https://ditto.fm/where-the-good-road-goes, the same URL as yt_long_where_the_good_road_goes. fb_where_the_good_road_goes, ig_where_the_good_road_goes, and tt_where_the_good_road_goes use the Velvet Voodoo hub https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html (curl 2026-10-20 HTTP 200). Do not use a bare slug or the 404 slugs where-the-good-road-goes-sirocco-mesa and where-the-good-road-goes-velvet-voodoo."
+      "note": "Where the Good Road Goes released 2026-10-22 (Ditto post_release; releaseDate 2026-10-22T00:00:00.000Z; artist_name Sirocco Mesa). Hub-first: yt_community_wtgrg and yt_mv_wtgrg point at https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html, with https://ditto.fm/where-the-good-road-goes kept in secondary (the same Ditto URL as yt_long_where_the_good_road_goes). fb_where_the_good_road_goes, ig_where_the_good_road_goes, and tt_where_the_good_road_goes stay on the Velvet Voodoo hub. Do not use a bare slug or the 404 slugs where-the-good-road-goes-sirocco-mesa and where-the-good-road-goes-velvet-voodoo.",
+      "secondary": {
+        "yt_community_wtgrg": "https://ditto.fm/where-the-good-road-goes?src=yt_community_wtgrg",
+        "yt_mv_wtgrg": "https://ditto.fm/where-the-good-road-goes?src=yt_mv_wtgrg"
+      },
+      "hub_first_oct22_repoint": "2026-10-22 hub-first: yt_community_wtgrg and yt_mv_wtgrg repointed from Ditto to velvet-voodoo.html; the old Ditto URL is kept in 'secondary'."
     },
     "bio_links": {
       "test": "Instagram and TikTok bio links to the hub home page",
@@ -908,6 +927,7 @@
     "fb_tags_oct21": {
       "test": "Oct 21, 2026: FB tags for DM posts (Equator Ch2 Wed 11 AM, Fuego Thu 5 PM) and a backfill of Equator Ch3/5/6 and Corazón al Viento",
       "tags": {
+        "fb_equator_ch1": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=fb_equator_ch1",
         "fb_equator_ch2": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=fb_equator_ch2",
         "fb_equator_ch3": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=fb_equator_ch3",
         "fb_equator_ch5": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=fb_equator_ch5",
@@ -915,7 +935,7 @@
         "fb_fuego_de_medianoche": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=fb_fuego_de_medianoche",
         "fb_corazon_al_viento": "https://siroccomesa.github.io/sirocco-mesa-stream-save/duende-azul.html?src=fb_corazon_al_viento"
       },
-      "note": "Oct 21, 2026: FB tags for DM posts (Equator Ch2 Wed 11 AM, Fuego Thu 5 PM), plus a backfill of Equator Ch3/5/6 and Corazón al Viento used on earlier FB posts. The Equator chapters point to the equator.html hub, because there is no per-track Ditto page (ditto.fm/vals-de-los-suenos-sirocco-mesa returns 404).",
+      "note": "Oct 21, 2026: FB tags for DM posts (Equator Ch2 Wed 11 AM, Fuego Thu 5 PM), plus a backfill of Equator Ch3/5/6 and Corazón al Viento used on earlier FB posts. fb_equator_ch1 (added 2026-10-22) uses the same equator.html hub shape as Ch2, Ch3, Ch5, and Ch6, with no secondary. The Equator chapters point to the equator.html hub, because there is no per-track Ditto page (ditto.fm/vals-de-los-suenos-sirocco-mesa returns 404).",
       "secondary": {
         "fb_corazon_al_viento": "https://ditto.fm/corazon-al-viento?src=fb_corazon_al_viento",
         "fb_fuego_de_medianoche": "https://ditto.fm/fuego-de-medianoche-duende-azul?src=fb_fuego_de_medianoche"
@@ -1049,6 +1069,18 @@
       },
       "test": "Comment-reply links (GM J-1021-03, 2026-10-21): DM's replies on YouTube, Facebook, Instagram and TikTok",
       "note": "Registered URL is the hub home. A reply may carry the same ?src on the matching EP hub page (duende-azul.html, ash-and-thunder.html, velvet-voodoo.html, equator.html)."
+    },
+    "outreach_equator_oct22": {
+      "tags": {
+        "echoes-eq": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=echoes-eq",
+        "mundofonias-eq": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=mundofonias-eq",
+        "twmc-eq": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=twmc-eq",
+        "wvkr-world-eq": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=wvkr-world-eq",
+        "masflamenco-eq": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=masflamenco-eq",
+        "radioparadise-eq": "https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html?src=radioparadise-eq"
+      },
+      "test": "J-1021-03 draft-only curator outreach tags (no sends) to the Equator hub",
+      "note": "J-1021-03 draft-only curator outreach tags (no sends); Equator hub."
     }
   }
 }
