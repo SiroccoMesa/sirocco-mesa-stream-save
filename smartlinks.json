@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.76",
+  "version": "1.77",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -31,7 +31,7 @@
       "contains": [
         "verified direct music destinations",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
-        "U.S. Food Vitacost Dastony Save 15%",
+        "U.S. Food Nuts.com Save 10–21%",
         "U.S. Laundry Dropps WELCOME20",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
@@ -78,7 +78,7 @@
         "La Última Mirada custom song SmartLink live (la-ultima-mirada.html)",
         "Fuego still on Ditto (Wave backlog — custom song page not yet built)",
         "SAVINGS-002 U.S. 4/4 + International 4/4; UK lane public:false",
-        "U.S. Food Vitacost Dastony Save 15%",
+        "U.S. Food Nuts.com Save 10–21%",
         "U.S. Laundry Dropps WELCOME20",
         "U.S. Personal Care Swanson Save 40%",
         "U.S. Auto Chemical Guys Save 10%",
@@ -579,7 +579,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-10-27T09:11:21-07:00",
+  "updated": "2026-10-28T04:23:29-07:00",
   "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed. Stale Vegas sale lead removed. 2026-10-09 Steve: AI note removed from Equator story pages. 2026-10-10 Steve ONE-TAP: hub + city song links go direct to Ditto; la-ultima-mirada.html/alegria-de-la-vida.html kept but no longer linked from hub. 2026-10-12: city/tokyo primary swapped to Some Nights Nikad ~ Under The Train (Ash & Thunder) on street day, src=city_tokyo; Steve-approved Oct 9 swap. 2026-10-12: One Dry Match is LIVE/released on velvet-voodoo.html (Open SmartLink https://ditto.fm/one-dry-match). The Weight of Rain ditto_page is post_release/live. 2026-10-14: Bastion and The Pulse Within One are LIVE/released on ash-and-thunder.html (Open SmartLinks https://ditto.fm/bastion-sirocco-mesa and https://ditto.fm/the-pulse-within-one; Ditto post_release with Spotify and Amazon). Losing My Change is LIVE/released on velvet-voodoo.html (https://ditto.fm/losing-my-change). Nocturne Boulevard stays PRE-SAVE: Ditto linkType post_release but embedded services are anghami and kkbox only (no Spotify or Amazon). Cuerdas de Fuego del Ensamble added LIVE (https://ditto.fm/cuerdas-de-fuego-del-ensamble). 2026-10-15: Entwined Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/entwined-sirocco-mesa; street Oct 24; badge PRE-SAVE · OCT 24. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE). 2026-10-19: Slappenin and Take You There are LIVE/released (street 2026-10-18; Ditto post_release verified 2026-10-19). city/liverpool primary swapped to Take You There (Ash & Thunder), src=city_liverpool; Steve-approved Oct 9 swap (was due Oct 18). Spotify bridge src_tags.spotify_bridge_oct20_26 registered for Oct 20-26 test.",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
@@ -1142,6 +1142,28 @@
       },
       "test": "Week-1 tests (GM Top 3, Tue 10/27): T-HOOKCALL, Where the Good Road Goes on TikTok + IG Reels, plain call (PLAIN) vs curiosity hook (CURIO), Oct 28-31, to the Velvet Voodoo hub; T-COLDOPEN, Fuego de Medianoche on YT Shorts + IG Reels, strongest 8 bars as cold open (A) vs song intro (B), to the Duende Azul hub.",
       "note": "Week-1 test tags (GM 10/27); names from ops/dm/week1-creative-plan-2026-10-28/PLAN.md. Hub-first: T-HOOKCALL to velvet-voodoo.html, T-COLDOPEN to duende-azul.html. New tags only; spotify_bridge_oct20_26 and fuego_long_oct19 are not reused."
+    },
+    "hub_first_oct28": {
+      "test": "Hub-first link edits for the 9 T-BRIDGE-01-released YouTube rows (GM ruling 2026-10-28: old tags stay as the Ditto control; new _hub tags point at the hub)",
+      "approved": "GM ruling 2026-10-28 (Steve via GM hub-first direction 2026-10-21 3:49 PM PT); DM EDIT_PACK ops/dm/hub-first-2026-10-28/EDIT_PACK.md",
+      "tags": {
+        "yt_long_slappenin_hub": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_long_slappenin_hub",
+        "yt_mv_slappenin_hub": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_mv_slappenin_hub",
+        "yt_community_slappenin_hub": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_community_slappenin_hub",
+        "yt_long_nocturne_boulevard_hub": "https://siroccomesa.github.io/sirocco-mesa-stream-save/velvet-voodoo.html?src=yt_long_nocturne_boulevard_hub",
+        "yt_short_take_you_there_hub": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_short_take_you_there_hub",
+        "yt_community_take_you_there_hub": "https://siroccomesa.github.io/sirocco-mesa-stream-save/ash-and-thunder.html?src=yt_community_take_you_there_hub"
+      },
+      "secondary": {
+        "yt_long_slappenin_hub": "https://ditto.fm/slappenin",
+        "yt_mv_slappenin_hub": "https://ditto.fm/slappenin",
+        "yt_community_slappenin_hub": "https://ditto.fm/slappenin",
+        "yt_long_nocturne_boulevard_hub": "https://ditto.fm/nocturne-boulevard-sirocco-mesa",
+        "yt_short_take_you_there_hub": "https://ditto.fm/take-you-there-sirocco-mesa",
+        "yt_community_take_you_there_hub": "https://ditto.fm/take-you-there-sirocco-mesa"
+      },
+      "note": "New _hub tags only; the six skipped_t_bridge_01 tags and spotify_bridge_oct20_26 are untouched. Ditto stays the secondary All platforms link.",
+      "verified_http_200": "2026-10-28 PT (curl -L, every hub destination and every Ditto secondary returned HTTP 200)"
     }
   }
 }
