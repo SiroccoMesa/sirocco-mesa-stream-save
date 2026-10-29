@@ -1183,7 +1183,7 @@
         "curator_weight_of_rain": "https://ditto.fm/the-weight-of-rain-sirocco-mesa"
       },
       "note": "New tags only; spotify_bridge_oct20_26, hub_first_oct28 (T-BRIDGE-01R) and every existing tag are untouched. Hub-first to ash-and-thunder.html; Ditto stays the secondary All platforms link. curator_weight_of_rain is for draft outreach only (email on HOLD; nothing sent).",
-      "verified_http_200": "PENDING"
+      "verified_http_200": "2026-10-29 PT (curl -L, every hub destination and every Ditto secondary returned HTTP 200)"
     }
   }
 }
