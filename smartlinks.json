@@ -1200,7 +1200,7 @@
         "yt_long_weight_of_rain": "https://ditto.fm/the-weight-of-rain-sirocco-mesa?src=yt_long_weight_of_rain"
       },
       "note": "New tag only; spotify_bridge_oct20_26, hub_first_oct28 (T-BRIDGE-01R), wor_campaign_nov3 and every existing tag are untouched. The live line-3 link today goes to the Ditto secondary above (exact URL from the video description, read 2026-10-30 09:01 AM PT); the hub entry is the song's EP hub, ash-and-thunder.html. Line 1 keeps the registered yt_long_the_weight_of_rain_sirocco_mesa_top5.",
-      "verified_http_200": "PENDING"
+      "verified_http_200": "2026-10-30 PT (curl -L, hub destination and Ditto secondary returned HTTP 200)"
     }
   }
 }
