@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.82",
+  "version": "1.83",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -472,9 +472,10 @@
         "hub_row": "direct-store Listen",
         "open_smartlink": "https://ditto.fm/entwined-sirocco-mesa",
         "do_not_use": "https://ditto.fm/entwined",
-        "note": "Released 2026-10-24. Hub row is direct-store Listen (LIVE) on velvet-voodoo.html with direct-store buttons. No Amazon Music button until its album URL is verified. Ditto https://ditto.fm/entwined-sirocco-mesa is 'All platforms'. Do NOT use bare https://ditto.fm/entwined — that slug is a different artist (CHRIS AH GEE).",
+        "note": "Released 2026-10-24. Hub row is direct-store Listen (LIVE) on velvet-voodoo.html with direct-store buttons. Amazon Music button added second (after Spotify) in v1.83: https://music.amazon.com/albums/B0HN5JFLTD (album URL verified by Submission 2026-11-03, AMAZON_ALBUM_URLS_2026-11-03.csv; no affiliate tag; track ASIN B0HN5LT6RH is not the album ASIN and is never used). Ditto https://ditto.fm/entwined-sirocco-mesa is 'All platforms'. Do NOT use bare https://ditto.fm/entwined — that slug is a different artist (CHRIS AH GEE).",
         "direct_store": {
           "spotify": "https://open.spotify.com/track/4350thCW39r2jgaas8YwKE",
+          "amazon_music": "https://music.amazon.com/albums/B0HN5JFLTD",
           "youtube_music": "https://music.youtube.com/watch?v=Wcol_m9LVv0",
           "deezer": "https://www.deezer.com/track/4350458942",
           "tidal": "https://tidal.com/track/570189709",
@@ -581,7 +582,7 @@
       "Do not mark migration complete until a second-pass audit finds no editable legacy Ditto SmartLinks."
     ]
   },
-  "updated": "2026-11-03T04:57:32-08:00",
+  "updated": "2026-11-03T05:01:51-08:00",
   "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed. Stale Vegas sale lead removed. 2026-10-09 Steve: AI note removed from Equator story pages. 2026-10-10 Steve ONE-TAP: hub + city song links go direct to Ditto; la-ultima-mirada.html/alegria-de-la-vida.html kept but no longer linked from hub. 2026-10-12: city/tokyo primary swapped to Some Nights Nikad ~ Under The Train (Ash & Thunder) on street day, src=city_tokyo; Steve-approved Oct 9 swap. 2026-10-12: One Dry Match is LIVE/released on velvet-voodoo.html (Open SmartLink https://ditto.fm/one-dry-match). The Weight of Rain ditto_page is post_release/live. 2026-10-14: Bastion and The Pulse Within One are LIVE/released on ash-and-thunder.html (Open SmartLinks https://ditto.fm/bastion-sirocco-mesa and https://ditto.fm/the-pulse-within-one; Ditto post_release with Spotify and Amazon). Losing My Change is LIVE/released on velvet-voodoo.html (https://ditto.fm/losing-my-change). Nocturne Boulevard stays PRE-SAVE: Ditto linkType post_release but embedded services are anghami and kkbox only (no Spotify or Amazon). Cuerdas de Fuego del Ensamble added LIVE (https://ditto.fm/cuerdas-de-fuego-del-ensamble). 2026-10-15: Entwined Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/entwined-sirocco-mesa; street Oct 24; badge PRE-SAVE · OCT 24. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE). 2026-10-19: Slappenin and Take You There are LIVE/released (street 2026-10-18; Ditto post_release verified 2026-10-19). city/liverpool primary swapped to Take You There (Ash & Thunder), src=city_liverpool; Steve-approved Oct 9 swap (was due Oct 18). Spotify bridge src_tags.spotify_bridge_oct20_26 registered for Oct 20-26 test.",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
