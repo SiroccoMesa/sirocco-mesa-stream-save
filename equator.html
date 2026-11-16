@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sirocco Mesa — Equator | SmartLink</title>
-<meta name="description" content="Listen to Sirocco Mesa — Equator. Pre-Save Sand Echo (Greensleeves) - Remix. Free everyday savings on items you already use.">
+<meta name="description" content="Listen to Sirocco Mesa — Equator. Stream Sand Echo (Greensleeves) - Remix. Free everyday savings on items you already use.">
 <link rel="canonical" href="https://siroccomesa.github.io/sirocco-mesa-stream-save/equator.html">
 <style>
 :root {
@@ -262,6 +262,14 @@ h1 { margin:0;text-align:center;font-size:clamp(29px,7vw,42px);letter-spacing:.0
   margin-top:5px;
 }
 
+.store-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px;}
+.store-btn{display:inline-block;text-decoration:none;color:var(--text,#fff);font-size:12px;font-weight:800;padding:7px 10px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.09);}
+.store-btn:hover{background:rgba(255,255,255,.16);border-color:var(--accent2);}
+.store-btn.spotify{border-color:rgba(30,215,96,.55);}
+.store-more{margin-top:8px;font-size:11px;color:var(--muted);line-height:1.6;}
+.store-more a{color:var(--accent2);text-decoration:none;font-weight:700;}
+.store-more a.all-platforms{font-weight:800;}
+
 .share { margin-top:16px; }
 .status { min-height:18px;text-align:center;color:var(--accent2);font-size:12px;margin-top:8px; }
 footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-top:17px; }
@@ -351,16 +359,21 @@ footer { text-align:center;color:#9e968d;font-size:11px;line-height:1.5;margin-t
 
   <div style="height:18px"></div>
   <div class="song-list">
-    <a class="song-link" href="https://ditto.fm/sand-echo-greensleeves-remix" data-goatcounter-click="music-sand-echo-remix-equator" target="_blank" rel="noopener noreferrer">
-      <div class="song live-link">
-        <div>
-          <div class="song-name">Sand Echo (Greensleeves) - Remix</div>
-          <div class="song-meta">Street November 13, 2026 · Pre-Save available</div>
-          <div class="song-action">Open SmartLink ›</div>
+    <div class="song live-link song-direct" data-song="sand-echo-remix" id="sand-echo-remix">
+      <div>
+        <div class="song-name">Sand Echo (Greensleeves) - Remix</div>
+        <div class="song-meta">Released November 13, 2026</div>
+        <div class="store-row">
+          <a class="store-btn spotify" href="https://open.spotify.com/track/3TWluwrlogt1zcCVby12GK" data-goatcounter-click="listen-sand-echo-remix-spotify" target="_blank" rel="noopener noreferrer">Spotify</a>
+          <a class="store-btn amazon" href="https://music.amazon.com/albums/B0HQPC7777" data-goatcounter-click="listen-sand-echo-remix-amazon-music" target="_blank" rel="noopener noreferrer">Amazon Music</a>
+          <a class="store-btn youtubemusic" href="https://music.youtube.com/watch?v=LSpcJ_OU8uw" data-goatcounter-click="listen-sand-echo-remix-youtube-music" target="_blank" rel="noopener noreferrer">YouTube Music</a>
+          <a class="store-btn deezer" href="https://www.deezer.com/track/4395559521" data-goatcounter-click="listen-sand-echo-remix-deezer" target="_blank" rel="noopener noreferrer">Deezer</a>
+          <a class="store-btn tidal" href="https://tidal.com/track/576595459" data-goatcounter-click="listen-sand-echo-remix-tidal" target="_blank" rel="noopener noreferrer">TIDAL</a>
         </div>
-        <div class="badge upcoming">PRE-SAVE · NOV 13</div>
+        <div class="store-more">More: <a href="https://www.youtube.com/watch?v=LSpcJ_OU8uw" data-goatcounter-click="listen-sand-echo-remix-youtube" target="_blank" rel="noopener noreferrer">YouTube</a> · <a href="https://soundcloud.com/sirocco-mesa/sand-echo-greensleeves-remix" data-goatcounter-click="listen-sand-echo-remix-soundcloud" target="_blank" rel="noopener noreferrer">SoundCloud</a> · <a class="all-platforms" href="https://ditto.fm/sand-echo-greensleeves-remix" data-goatcounter-click="listen-sand-echo-remix-all-platforms" target="_blank" rel="noopener noreferrer">All platforms ›</a></div>
       </div>
-    </a>
+      <div class="badge live">LIVE</div>
+    </div>
   </div>
 
   <a class="savings-cta" href="#savings">
