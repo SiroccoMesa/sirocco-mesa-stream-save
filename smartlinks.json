@@ -1,6 +1,6 @@
 {
   "system": "Sirocco Mesa SmartLink Registry",
-  "version": "1.98",
+  "version": "1.99",
   "status": "LIVE_ON_GITHUB_PAGES",
   "canonical_registry_url": "https://siroccomesa.github.io/sirocco-mesa-stream-save/smartlinks.json",
   "smartlinks": [
@@ -528,16 +528,27 @@
         }
       },
       "blue_polarity_status": {
-        "status": "upcoming_presave",
+        "status": "live",
         "street": "2026-11-22",
-        "ditto_page": "pre_release",
+        "released": "2026-11-22",
+        "ditto_page": "post_release",
         "public_title": "Blue Polarity",
+        "hub_row": "direct-store Listen",
         "open_smartlink": "https://ditto.fm/blue-polarity",
         "do_not_use": [
           "https://ditto.fm/blue-polarity-sirocco-mesa",
           "https://ditto.fm/blue-polarity-velvet-voodoo"
         ],
-        "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/blue-polarity. Street November 22, 2026. Public HOLD until street. Verified HTTP 200, artist_name Sirocco Mesa, Coming Soon / Pre-Save (pre_release), releaseDate 2026-11-22. Do not use 404 slugs blue-polarity-sirocco-mesa, blue-polarity-velvet-voodoo, or any invented suffix. yt_long_blue_polarity and yt_short_blue_polarity registered v1.97 (group blue_polarity_nov21_22) for the DM flip; video IDs added only once Public."
+        "note": "Released November 22, 2026. Hub row is direct-store Listen (LIVE) on velvet-voodoo.html. post_release verified 2026-11-23. Store-direct. Amazon off pending Submission-verified /albums/ URL. Ditto https://ditto.fm/blue-polarity is All platforms. Do not use 404 slugs blue-polarity-sirocco-mesa, blue-polarity-velvet-voodoo, or any invented suffix. yt_long_blue_polarity and yt_short_blue_polarity registered v1.97 (group blue_polarity_nov21_22) for the DM flip; video IDs added only once Public.",
+        "direct_store": {
+          "spotify": "https://open.spotify.com/track/4WovOiH1tqojMvuDR4GT6e",
+          "youtube_music": "https://music.youtube.com/watch?v=EmOgpsmOJYw",
+          "deezer": "https://www.deezer.com/track/4409042551",
+          "tidal": "https://tidal.com/track/578313629",
+          "youtube": "https://www.youtube.com/watch?v=EmOgpsmOJYw",
+          "soundcloud": "https://soundcloud.com/sirocco-mesa/blue-polarity",
+          "all_platforms": "https://ditto.fm/blue-polarity"
+        }
       },
       "black_river_halo_status": {
         "status": "upcoming_presave",
@@ -563,6 +574,14 @@
         "public_title": "Suitcase Full of Rain",
         "open_smartlink": "https://ditto.fm/suitcase-full-of-rain",
         "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/suitcase-full-of-rain. Street December 11, 2026. Verified HTTP 200, artist Sirocco Mesa, pre_release, releaseDate 2026-12-11 on 11/16. No yt_* tags until video Public."
+      },
+      "modal_drift_status": {
+        "status": "upcoming_presave",
+        "street": "2026-12-18",
+        "ditto_page": "pre_release",
+        "public_title": "Modal Drift",
+        "open_smartlink": "https://ditto.fm/modal-drift",
+        "note": "Pre-Save Open SmartLink on velvet-voodoo.html → ditto.fm/modal-drift. Street December 18, 2026. Verified HTTP 200, artist Sirocco Mesa, pre_release, releaseDate 2026-12-18 on 11/23. No yt_* tags until video Public."
       },
       "verified_destinations": {
         "one_dry_match_ditto": "https://ditto.fm/one-dry-match",
@@ -665,7 +684,7 @@
     ]
   },
   "updated": "2026-11-16T09:28:00-08:00",
-  "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed. Stale Vegas sale lead removed. 2026-10-09 Steve: AI note removed from Equator story pages. 2026-10-10 Steve ONE-TAP: hub + city song links go direct to Ditto; la-ultima-mirada.html/alegria-de-la-vida.html kept but no longer linked from hub. 2026-10-12: city/tokyo primary swapped to Some Nights Nikad ~ Under The Train (Ash & Thunder) on street day, src=city_tokyo; Steve-approved Oct 9 swap. 2026-10-12: One Dry Match is LIVE/released on velvet-voodoo.html (Open SmartLink https://ditto.fm/one-dry-match). The Weight of Rain ditto_page is post_release/live. 2026-10-14: Bastion and The Pulse Within One are LIVE/released on ash-and-thunder.html (Open SmartLinks https://ditto.fm/bastion-sirocco-mesa and https://ditto.fm/the-pulse-within-one; Ditto post_release with Spotify and Amazon). Losing My Change is LIVE/released on velvet-voodoo.html (https://ditto.fm/losing-my-change). Nocturne Boulevard stays PRE-SAVE: Ditto linkType post_release but embedded services are anghami and kkbox only (no Spotify or Amazon). Cuerdas de Fuego del Ensamble added LIVE (https://ditto.fm/cuerdas-de-fuego-del-ensamble). 2026-10-15: Entwined Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/entwined-sirocco-mesa; street Oct 24; badge PRE-SAVE · OCT 24. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE). 2026-10-19: Slappenin and Take You There are LIVE/released (street 2026-10-18; Ditto post_release verified 2026-10-19). city/liverpool primary swapped to Take You There (Ash & Thunder), src=city_liverpool; Steve-approved Oct 9 swap (was due Oct 18). Spotify bridge src_tags.spotify_bridge_oct20_26 registered for Oct 20-26 test. v1.91: new Ash & Thunder EP cover art. v1.92: Blue Polarity Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/blue-polarity; street 2026-11-22; badge PRE-SAVE · NOV 22. v1.93: Sand Echo (Greensleeves) - Remix Listen (LIVE) direct-store buttons on equator.html; released November 13, 2026; Ditto https://ditto.fm/sand-echo-greensleeves-remix is All platforms. Amazon Music albums/B0HQPC7777 (no affiliate tag). iHeart pending remix confirm. v1.94: Black River Halo Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/black-river-halo; street 2026-12-04; badge PRE-SAVE · DEC 4. v1.95: Blue Polarity MusicRecording JSON-LD on index.html; datePublished 2026-11-22; sameAs https://ditto.fm/blue-polarity; no inAlbum; no isrcCode. v1.96: Suitcase Full of Rain Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/suitcase-full-of-rain; street 2026-12-11; badge PRE-SAVE · DEC 11; MusicRecording JSON-LD; no inAlbum; no isrcCode. v1.97: registered yt_long_blue_polarity and yt_short_blue_polarity (hub-first velvet-voodoo.html?src=, Ditto secondary) for the Sat 11/21 flip. v1.98: registered yt_long_bad_habits_good_company and yt_short_bad_habits_good_company (hub-first velvet-voodoo.html?src=, no Ditto secondary yet; ditto.fm/bad-habits-good-company returned 404 on 2026-11-19) for the Fri 11/27 flip, and yt_long_black_river_halo and yt_short_black_river_halo (hub-first velvet-voodoo.html?src=, Ditto secondary) for the Thu 12/3 flip.",
+  "note": "2026-10-09 20-CITY SWAP (Steve approved): Austin primary → Back to You Too, London primary → The Weight of Rain (Ash & Thunder hub). Berlin→The Pulse Within One + Detroit→Bastion on Oct 13, Tokyo→Nikad remaster Oct 12, Liverpool→Take You There Oct 18 (pending street). 2026-10-09 CITY LOCAL VALUE (Steve approved): free things/savings added to 14 city pages; expired Vegas 5-Day deals removed. Stale Vegas sale lead removed. 2026-10-09 Steve: AI note removed from Equator story pages. 2026-10-10 Steve ONE-TAP: hub + city song links go direct to Ditto; la-ultima-mirada.html/alegria-de-la-vida.html kept but no longer linked from hub. 2026-10-12: city/tokyo primary swapped to Some Nights Nikad ~ Under The Train (Ash & Thunder) on street day, src=city_tokyo; Steve-approved Oct 9 swap. 2026-10-12: One Dry Match is LIVE/released on velvet-voodoo.html (Open SmartLink https://ditto.fm/one-dry-match). The Weight of Rain ditto_page is post_release/live. 2026-10-14: Bastion and The Pulse Within One are LIVE/released on ash-and-thunder.html (Open SmartLinks https://ditto.fm/bastion-sirocco-mesa and https://ditto.fm/the-pulse-within-one; Ditto post_release with Spotify and Amazon). Losing My Change is LIVE/released on velvet-voodoo.html (https://ditto.fm/losing-my-change). Nocturne Boulevard stays PRE-SAVE: Ditto linkType post_release but embedded services are anghami and kkbox only (no Spotify or Amazon). Cuerdas de Fuego del Ensamble added LIVE (https://ditto.fm/cuerdas-de-fuego-del-ensamble). 2026-10-15: Entwined Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/entwined-sirocco-mesa; street Oct 24; badge PRE-SAVE · OCT 24. Do NOT use bare https://ditto.fm/entwined (different artist, CHRIS AH GEE). 2026-10-19: Slappenin and Take You There are LIVE/released (street 2026-10-18; Ditto post_release verified 2026-10-19). city/liverpool primary swapped to Take You There (Ash & Thunder), src=city_liverpool; Steve-approved Oct 9 swap (was due Oct 18). Spotify bridge src_tags.spotify_bridge_oct20_26 registered for Oct 20-26 test. v1.91: new Ash & Thunder EP cover art. v1.92: Blue Polarity Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/blue-polarity; street 2026-11-22; badge PRE-SAVE · NOV 22. v1.93: Sand Echo (Greensleeves) - Remix Listen (LIVE) direct-store buttons on equator.html; released November 13, 2026; Ditto https://ditto.fm/sand-echo-greensleeves-remix is All platforms. Amazon Music albums/B0HQPC7777 (no affiliate tag). iHeart pending remix confirm. v1.94: Black River Halo Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/black-river-halo; street 2026-12-04; badge PRE-SAVE · DEC 4. v1.95: Blue Polarity MusicRecording JSON-LD on index.html; datePublished 2026-11-22; sameAs https://ditto.fm/blue-polarity; no inAlbum; no isrcCode. v1.96: Suitcase Full of Rain Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/suitcase-full-of-rain; street 2026-12-11; badge PRE-SAVE · DEC 11; MusicRecording JSON-LD; no inAlbum; no isrcCode. v1.97: registered yt_long_blue_polarity and yt_short_blue_polarity (hub-first velvet-voodoo.html?src=, Ditto secondary) for the Sat 11/21 flip. v1.98: registered yt_long_bad_habits_good_company and yt_short_bad_habits_good_company (hub-first velvet-voodoo.html?src=, no Ditto secondary yet; ditto.fm/bad-habits-good-company returned 404 on 2026-11-19) for the Fri 11/27 flip, and yt_long_black_river_halo and yt_short_black_river_halo (hub-first velvet-voodoo.html?src=, Ditto secondary) for the Thu 12/3 flip. v1.99: Blue Polarity Listen (LIVE) direct-store buttons on velvet-voodoo.html (released November 22, 2026; post_release verified 2026-11-23; store-direct; Amazon off pending Submission-verified /albums/ URL; Ditto https://ditto.fm/blue-polarity is All platforms), and Modal Drift Pre-Save Open SmartLink on velvet-voodoo.html → https://ditto.fm/modal-drift (street 2026-12-18; badge PRE-SAVE · DEC 18; verified HTTP 200 2026-11-23; MusicRecording JSON-LD; no inAlbum; no isrcCode).",
   "savings": {
     "sop": "SM-SOP-SAVINGS-002",
     "layout": "need-first",
